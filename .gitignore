@@ -1,0 +1,17 @@
+# Ignorar archivos de entorno
+.env
+
+# Ignorar directorios de Airflow
+logs/
+dags/
+config/
+plugins/
+
+# Ignorar volúmenes de Docker
+postgres_data/
+
+# Ignorar archivos de configuración y dependencias temporales
+__pycache__/
+*.py[cod]
+*.log
+
