@@ -588,4 +588,239 @@ Con todas estas configuraciones y optimizaciones aplicadas, el entorno de Airflo
 
 
 
+PERMISOS Y VENV EN VS CODE
+
+1. Problemas con la ejecución de un script en la terminal de Python
+Inicialmente, tu script scraping_properati.py no podía ejecutarse en la terminal de tu entorno de desarrollo debido a la falta del módulo bs4. El error fue ModuleNotFoundError: No module named 'bs4'.
+
+Solución aplicada: Se instaló el paquete beautifulsoup4 dentro del entorno virtual usando el siguiente comando:
+bash
+Copiar código
+pip install beautifulsoup4
+Tras la instalación, se intentó ejecutar el script nuevamente, pero surgió otro error relacionado con los permisos de escritura en la carpeta de destino donde el script intentaba guardar los datos CSV.
+
+2. Error de permisos en la carpeta data/output
+El script generaba el error PermissionError: [Errno 13] Permission denied: '/home/edisson/Descargas/docker_tfb/data/output'. Este error indicaba que el usuario edisson no tenía permisos de escritura en dicha carpeta.
+
+Solución aplicada:
+Se verificaron los permisos de la carpeta con el comando:
+bash
+Copiar código
+ls -ld /home/edisson/Descargas/docker_tfb/data/output
+Se aplicaron los siguientes comandos para cambiar los permisos de la carpeta, permitiendo que el usuario edisson tenga permisos de escritura:
+bash
+Copiar código
+sudo chown -R edisson:edisson /home/edisson/Descargas/docker_tfb/data/output
+chmod -R 775 /home/edisson/Descargas/docker_tfb/data/output
+3. Verificación de pertenencia al grupo sharedgroup
+Se verificó si el usuario edisson pertenecía al grupo sharedgroup mediante el siguiente comando:
+
+bash
+Copiar código
+groups edisson
+El resultado mostró que el usuario edisson ya era miembro del grupo sharedgroup.
+
+4. Creación de un archivo de configuración .vscode/settings.json en VS Code
+Al intentar crear el archivo .vscode/settings.json para configurar el entorno de desarrollo de VS Code y asegurarse de que se utilizara el intérprete de Python adecuado, apareció el error E212: No se pudo abrir el archivo para escribir en él.
+
+Solución aplicada:
+Se verificaron los permisos de la carpeta .vscode y se aplicaron permisos adecuados para asegurar que el usuario edisson pudiera escribir en ella:
+bash
+Copiar código
+sudo chown -R edisson:edisson .vscode
+sudo chmod -R 775 .vscode
+Luego, se creó o editó el archivo .vscode/settings.json y se añadió la configuración para que VS Code utilice el entorno virtual correctamente:
+json
+Copiar código
+{
+  "python.pythonPath": "venv/bin/python"
+}
+5. Pruebas finales en VS Code
+Finalmente, se explicó cómo abrir el proyecto en VS Code, seleccionar el intérprete de Python correcto y ejecutar scripts directamente desde el editor o la terminal integrada de VS Code.
+
+Pasos para abrir el proyecto en VS Code:
+Abre la carpeta del proyecto en VS Code.
+Asegúrate de seleccionar el intérprete de Python adecuado desde la "Command Palette".
+Activa el entorno virtual y ejecuta los scripts desde la terminal integrada o directamente desde el editor.
+Resumen:
+Se abordaron y resolvieron varios problemas relacionados con la instalación de dependencias de Python, permisos de escritura en el sistema de archivos, configuración del entorno de desarrollo en VS Code, y la ejecución de scripts. Los cambios aplicados incluyeron la configuración de permisos, la creación de un archivo de configuración de VS Code, y la instalación de los módulos necesarios en el entorno virtual.
+
+
+PROBLEMAS INICIALES RECUPERADOS:
+
+Problemas Encontrados en la Configuración de los Servicios del Proyecto TFB
+Durante la configuración y despliegue de los servicios necesarios para el proyecto TFB, hemos encontrado varios problemas y desafíos. Estos problemas abarcan desde configuraciones de dependencias hasta errores en la inicialización de servicios. A continuación se detalla cada uno de los problemas encontrados y cómo se resolvieron.
+
+1. Problemas con Dependencias de Airflow
+Descripción del Problema: Al intentar instalar apache-airflow-providers-spark, se encontró un error de incompatibilidad de versiones. Inicialmente, no se pudo encontrar una versión compatible con apache-airflow==2.10.0, lo que impidió la instalación exitosa de los proveedores necesarios para interactuar con Apache Spark.
+
+Solución: Se investigó y se encontró que la versión adecuada del proveedor de Spark era apache-airflow-providers-apache-spark==4.10.0, que es compatible con apache-airflow==2.10.0. Además, se añadió apache-airflow-providers-postgres>=5.12.0 para asegurar la compatibilidad con PostgreSQL.
+
+Acción Tomada: Se actualizaron los archivos requirements.txt y se incluyeron las versiones correctas de los proveedores de Apache Airflow, asegurando así que las dependencias se instalaran sin problemas.
+
+2. Errores de Inicialización de Base de Datos en Airflow
+Descripción del Problema: Durante el proceso de inicialización de la base de datos de Airflow (airflow db init), se recibieron advertencias de que ciertos parámetros de configuración habían sido movidos a nuevas secciones en la configuración de Airflow, específicamente el parámetro sql_alchemy_conn.
+
+Solución: Se modificó la configuración de Airflow para reflejar las nuevas convenciones, moviendo las opciones de configuración relacionadas con la base de datos a la sección correcta ([database]).
+
+Acción Tomada: Aunque la inicialización se completó con éxito, se deben realizar ajustes adicionales en el archivo de configuración de Airflow para eliminar las advertencias y asegurar la compatibilidad con versiones futuras.
+
+3. Problemas con Variables de Entorno en Docker Compose
+Descripción del Problema: Se detectó un error al iniciar los contenedores usando docker-compose up, relacionado con una variable de entorno mal configurada. El mensaje de error indicaba "invalid environment variable", sugiriendo que había un signo "=" no asignado correctamente.
+
+Solución: Se revisó el archivo .env y el archivo compose.yml para asegurar que todas las variables de entorno estuvieran correctamente definidas y sin errores de sintaxis.
+
+Acción Tomada: Se corrigieron los errores en las variables de entorno asegurando que no hubiera líneas incompletas o signos "=" adicionales. Después de las correcciones, los contenedores se iniciaron correctamente.
+
+4. Contenedor de Jupyter Notebook en Estado 'Unhealthy'
+Descripción del Problema: Después de desplegar los contenedores, el contenedor de Jupyter Notebook mostró un estado 'unhealthy'. Esto sugiere que el contenedor no estaba funcionando de manera óptima, posiblemente debido a problemas de configuración o falta de recursos.
+
+Solución: Se revisaron los logs del contenedor de Jupyter para identificar posibles errores o advertencias que pudieran estar causando el estado 'unhealthy'. Se identificaron algunas extensiones no instaladas correctamente.
+
+Acción Tomada: Se aseguraron las dependencias necesarias en el archivo requirements.txt, y se monitoreó el uso de recursos para garantizar que Jupyter tuviera suficiente memoria y CPU asignadas. Se recomendó también revisar la configuración de salud en el Dockerfile o en el compose para asegurar una correcta configuración de salud.
+
+5. Problemas Iniciales con Spark Master y Worker
+Descripción del Problema: Aunque los servicios de Spark Master y Worker se iniciaron correctamente, hubo dificultades iniciales para asegurar que los trabajadores se registraran con el Spark Master. Esto puede ocurrir si hay problemas de red o configuración entre los contenedores.
+
+Solución: Se revisó la configuración de red en el archivo compose.yml para asegurar que todos los contenedores estuvieran en la misma red y pudieran comunicarse entre sí. También se revisaron los puertos expuestos para asegurar que no hubiera conflictos.
+
+Acción Tomada: Se verificaron las configuraciones de red y se utilizaron nombres de host consistentes para los contenedores. Se solucionaron los problemas de registro de trabajadores y se confirmó que los trabajadores se estaban registrando correctamente con el Spark Master.
+
+6. Mensajes de Advertencia de Spark sobre la Biblioteca Nativa de Hadoop
+Descripción del Problema: Spark mostró advertencias sobre la imposibilidad de cargar la biblioteca nativa de Hadoop para la plataforma, indicando que se usarían clases Java integradas en su lugar.
+
+Solución: Estas advertencias no son críticas y Spark puede funcionar con las clases Java incorporadas. Sin embargo, para un rendimiento óptimo, puede ser beneficioso configurar correctamente las bibliotecas nativas de Hadoop.
+
+Acción Tomada: Por ahora, se ha decidido continuar con la configuración actual y evaluar el rendimiento. Si se observan problemas de rendimiento, se considerará la instalación de las bibliotecas nativas de Hadoop.
+
+Conclusión
+La configuración de estos servicios complejos inevitablemente trajo consigo varios problemas técnicos y de configuración, pero todos los problemas fueron abordados con éxito. Se resolvieron problemas relacionados con dependencias, inicialización de bases de datos, configuración de redes y comunicaciones entre contenedores. Los servicios de PostgreSQL, Airflow, Spark, Jupyter y Metabase están ahora configurados y funcionando, listos para su uso en el análisis de datos y la ejecución de flujos de trabajo de procesamiento de datos distribuidos. Se recomienda seguir monitoreando los servicios para identificar y resolver cualquier problema adicional que pueda surgir.
+
+
+RECUPERADO DE REVERTIR.MD
+
+ocumentación de Configuración de Docker para Proyecto ETL Completo
+Resumen del Proyecto
+Se ha configurado un entorno de Docker para ejecutar un flujo de trabajo ETL completo utilizando los siguientes servicios:
+
+Apache Airflow: Para orquestar los flujos de trabajo ETL.
+Apache Spark: Para procesamiento de datos, especialmente utilizando Spark NLP para procesamiento de lenguaje natural.
+Metabase: Para visualización de datos y análisis.
+Jupyter Notebook con PySpark: Para análisis interactivo y desarrollo de scripts de datos.
+PostgreSQL: Base de datos relacional que actúa como almacén de datos central.
+Componentes del Entorno Docker
+Apache Airflow:
+
+Imagen: bitnami/airflow
+Executor: LocalExecutor se utilizó para simplificar la configuración, evitando la necesidad de Redis.
+Conectividad con PostgreSQL para almacenamiento de metadatos de Airflow.
+Apache Spark:
+
+Imagen: bitnami/spark
+Configuración de clúster con un nodo master y varios nodos worker.
+Spark se configuró para integrarse con Jupyter para facilitar el análisis interactivo de datos.
+Metabase:
+
+Imagen: metabase/metabase
+Utilizado para análisis de datos y creación de informes basados en los datos almacenados en PostgreSQL.
+Jupyter Notebook con PySpark:
+
+Imagen: jupyter/pyspark-notebook
+Permite el análisis de datos interactivo y el desarrollo de scripts de procesamiento de datos.
+PostgreSQL:
+
+Imagen: bitnami/postgresql
+Actúa como la base de datos central donde se almacenan los resultados procesados y los datos intermedios.
+Procedimiento de Configuración
+Creación de un Archivo docker-compose.yml:
+
+Se definieron los servicios para cada componente del sistema.
+Se establecieron redes compartidas para facilitar la comunicación entre contenedores.
+Se especificaron volúmenes para persistir los datos y configuraciones entre reinicios de contenedores.
+Configuración de Variables de Entorno:
+
+Se utilizó un archivo .env para almacenar claves y configuraciones sensibles como contraseñas de base de datos, claves de cifrado de Airflow, etc.
+Montaje de Volúmenes:
+
+Se montaron volúmenes para persistir los datos de PostgreSQL y los DAGs de Airflow.
+Se configuraron permisos de archivos para asegurar que los contenedores puedan acceder a los volúmenes montados.
+Redes Docker:
+
+Se creó una red compartida (airflow-tier) para permitir la comunicación entre Airflow, PostgreSQL, y otros servicios.
+Problemas Encontrados y Soluciones
+Problemas de Conectividad de Airflow a PostgreSQL:
+
+Problema: Airflow no podía conectarse a PostgreSQL.
+Solución: Asegurar que el servicio de PostgreSQL esté configurado y en ejecución antes de iniciar Airflow. Ajuste de las variables de entorno para coincidir con la configuración de la base de datos (nombre de usuario, contraseña, nombre de la base de datos).
+Permisos de Acceso a Directorios Montados:
+
+Problema: Airflow encontró errores de permisos (Permission denied) al acceder a ciertos directorios, especialmente /opt/bitnami/airflow/nss-wrapper/nss_passwd.
+Solución: Ajustar los permisos de los directorios montados para asegurar que el usuario dentro del contenedor tenga los permisos adecuados (usando chown y chmod). Definir explícitamente el usuario dentro del contenedor utilizando la opción user en el archivo docker-compose.yml.
+Incompatibilidades y Dependencias de Imagenes:
+
+Problema: La versión de las imágenes de contenedor (por ejemplo, Spark, Airflow) debe ser compatible entre sí, especialmente cuando se integran diferentes tecnologías (p. ej., versiones específicas de Spark que son compatibles con Airflow).
+Solución: Seleccionar versiones compatibles basadas en la documentación de Bitnami y Apache, asegurando que las dependencias como Hadoop sean compatibles con las versiones de Spark utilizadas.
+Conclusiones
+Gestión de Permisos: Es crucial asegurar que los permisos de archivos y directorios montados sean adecuados para evitar problemas de acceso dentro de los contenedores.
+Versiones de Imágenes: Utilizar imágenes de contenedores de versiones compatibles es esencial para evitar problemas de incompatibilidad y asegurar una integración fluida entre servicios.
+Uso de LocalExecutor en Airflow: Simplifica la configuración eliminando la necesidad de servicios adicionales como Redis, ideal para entornos de desarrollo y pruebas.
+Pasos Futuros
+Monitoreo y Escalabilidad: Considerar la implementación de herramientas de monitoreo para observar el rendimiento de los contenedores y escalar los servicios según sea necesario.
+Pruebas de Producción: Realizar pruebas adicionales en un entorno de producción para asegurar que la configuración pueda manejar cargas de trabajo reales.
+Documentación y Automatización: Continuar mejorando la documentación y considerar la automatización de la configuración utilizando scripts o herramientas como Terraform para gestionar la infraestructura de contenedores.
+Esta documentación sirve como un resumen de los pasos realizados y los desafíos encontrados al configurar un entorno ETL completo utilizando Docker, proporcionando una base para futuras implementaciones y mejoras.
+
+
+
+
+
+
+Tú dijiste:
+haz ahora un resumen de que todo eso no ha funcionado y se vuelve a las versions oficiales
+ChatGPT Plus
+ChatGPT
+Resumen de Problemas y Decisión de Revertir a Versiones Oficiales
+Contexto del Proyecto
+Se intentó configurar un entorno ETL completo usando contenedores Docker con las siguientes herramientas:
+
+Apache Airflow: Para orquestación de flujos de trabajo.
+Apache Spark: Para procesamiento de datos, especialmente con Spark NLP.
+Metabase: Para visualización de datos.
+Jupyter Notebook con PySpark: Para análisis de datos interactivo.
+PostgreSQL: Como base de datos de almacenamiento central.
+Intento Inicial con Imágenes de Bitnami
+Se utilizó inicialmente imágenes de Bitnami para todos los servicios debido a su facilidad de uso y la integración que proporcionan:
+
+Airflow: bitnami/airflow
+Spark: bitnami/spark
+Metabase: metabase/metabase
+Jupyter Notebook: jupyter/pyspark-notebook
+PostgreSQL: bitnami/postgresql
+Problemas Encontrados
+Errores de Permisos:
+
+Se encontraron problemas constantes de permisos, especialmente con los contenedores de Airflow y Spark. Los scripts no pudieron ejecutarse correctamente debido a restricciones de permisos en los directorios montados.
+A pesar de ajustar los permisos y propietarios de los volúmenes montados, los errores persistieron, afectando la funcionalidad de los contenedores.
+Conectividad entre Contenedores:
+
+Airflow no pudo conectarse a PostgreSQL de manera confiable, incluso después de asegurarse de que las variables de entorno y las configuraciones fueran correctas.
+Los errores de conexión se debieron en parte a configuraciones de red y permisos de acceso en los contenedores de Bitnami.
+Incompatibilidades y Dependencias:
+
+Hubo incompatibilidades entre las versiones de las imágenes de Spark y Airflow utilizadas. La falta de sincronización en las versiones de componentes críticos (por ejemplo, versiones de Hadoop y bibliotecas de Spark) llevó a fallos en la ejecución de tareas.
+Las dependencias específicas de las imágenes de Bitnami no se alinearon bien con las necesidades del proyecto, lo que causó problemas de estabilidad y funcionalidad.
+Decisión de Revertir a Imágenes Oficiales
+Dado que los problemas con las imágenes de Bitnami no se pudieron resolver satisfactoriamente, se decidió revertir a las versiones oficiales de las imágenes de los servicios:
+
+Apache Airflow: Se utilizará la imagen oficial de Apache Airflow para tener mayor control sobre la configuración y dependencias.
+Apache Spark: Se migrará a la imagen oficial de Spark proporcionada por la comunidad de Apache para asegurar la compatibilidad con versiones específicas de Hadoop y Python.
+PostgreSQL: La imagen oficial de PostgreSQL ofrece mayor confiabilidad y soporte de la comunidad.
+Metabase y Jupyter: Continuarán utilizando las imágenes oficiales de Metabase y Jupyter, ya que no presentaron problemas significativos.
+Próximos Pasos
+Configurar Nuevas Imágenes: Implementar las imágenes oficiales y ajustar las configuraciones necesarias para asegurar la conectividad entre los servicios.
+Revisar Dependencias: Asegurarse de que todas las versiones de las imágenes sean compatibles entre sí y con las versiones de Python y otros componentes utilizados.
+Pruebas Exhaustivas: Realizar pruebas exhaustivas de los flujos de trabajo ETL para garantizar que todos los componentes funcionen de manera integrada y estable.
+Documentación y Automatización: Actualizar la documentación para reflejar los cambios y considerar la automatización de la configuración usando herramientas como Docker Compose y scripts personalizados.
+Conclusión
+Aunque las imágenes de Bitnami ofrecieron una configuración rápida, los problemas de permisos, conectividad y compatibilidad llevaron a la decisión de utilizar imágenes oficiales para un mayor control y estabilidad. Este enfoque permitirá una mejor integración y facilitará el mantenimiento a largo plazo del entorno ETL basado en Docker.
 

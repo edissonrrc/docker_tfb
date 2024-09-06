@@ -1,0 +1,1640 @@
+Datos de la página 1 de quito obtenidos el 060924_2243:
+================================================================================
+Propiedad 1:
+<div class="listing-card__information">
+ <div class="listing-card__information-main__project">
+  <div class="listing-card__project-label">
+   PROYECTO
+  </div>
+  <div class="listing-card__title" content="Olvia">
+   Olvia
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    Desde $ 232.817
+   </div>
+  </div>
+  <div class="listing-card__location">
+   Bellavista, Iñaquito, Centro Norte, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="2">
+     2 - 3 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="2">
+     2 - 3 baños
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     Desde  115 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    FARE S.A.S.
+   </div>
+   <div class="listing-card__published-date">
+    Publicado hace 1 hora
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 2:
+<div class="listing-card__information">
+ <div class="listing-card__information-main__project">
+  <div class="listing-card__project-label">
+   PROYECTO
+  </div>
+  <div class="listing-card__title" content="IMPERIA TERRA ">
+   IMPERIA TERRA
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    Desde $ 79.053
+   </div>
+  </div>
+  <div class="listing-card__location">
+   Bellavista, Iñaquito, Centro Norte, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="1">
+     1 - 2 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="1">
+     1 - 2 baños
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     Desde  39 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    Hauser Ecuador S.A.S
+   </div>
+   <div class="listing-card__published-date">
+    Publicado hace 1 hora
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 3:
+<div class="listing-card__information">
+ <div class="listing-card__information-main highlight">
+  <div class="listing-card__title" content="Departamento en Venta en Ponceano">
+   Departamento en Venta en Ponceano
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 110.000
+   </div>
+  </div>
+  <div class="listing-card__location">
+   Ponceano, Norte De Quito, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="3">
+     3 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="4">
+     4 baños
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     183 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    Johanna Chalen - Remax Impacta
+   </div>
+   <div class="listing-card__published-date">
+    Publicado hace 4 días, 6 horas
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 4:
+<div class="listing-card__information">
+ <div class="listing-card__information-main">
+  <div class="listing-card__title" content="Departamento en Venta en Tumbaco">
+   Departamento en Venta en Tumbaco
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 96.900
+   </div>
+  </div>
+  <div class="listing-card__location">
+   Tumbaco, Valle Tumbaco, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="2">
+     2 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="2">
+     2 baños
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     105 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    Emerson Medina - Inmoimpakto
+   </div>
+   <div class="listing-card__published-date">
+    Publicado 08/08/2024
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 5:
+<div class="listing-card__information">
+ <div class="listing-card__information-main">
+  <div class="listing-card__title" content="Departamento en Venta en Cotocollao">
+   Departamento en Venta en Cotocollao
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 50.000
+   </div>
+  </div>
+  <div class="listing-card__location">
+   Cotocollao, Norte De Quito, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="3">
+     3 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="1">
+     1 baño
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     74 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    Diego Germán Unda - Remax Impacta
+   </div>
+   <div class="listing-card__published-date">
+    Publicado hace 5 días
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 6:
+<div class="listing-card__information">
+ <div class="listing-card__information-main highlight">
+  <div class="listing-card__title" content="Departamento en Venta en Kennedy">
+   Departamento en Venta en Kennedy
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 95.000
+   </div>
+  </div>
+  <div class="listing-card__location">
+   Kennedy, Centro Norte, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="3">
+     3 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="3">
+     3 baños
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     140 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    Cbr. Ximena Loma - Bienes Raíces LM
+   </div>
+   <div class="listing-card__published-date">
+    Publicado 23/07/2024
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 7:
+<div class="listing-card__information">
+ <div class="listing-card__information-main highlight">
+  <div class="listing-card__title" content="Departamento en Venta en Kennedy">
+   Departamento en Venta en Kennedy
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 95.000
+   </div>
+  </div>
+  <div class="listing-card__location">
+   Kennedy, Centro Norte, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="3">
+     3 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="3">
+     3 baños
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     140 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    Cbr. Ximena Loma - Bienes Raíces LM
+   </div>
+   <div class="listing-card__published-date">
+    Publicado 16/04/2024
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 8:
+<div class="listing-card__information">
+ <div class="listing-card__information-main">
+  <div class="listing-card__title" content="Departamento en Venta en Centro Norte">
+   Departamento en Venta en Centro Norte
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 136.000
+   </div>
+  </div>
+  <div class="listing-card__location">
+   Centro Norte, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="3">
+     3 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="2">
+     2 baños
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     93 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    Fernando Falconi
+   </div>
+   <div class="listing-card__published-date">
+    Publicado 04/07/2024
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 9:
+<div class="listing-card__information">
+ <div class="listing-card__information-main">
+  <div class="listing-card__title" content="Departamento en Venta en Centro Norte">
+   Departamento en Venta en Centro Norte
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 136.000
+   </div>
+  </div>
+  <div class="listing-card__location">
+   Centro Norte, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="3">
+     3 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="2">
+     2 baños
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     93 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    Fernando Falconi
+   </div>
+   <div class="listing-card__published-date">
+    Publicado 04/07/2024
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 10:
+<div class="listing-card__information">
+ <div class="listing-card__information-main highlight">
+  <div class="listing-card__title" content="Departamento en Venta en Carcelen">
+   Departamento en Venta en Carcelen
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 150.000
+   </div>
+  </div>
+  <div class="listing-card__location">
+   Carcelen, Norte De Quito, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="3">
+     3 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="3">
+     3 baños
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     308 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    Carolina Silva
+   </div>
+   <div class="listing-card__published-date">
+    Publicado hace 2 semanas, 22 horas
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 11:
+<div class="listing-card__information">
+ <div class="listing-card__information-main">
+  <div class="listing-card__title" content="Departamento en Venta en La Carolina">
+   Departamento en Venta en La Carolina
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 157.899
+   </div>
+  </div>
+  <div class="listing-card__location">
+   La Carolina, Iñaquito, Centro Norte, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="2">
+     2 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="2">
+     2 baños
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     87 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    Andres Altamirano
+   </div>
+   <div class="listing-card__published-date">
+    Publicado 07/07/2023
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 12:
+<div class="listing-card__information">
+ <div class="listing-card__information-main">
+  <div class="listing-card__title" content="Departamento en Venta en La Carolina">
+   Departamento en Venta en La Carolina
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 246.286
+   </div>
+  </div>
+  <div class="listing-card__location">
+   La Carolina, Iñaquito, Centro Norte, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="3">
+     3 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="3">
+     3 baños
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     137 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    Andres Altamirano
+   </div>
+   <div class="listing-card__published-date">
+    Publicado 15/03/2024
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 13:
+<div class="listing-card__information">
+ <div class="listing-card__information-main">
+  <div class="listing-card__title" content="Departamento en Venta en Monteserrin">
+   Departamento en Venta en Monteserrin
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 150.000
+   </div>
+  </div>
+  <div class="listing-card__location">
+   Monteserrin, Jipijapa, Centro Norte, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="2">
+     2 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="2">
+     2 baños
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     128 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    Carolina Silva
+   </div>
+   <div class="listing-card__published-date">
+    Publicado hace 2 semanas, 5 días
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 14:
+<div class="listing-card__information">
+ <div class="listing-card__information-main">
+  <div class="listing-card__title" content="Departamento en Venta en Centro Norte">
+   Departamento en Venta en Centro Norte
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 450.000
+   </div>
+  </div>
+  <div class="listing-card__location">
+   Centro Norte, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="3">
+     3 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="4">
+     4 baños
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     200 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    Carolina Silva
+   </div>
+   <div class="listing-card__published-date">
+    Publicado hace 1 semana, 6 días
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 15:
+<div class="listing-card__information">
+ <div class="listing-card__information-main">
+  <div class="listing-card__title" content="Departamento en Venta en Tumbaco">
+   Departamento en Venta en Tumbaco
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 112.000
+   </div>
+  </div>
+  <div class="listing-card__location">
+   Tumbaco, Valle Tumbaco, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="3">
+     3 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="2">
+     2 baños
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     105 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    Ing. Roberto Alarcón
+   </div>
+   <div class="listing-card__published-date">
+    Publicado 11/03/2024
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 16:
+<div class="listing-card__information">
+ <div class="listing-card__information-main highlight">
+  <div class="listing-card__title" content="Departamento en Venta en Centro Norte">
+   Departamento en Venta en Centro Norte
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 380.000
+   </div>
+  </div>
+  <div class="listing-card__location">
+   Centro Norte, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="3">
+     3 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="4">
+     4 baños
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     350 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    MIRAI
+   </div>
+   <div class="listing-card__published-date">
+    Publicado 02/07/2024
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 17:
+<div class="listing-card__information">
+ <div class="listing-card__information-main highlight">
+  <div class="listing-card__title" content="Departamento en Venta en El Batan">
+   Departamento en Venta en El Batan
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 80.000
+   </div>
+  </div>
+  <div class="listing-card__location">
+   El Batan, Iñaquito, Centro Norte, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="2">
+     2 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="2">
+     2 baños
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     130 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    MIRAI
+   </div>
+   <div class="listing-card__published-date">
+    Publicado 13/08/2024
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 18:
+<div class="listing-card__information">
+ <div class="listing-card__information-main highlight">
+  <div class="listing-card__title" content="Departamento en Venta en Granda Centeno">
+   Departamento en Venta en Granda Centeno
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 175.000
+   </div>
+  </div>
+  <div class="listing-card__location">
+   Granda Centeno, Rumipamba, Centro Norte, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="3">
+     3 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="2">
+     2 baños
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     134 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    MIRAI
+   </div>
+   <div class="listing-card__published-date">
+    Publicado 13/08/2024
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 19:
+<div class="listing-card__information">
+ <div class="listing-card__information-main">
+  <div class="listing-card__title" content="Departamento en Venta en Quito Tenis">
+   Departamento en Venta en Quito Tenis
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 640.000
+   </div>
+  </div>
+  <div class="listing-card__location">
+   Quito Tenis, Centro Norte, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="5">
+     5 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="6">
+     6 baños
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     650 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    MIRAI
+   </div>
+   <div class="listing-card__published-date">
+    Publicado 28/09/2022
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 20:
+<div class="listing-card__information">
+ <div class="listing-card__information-main">
+  <div class="listing-card__title" content="Departamento en Venta en Bellavista">
+   Departamento en Venta en Bellavista
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 210.000
+   </div>
+  </div>
+  <div class="listing-card__location">
+   Bellavista, Iñaquito, Centro Norte, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="3">
+     3 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="4">
+     4 baños
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     198 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    MIRAI
+   </div>
+   <div class="listing-card__published-date">
+    Publicado 02/07/2024
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 21:
+<div class="listing-card__information">
+ <div class="listing-card__information-main highlight">
+  <div class="listing-card__title" content="Departamento en Venta en Ponceano">
+   Departamento en Venta en Ponceano
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 48.000
+   </div>
+  </div>
+  <div class="listing-card__location">
+   Ponceano, Norte De Quito, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="3">
+     3 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="1">
+     1 baño
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     55 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    GS CONSTRUCCIONES Y BIENES RAÍCES
+   </div>
+   <div class="listing-card__published-date">
+    Publicado 08/08/2024
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 22:
+<div class="listing-card__information">
+ <div class="listing-card__information-main highlight">
+  <div class="listing-card__title" content="Departamento en Venta en Jipijapa">
+   Departamento en Venta en Jipijapa
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 118.000
+   </div>
+  </div>
+  <div class="listing-card__location">
+   Jipijapa, Centro Norte, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="3">
+     3 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="3">
+     3 baños
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     133 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    GS CONSTRUCCIONES Y BIENES RAÍCES
+   </div>
+   <div class="listing-card__published-date">
+    Publicado 18/06/2024
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 23:
+<div class="listing-card__information">
+ <div class="listing-card__information-main">
+  <div class="listing-card__title" content="Departamento en Venta en Ponceano">
+   Departamento en Venta en Ponceano
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 210.000
+   </div>
+  </div>
+  <div class="listing-card__location">
+   Ponceano, Norte De Quito, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="7">
+     7 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="6">
+     6 baños
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     209 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    Horizonte Azul
+   </div>
+   <div class="listing-card__published-date">
+    Publicado hace 2 semanas, 1 día
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 24:
+<div class="listing-card__information">
+ <div class="listing-card__information-main">
+  <div class="listing-card__title" content="Departamento en Venta en Ponceano">
+   Departamento en Venta en Ponceano
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 115.000
+   </div>
+  </div>
+  <div class="listing-card__location">
+   Ponceano, Norte De Quito, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="3">
+     3 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="1">
+     1 baño
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     102 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    Horizonte Azul
+   </div>
+   <div class="listing-card__published-date">
+    Publicado 08/05/2024
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 25:
+<div class="listing-card__information">
+ <div class="listing-card__information-main">
+  <div class="listing-card__title" content="Departamento en Venta en San Isidro del Inca">
+   Departamento en Venta en San Isidro del Inca
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 110.000
+   </div>
+  </div>
+  <div class="listing-card__location">
+   San Isidro del Inca, Centro Norte, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="3">
+     3 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="3">
+     3 baños
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     220 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    Horizonte Azul
+   </div>
+   <div class="listing-card__published-date">
+    Publicado hace 2 semanas, 1 día
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 26:
+<div class="listing-card__information">
+ <div class="listing-card__information-main">
+  <div class="listing-card__title" content="Departamento en Venta en Ponceano">
+   Departamento en Venta en Ponceano
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 95.000
+   </div>
+  </div>
+  <div class="listing-card__location">
+   Ponceano, Norte De Quito, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="2">
+     2 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="1">
+     1 baño
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     91 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    Horizonte Azul
+   </div>
+   <div class="listing-card__published-date">
+    Publicado 08/05/2024
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 27:
+<div class="listing-card__information">
+ <div class="listing-card__information-main">
+  <div class="listing-card__title" content="Departamento en Venta en Bellavista">
+   Departamento en Venta en Bellavista
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 195.000
+   </div>
+  </div>
+  <div class="listing-card__location">
+   Bellavista, Iñaquito, Centro Norte, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="3">
+     3 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="4">
+     4 baños
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     156 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    GS CONSTRUCCIONES Y BIENES RAÍCES
+   </div>
+   <div class="listing-card__published-date">
+    Publicado 27/05/2024
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 28:
+<div class="listing-card__information">
+ <div class="listing-card__information-main">
+  <div class="listing-card__title" content="Departamento en Venta en Bellavista">
+   Departamento en Venta en Bellavista
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 220.920
+   </div>
+  </div>
+  <div class="listing-card__location">
+   Bellavista, Iñaquito, Centro Norte, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="2">
+     2 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="3">
+     3 baños
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     105 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    GS CONSTRUCCIONES Y BIENES RAÍCES
+   </div>
+   <div class="listing-card__published-date">
+    Publicado 20/03/2024
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 29:
+<div class="listing-card__information">
+ <div class="listing-card__information-main">
+  <div class="listing-card__title" content="Departamento en Venta en Bellavista">
+   Departamento en Venta en Bellavista
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 135.000
+   </div>
+  </div>
+  <div class="listing-card__location">
+   Bellavista, Iñaquito, Centro Norte, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="3">
+     3 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="2">
+     2 baños
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     100 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    GS CONSTRUCCIONES Y BIENES RAÍCES
+   </div>
+   <div class="listing-card__published-date">
+    Publicado hace 2 semanas, 1 día
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 30:
+<div class="listing-card__information">
+ <div class="listing-card__information-main">
+  <div class="listing-card__title" content="Departamento en Venta en Bellavista">
+   Departamento en Venta en Bellavista
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 280.000
+   </div>
+  </div>
+  <div class="listing-card__location">
+   Bellavista, Iñaquito, Centro Norte, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="3">
+     3 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="5">
+     5 baños
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     341 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    GS CONSTRUCCIONES Y BIENES RAÍCES
+   </div>
+   <div class="listing-card__published-date">
+    Publicado hace 3 semanas, 6 horas
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 31:
+<div class="listing-card__information">
+ <div class="listing-card__information-main">
+  <div class="listing-card__title" content="Departamento en Venta en Bellavista">
+   Departamento en Venta en Bellavista
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 150.000
+   </div>
+  </div>
+  <div class="listing-card__location">
+   Bellavista, Iñaquito, Centro Norte, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="2">
+     2 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="2">
+     2 baños
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     98 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    GS CONSTRUCCIONES Y BIENES RAÍCES
+   </div>
+   <div class="listing-card__published-date">
+    Publicado 26/03/2024
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 32:
+<div class="listing-card__information">
+ <div class="listing-card__information-main">
+  <div class="listing-card__title" content="Departamento en Venta en Ponceano">
+   Departamento en Venta en Ponceano
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 124.000
+   </div>
+  </div>
+  <div class="listing-card__location">
+   Ponceano, Norte De Quito, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="3">
+     3 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="3">
+     3 baños
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     144 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    GS CONSTRUCCIONES Y BIENES RAÍCES
+   </div>
+   <div class="listing-card__published-date">
+    Publicado 13/06/2024
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------

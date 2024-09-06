@@ -1,0 +1,26 @@
+Documentación de lo realizado en la conversación:
+Inicio del scraping:
+
+Se comenzó con el objetivo de realizar un scraping de propiedades desde el sitio web de RE/MAX Ecuador. Se trabajó con un script de Python utilizando las librerías requests y BeautifulSoup para obtener datos sobre propiedades, como el precio, expensas, dirección, superficies, ambientes, baños y más.
+Selección de elementos HTML:
+
+A lo largo de la conversación se analizaron ejemplos de HTML correspondientes a las propiedades de la página. Esto incluyó diferentes divs y selectores donde se ubicaban los datos necesarios, como el precio, dirección y características de la propiedad. Se probaron varios selectores CSS para extraer los datos correctos.
+Ajuste del nombre de archivos de salida:
+
+Se ajustó el script para que los archivos de salida se guarden en la carpeta data/output con un nombre de formato remax_pag_fecha_hora.txt, donde se incluía la fecha y hora actual en formato ddmmaa_hhmm.
+Guardado del HTML de las propiedades:
+
+Se implementó un sistema para guardar el HTML de las tarjetas de propiedades obtenidas de cada página. Cada archivo contenía información detallada sobre las propiedades obtenidas de la página, con una separación clara para cada una.
+Formato de CSV para los datos obtenidos:
+
+Se diseñó un CSV que incluye campos como Precio, Expensas, Dirección, Superficie Total, Superficie Cubierta, Ambientes, Baños, Descripción, Agente, y Oficina. Se ajustó el CSV para que cada propiedad ocupe una sola línea, separando los valores con | para evitar confusiones con los caracteres.
+Corrección y mejora del CSV:
+
+Se hicieron mejoras en el script para que los encabezados se incluyan correctamente y se garantice que todas las propiedades se registren en una sola línea. Además, se evaluó si se podían extraer más campos útiles, como información adicional o detalles de contacto.
+Iteraciones sobre el scraping y más datos:
+
+Durante la conversación, se revisaron ejemplos adicionales de propiedades para ver si era posible extraer más datos, como información sobre las características de las propiedades y otros detalles relevantes que puedan mejorar el dataset.
+Preparación de scripts reutilizables:
+
+Se finalizó con un script que permite realizar el scraping en varias páginas, especificando la ciudad y la cantidad de páginas a iterar. El script extrae los datos relevantes y los guarda en un archivo de texto y en un CSV para un procesamiento más sencillo en el futuro.
+De esta manera, se completó una solución para el scraping de propiedades en la página de RE/MAX, adaptada a las necesidades de extracción de datos y almacenamiento.
