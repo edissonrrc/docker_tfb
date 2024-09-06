@@ -1,0 +1,591 @@
+1. Limpieza de Docker
+Objetivo: Eliminar todos los contenedores, volúmenes, imágenes y redes de Docker para empezar con un entorno completamente limpio.
+
+Acciones Realizadas:
+
+Detener y eliminar todos los contenedores:
+
+bash
+Copiar código
+docker stop $(docker ps -aq)
+docker rm $(docker ps -aq)
+Eliminar todos los volúmenes:
+
+bash
+Copiar código
+docker volume rm $(docker volume ls -q)
+Eliminar todas las imágenes:
+
+bash
+Copiar código
+docker rmi $(docker images -q) --force
+Eliminar todas las redes personalizadas (no predeterminadas):
+
+bash
+Copiar código
+docker network rm $(docker network ls -q)
+Las redes predeterminadas (bridge, host, none) no se pueden eliminar.
+
+Verificar el estado del sistema Docker para asegurarse de que no queda ningún recurso no deseado:
+
+Listar contenedores:
+
+bash
+Copiar código
+docker ps -a
+Listar volúmenes:
+
+bash
+Copiar código
+docker volume ls
+Listar imágenes:
+
+bash
+Copiar código
+docker images
+Listar redes:
+
+bash
+Copiar código
+docker network ls
+2. Actualizar Archivo docker-compose.yml
+Objetivo: Eliminar los servicios relacionados con Spark (como spark-master, spark-worker, y jupyter) y asegurarse de que solo los servicios necesarios (Airflow, PostgreSQL, y Metabase) se inicien correctamente.
+
+Acciones Realizadas:
+
+Actualización del archivo docker-compose.yml para eliminar los servicios no deseados:
+
+Se eliminaron los servicios de Spark (spark-master, spark-worker).
+Se eliminó el servicio de Jupyter.
+Se conservaron y configuraron los servicios necesarios (Airflow, PostgreSQL, Metabase).
+Aquí está la versión actualizada del archivo:
+
+yaml
+Copiar código
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:latest
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    networks:
+      - proyecto_tfb_network
+
+  airflow-webserver:
+    image: apache/airflow:2.10.0-python3.9
+    user: "airflow"
+    depends_on:
+      - postgres
+    environment:
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://${POSTGRES_USER}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB}
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__WEBSERVER__RBAC: "True"
+      AIRFLOW__WEBSERVER__WEB_SERVER_PORT: 8080
+      AIRFLOW__WEBSERVER__WEB_SERVER_HOST: 0.0.0.0
+      AIRFLOW__CORE__FERNET_KEY: ${AIRFLOW__CORE__FERNET_KEY}
+      AIRFLOW_ADMIN_USER: ${AIRFLOW_ADMIN_USER}
+      AIRFLOW_ADMIN_PASSWORD: ${AIRFLOW_ADMIN_PASSWORD}
+      AIRFLOW_ADMIN_EMAIL: ${AIRFLOW_ADMIN_EMAIL}
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./logs:/opt/airflow/logs
+      - ./scripts:/opt/airflow/scripts
+      - ./plugins:/opt/airflow/plugins
+      - ./requirements.txt:/requirements.txt
+    entrypoint: >
+      /bin/bash -c "apt-get update &&
+                    apt-get install -y procps &&
+                    pip install --upgrade pip &&
+                    pip install -r /requirements.txt &&
+                    airflow db init &&
+                    airflow users create --username ${AIRFLOW_ADMIN_USER} --password ${AIRFLOW_ADMIN_PASSWORD} --firstname Admin --lastname User --role Admin --email ${AIRFLOW_ADMIN_EMAIL} &&
+                    airflow webserver"
+    ports:
+      - "8085:8080"
+    networks:
+      - proyecto_tfb_network
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:8080/health || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+  airflow-scheduler:
+    image: apache/airflow:2.10.0-python3.9
+    user: "airflow"
+    depends_on:
+      - postgres
+      - airflow-webserver
+    environment:
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://${POSTGRES_USER}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB}
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__CORE__FERNET_KEY: ${AIRFLOW__CORE__FERNET_KEY}
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./logs:/opt/airflow/logs
+      - ./plugins:/opt/airflow/plugins
+      - ./scripts:/opt/airflow/scripts
+      - ./requirements.txt:/requirements.txt
+    entrypoint: >
+      /bin/bash -c "apt-get update &&
+                    apt-get install -y procps &&
+                    pip install --upgrade pip &&
+                    pip install -r /requirements.txt &&
+                    airflow scheduler"
+    networks:
+      - proyecto_tfb_network
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:8793/health || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+  metabase:
+    image: metabase/metabase:latest
+    ports:
+      - "3000:3000"
+    networks:
+      - proyecto_tfb_network
+
+volumes:
+  pgdata:
+
+networks:
+  proyecto_tfb_network:
+    driver: bridge
+3. Reconstrucción e Inicio de los Servicios con Docker Compose
+Objetivo: Volver a levantar los servicios necesarios sin los servicios relacionados con Spark.
+
+Acciones Realizadas:
+
+Detener todos los contenedores y eliminar los servicios antiguos:
+
+bash
+Copiar código
+docker-compose down
+Construir las imágenes nuevamente y levantar los servicios:
+
+bash
+Copiar código
+docker-compose up --build -d
+Esto reconstruyó las imágenes según la nueva configuración y levantó los contenedores de Airflow, PostgreSQL y Metabase.
+
+Verificación del estado de los contenedores:
+
+Se verificó que los contenedores en ejecución fueran los esperados:
+
+bash
+Copiar código
+docker ps
+Solo los servicios necesarios (airflow-webserver, airflow-scheduler, postgres, y metabase) están en ejecución, sin los servicios de Spark.
+
+4. Conclusión
+A lo largo de la conversación, hemos:
+
+Limpiado el entorno Docker eliminando todos los recursos antiguos.
+Actualizado y simplificado el archivo docker-compose.yml para eliminar los servicios de Spark y dejar solo los necesarios (Airflow, PostgreSQL y Metabase).
+Reconstruido e iniciado los servicios en un entorno limpio y funcionando correctamente.
+Ahora tienes un entorno optimizado y listo para trabajar sin la carga innecesaria de servicios como Spark
+
+
+
+MAT PLT LIB MODULSE ISSUE
+Problema Inicial:
+El error se produce cuando se ejecuta un BashOperator en un DAG de Airflow que intenta correr un script Python para generar un gráfico de Gantt. El error específico es que el módulo matplotlib no está instalado, lo que causa un ModuleNotFoundError.
+
+Acciones Realizadas:
+Identificación del Error:
+
+El problema se detectó al intentar ejecutar el script generar_gantt_script.py en un DAG de Airflow.
+El error exacto fue: ModuleNotFoundError: No module named 'matplotlib'.
+Sugerencias para Solucionar el Error:
+
+Verificar el Dockerfile: Se recomendó agregar matplotlib en la lista de paquetes instalados en el Dockerfile. La línea recomendada es:
+
+Dockerfile
+Copiar código
+RUN pip install matplotlib
+Reconstruir la Imagen de Docker: Después de asegurarse de que matplotlib esté en el Dockerfile, se sugirió reconstruir la imagen de Docker con el comando:
+
+bash
+Copiar código
+docker-compose down
+docker-compose up --build
+Verificar la Instalación en el Entorno: Se propuso ejecutar el siguiente comando dentro del contenedor Airflow para asegurarse de que matplotlib esté instalado correctamente:
+
+bash
+Copiar código
+docker exec -it <nombre_del_contenedor_airflow> bash
+python3 -c "import matplotlib"
+Ajuste en el DAG: Si es necesario, ajustar el PYTHONPATH en el DAG para asegurarse de que el entorno correcto esté siendo utilizado al ejecutar el script Python.
+
+Aclaración sobre el Scheduler:
+
+Se explicó que el scheduler de Airflow no ejecuta directamente comandos, sino que orquesta y asigna tareas a los workers para que ellos las ejecuten.
+El error relacionado con la falta de matplotlib ocurre cuando el worker intenta ejecutar el script Python, no durante el trabajo del scheduler.
+Próximos Pasos:
+Confirmar la instalación de matplotlib en la imagen de Docker.
+Asegurarse de que los workers estén utilizando la imagen correcta con todas las dependencias instaladas.
+
+
+
+
+
+Tú dijiste:
+docuementa todo lo realiado en esta conversacion
+ChatGPT Plus
+ChatGPT
+Documentación de todo lo realizado hasta ahora:
+Problema Inicial:
+Error en la Ejecución de DAG en Airflow: Al ejecutar un DAG llamado Crear_gantt en Airflow que utiliza un BashOperator para correr un script Python (generar_gantt_script.py), se produjo un error. El error específico fue:
+plaintext
+Copiar código
+ModuleNotFoundError: No module named 'matplotlib'
+Este error ocurre porque el módulo matplotlib no está instalado en el entorno donde el worker de Airflow está ejecutando el script.
+Acciones Realizadas:
+Identificación del Error:
+
+Se revisaron los logs de ejecución del DAG en Airflow, donde quedó claro que el worker falló al ejecutar el script debido a la ausencia del módulo matplotlib.
+Soluciones Propuestas:
+
+Verificar la Instalación de matplotlib en el Dockerfile de Airflow:
+
+Se sugirió asegurarse de que la imagen de Docker usada por los workers de Airflow contenga matplotlib. Para ello, se recomendó añadir la línea:
+Dockerfile
+Copiar código
+RUN pip install matplotlib
+Reconstrucción de la Imagen Docker:
+
+Una vez confirmado que matplotlib está incluido en el Dockerfile, se sugirió reconstruir la imagen Docker para que los cambios surtan efecto:
+bash
+Copiar código
+docker-compose down
+docker-compose up --build
+Verificación del Entorno en los Workers:
+
+Se propuso ejecutar el siguiente comando dentro del contenedor de Airflow para verificar manualmente si matplotlib está instalado:
+bash
+Copiar código
+docker exec -it <nombre_del_contenedor_airflow> bash
+python3 -c "import matplotlib"
+Si no se produce ningún error, significa que matplotlib está instalado correctamente.
+Ajuste en el DAG si es Necesario:
+
+Si persisten los problemas, se recomendó verificar y, si es necesario, ajustar el PYTHONPATH en el DAG para asegurarse de que el entorno correcto esté siendo utilizado al ejecutar el script Python.
+Aclaración sobre el Rol del Scheduler en Airflow:
+El scheduler de Airflow no ejecuta directamente comandos Bash o Python. Su función es orquestar la ejecución de tareas y asignarlas a los workers, quienes son responsables de ejecutar los comandos.
+El error no está relacionado con el scheduler, sino con la configuración del entorno de los workers que intentan ejecutar el script Python, donde falta matplotlib.
+Próximos Pasos:
+Confirmar que matplotlib esté instalado en la imagen Docker.
+Asegurarse de que los workers están utilizando la imagen correcta con todas las dependencias instaladas.
+Ejecutar nuevamente el DAG y verificar que la tarea se complete correctamente.
+
+
+
+
+
+SERVICIOS LIGEROS DOCKER
+
+Documentación de los pasos seguidos en esta conversación
+1. Inicio del entorno Airflow con Docker Compose
+Configuramos un entorno mínimo con Airflow, PostgreSQL y Metabase. Inicialmente, el objetivo era tener un entorno simple y eficiente para correr los DAGs en Airflow.
+Se utilizaron archivos .env y .gitignore para manejar configuraciones sensibles y evitar que se suban a GitHub.
+En el Docker Compose, se definieron volúmenes, redes, y los servicios requeridos: airflow-webserver, airflow-scheduler, postgres, y metabase.
+2. Errores iniciales y configuración de permisos
+Durante el proceso, encontramos errores relacionados con permisos en directorios como /opt/airflow/logs/scheduler, lo cual impidió la correcta ejecución de Airflow.
+
+Solucionamos estos errores cambiando los permisos de los directorios locales utilizados por Airflow, utilizando comandos como:
+
+bash
+Copiar código
+sudo chown -R $(whoami):$(whoami) ./logs
+chmod -R 777 ./logs
+3. Configuración e instalación de dependencias
+matplotlib no se encontraba instalado dentro del contenedor de Airflow, lo que generó errores al ejecutar scripts de DAG que dependían de esta librería.
+
+Modificamos el Dockerfile para incluir las dependencias necesarias en Airflow. El Dockerfile actualizado fue:
+
+Dockerfile
+Copiar código
+FROM apache/airflow:2.7.0-python3.9
+
+USER root
+
+RUN apt-get update && apt-get install -y procps \
+    python3-dev \
+    build-essential \
+    libfreetype6-dev \
+    libpng-dev
+
+USER airflow
+
+COPY requirements.txt /requirements.txt
+RUN pip install --no-cache-dir -r /requirements.txt
+RUN pip install matplotlib
+
+COPY dags/ $AIRFLOW_HOME/dags/
+COPY scripts/ $AIRFLOW_HOME/scripts/
+COPY plugins/ $AIRFLOW_HOME/plugins/
+
+USER root
+RUN chmod -R 755 $AIRFLOW_HOME/dags
+RUN chmod -R 755 $AIRFLOW_HOME/scripts
+RUN chmod -R 755 $AIRFLOW_HOME/plugins
+USER airflow
+
+CMD ["airflow", "webserver"]
+4. Reconstrucción y reinicio de contenedores
+Tras modificar el Dockerfile, reconstruimos los contenedores de Docker con los siguientes comandos para aplicar los cambios de instalación de dependencias:
+
+bash
+Copiar código
+docker-compose down --remove-orphans
+docker-compose build --no-cache
+docker-compose up -d
+Esto fue para asegurarnos de que las dependencias como matplotlib se instalaran correctamente dentro del contenedor.
+
+5. Verificación de la instalación de dependencias
+Verificamos si matplotlib estaba instalado correctamente dentro del contenedor de Airflow utilizando el siguiente comando:
+
+bash
+Copiar código
+docker-compose exec airflow-webserver pip show matplotlib
+También verificamos si los logs de Airflow mostraban algún error adicional durante la instalación de las dependencias o ejecución de DAGs:
+
+bash
+Copiar código
+docker-compose logs --tail 100 airflow-webserver
+6. Ejecución del DAG que genera un gráfico Gantt
+Creamos un DAG que ejecuta un script llamado generar_gantt_script.py. El DAG utilizaba un BashOperator para ejecutar el script, que generaba un gráfico Gantt y lo guardaba en la carpeta images.
+
+Se añadieron los siguientes comandos para ejecutar el DAG desde la interfaz gráfica de Airflow:
+
+bash
+Copiar código
+airflow dags trigger crear_gantt_dag
+También verificamos la carga del DAG dentro del entorno de Airflow con el comando:
+
+bash
+Copiar código
+docker-compose exec airflow-webserver airflow dags list
+7. Solución de errores en la ejecución del DAG
+Al ejecutar el DAG, se presentó el error ModuleNotFoundError: No module named 'matplotlib', indicando que matplotlib no estaba instalado dentro del contenedor.
+Para solucionar este problema, modificamos el Dockerfile y reconstruimos los contenedores para asegurarnos de que las dependencias se instalaran correctamente.
+8. Conclusión y siguientes pasos
+Después de instalar correctamente las dependencias y asegurar que matplotlib estaba disponible en el contenedor, el DAG debería ejecutarse sin problemas.
+Si aparecen más errores o si el DAG no carga como se espera, debemos revisar los logs y la configuración de permisos en los directorios correspondientes.
+Este es un resumen detallado de todos los pasos y decisiones tomadas durante la conversación. Si necesitas más detalles o documentación adicional, no dudes en decírmelo.
+
+
+
+
+OPEN LINEAGE UTLIDAD
+
+OpenLineage dentro de Apache Airflow sirve para rastrear y documentar el linaje de datos en las tareas y flujos de trabajo (DAGs). Su propósito principal es proporcionar visibilidad de cómo los datos se mueven a través de diferentes etapas de procesamiento en un pipeline, lo que permite a los usuarios comprender:
+
+Origen de los datos: De dónde provienen los datos que se utilizan en una tarea.
+Destino de los datos: A dónde van los datos después de ser procesados.
+Dependencias: Las relaciones entre diferentes tareas y flujos de trabajo (DAGs), permitiendo identificar cómo una tarea afecta a otra.
+Historial de ejecución: Registra un historial de ejecuciones para realizar auditorías y depurar errores de procesamiento de datos.
+Beneficios:
+Trazabilidad: Puedes ver claramente cómo los datos fluyen entre las tareas, lo que facilita la identificación de errores y la comprensión de las dependencias entre diferentes trabajos.
+Depuración: Cuando un DAG falla, OpenLineage proporciona información detallada que permite a los ingenieros rastrear el fallo hasta una tarea o conjunto de datos en particular.
+Monitoreo de rendimiento: Ayuda a identificar cambios en el rendimiento de los pipelines, como el aumento del tiempo de ejecución después de una modificación en el código​(
+Home | OpenLineage
+)​(
+PyPI
+)​(
+Home | OpenLineage
+).
+En resumen, OpenLineage es una herramienta clave para mejorar la gestión de datos en sistemas complejos, proporcionando visibilidad, trazabilidad y control sobre el linaje de datos en flujos de trabajo de Airflow.
+
+
+FIXING AIRFLOW OPENLINEAGE Y PERMISOS CON CARPETAS:
+
+1. Problema inicial de permisos al guardar archivos en Airflow (contenedor Docker)
+El DAG de Airflow estaba generando un archivo PNG en la carpeta images, pero presentaba problemas de permisos que impedían que el archivo se creara correctamente. El error era un PermissionError.
+
+Acciones tomadas:
+Se revisaron los permisos del contenedor Docker y del host, y se verificó que el usuario airflow dentro del contenedor no tenía permisos de escritura en la carpeta images.
+Se intentó ajustar los permisos usando sudo chown y chmod desde dentro del contenedor, pero el usuario airflow no tenía privilegios de sudo.
+2. Soluciones implementadas:
+Cambios en permisos en el host:
+Para otorgar acceso desde el contenedor, se cambiaron los permisos de la carpeta images en el host, asignándola al usuario airflow dentro del contenedor (UID 50000) y al grupo root:
+
+bash
+Copiar código
+sudo chown -R 50000:0 /home/edisson/Descargas/docker_tfb/images
+sudo chmod -R 775 /home/edisson/Descargas/docker_tfb/images
+Problemas adicionales con el acceso del host:
+Aunque esto permitió que el contenedor escribiera en la carpeta images, el usuario del host (edisson) ya no tenía permisos para modificar los archivos generados en esa carpeta, dado que el propietario era el usuario airflow (UID 50000) dentro del contenedor.
+3. Opciones exploradas para resolver el acceso compartido:
+Opción 1: Uso de ACLs:
+Para dar acceso tanto al contenedor como al usuario del host sin cambiar el propietario cada vez que se crea un archivo, sugerimos utilizar Access Control Lists (ACLs):
+
+bash
+Copiar código
+sudo setfacl -m u:edisson:rwx /home/edisson/Descargas/docker_tfb/images
+Esto le da al usuario edisson acceso total a los archivos en la carpeta images, sin importar quién los crea.
+
+Opción 2: Cambios en el Dockerfile (Pendiente):
+Se propuso modificar el Dockerfile para que el usuario airflow dentro del contenedor usara el UID 1000 y GID 1000 de edisson, asegurando que los archivos creados por airflow en el contenedor pertenezcan a edisson en el host:
+
+Dockerfile
+Copiar código
+USER root
+RUN usermod -u 1000 airflow && groupmod -g 1000 root
+Esta opción fue dejada pendiente para implementarse más adelante, si los problemas de permisos persisten.
+
+4. Verificación de Grupos en el Sistema:
+Se verificaron los grupos y usuarios presentes en el sistema mediante:
+
+bash
+Copiar código
+cat /etc/group
+groups edisson
+id edisson
+El usuario edisson fue añadido al grupo sharedgroup para permitir acceso compartido a la carpeta images.
+
+Opción 3: Configuración de permisos recursivos:
+Se aplicó la configuración de permisos de grupo y usuario de forma recursiva a todas las carpetas bajo el directorio de Airflow:
+
+bash
+Copiar código
+sudo chown -R edisson:sharedgroup /home/edisson/Descargas/docker_tfb/
+sudo chmod -R 775 /home/edisson/Descargas/docker_tfb/
+5. Resultado Actual:
+Se logró que el contenedor pudiera generar archivos en la carpeta images sin problemas.
+Los archivos creados dentro del contenedor fueron asignados al usuario airflow (UID 50000) y al grupo root, lo que provocó que el usuario del host no pudiera modificarlos.
+La solución temporal fue usar ACLs para dar permisos completos al usuario edisson en la carpeta images.
+Conclusión:
+La configuración actual funciona, pero está pendiente la implementación de la solución definitiva con el cambio de UID y GID en el contenedor para evitar problemas futuros.
+
+
+
+OTRA CONTINUACION O MEJORA:
+
+1. Problemas con permisos en las carpetas de Airflow:
+Durante la ejecución del DAG de Airflow, se presentó un problema recurrente relacionado con permisos en las carpetas, específicamente en las carpetas images y data. Esto impedía que los scripts escribieran archivos o crearan directorios. Se implementaron las siguientes soluciones:
+
+Comandos para cambiar permisos en las carpetas:
+Se utilizó el siguiente comando en el host para ajustar los permisos y permitir que Airflow escribiera en las carpetas afectadas:
+bash
+Copiar código
+sudo chown -R 50000:1001 /home/edisson/Descargas/docker_tfb/images
+sudo chmod -R 775 /home/edisson/Descargas/docker_tfb/images
+Se verificaron los permisos en las carpetas dentro del contenedor utilizando el comando ls -l para asegurar que el usuario airflow y el grupo sharedgroup tuvieran acceso adecuado.
+2. Modificación del Dockerfile para gestionar permisos:
+Se realizó una modificación en el Dockerfile para automatizar la asignación de permisos durante la construcción de la imagen de Docker. Esto se realizó para evitar problemas de permisos cada vez que se reconstruya el contenedor.
+
+Modificaciones aplicadas:
+Se creó un grupo compartido (sharedgroup) y se añadió el usuario airflow a ese grupo para gestionar permisos en las carpetas donde se requería escritura (como images):
+dockerfile
+Copiar código
+USER root
+RUN groupadd -g 1001 sharedgroup && \
+    usermod -aG sharedgroup airflow
+RUN chown -R :sharedgroup $AIRFLOW_HOME/images && \
+    chmod -R 775 $AIRFLOW_HOME/images
+USER airflow
+Esto asegura que el usuario airflow y los miembros del grupo sharedgroup tengan los permisos adecuados para leer y escribir en las carpetas relevantes.
+3. Configuración de docker-compose.yml:
+Se configuró el archivo docker-compose.yml para gestionar los servicios de Airflow, PostgreSQL y Metabase. En este archivo, se añadieron volúmenes persistentes, se ajustaron redes y se automatizó la creación de usuarios y la inicialización de la base de datos de Airflow.
+
+Comando para inicialización condicional en airflow-webserver:
+
+Se utilizó un bloque condicional en el comando de inicio del contenedor airflow-webserver para ejecutar la inicialización de la base de datos de Airflow y la creación del usuario administrador solo en la primera ejecución del contenedor:
+bash
+Copiar código
+if [ ! -f /opt/airflow/initialized ]; then
+    airflow db init &&
+    airflow users create --username ${AIRFLOW_ADMIN_USER} --password ${AIRFLOW_ADMIN_PASSWORD} --firstname Admin --lastname User --role Admin --email ${AIRFLOW_ADMIN_EMAIL} &&
+    touch /opt/airflow/initialized;
+fi;
+airflow webserver
+Configuración de volúmenes y redes:
+
+Se crearon volúmenes persistentes para los datos de PostgreSQL, logs y DAGs de Airflow:
+yaml
+Copiar código
+volumes:
+  pgdata:
+    driver: local
+  airflow_logs:
+    driver: local
+  airflow_dags:
+    driver: local
+networks:
+  airflow-network:
+    driver: bridge
+Esto asegura que los datos y configuraciones sean persistentes, incluso si se eliminan los contenedores.
+4. Optimización del DAG de Airflow para combinar y cargar CSVs:
+Se implementó un DAG en Airflow para combinar archivos CSV y cargarlos en una tabla PostgreSQL llamada propiedades. Durante este proceso, se añadieron optimizaciones y manejos de errores:
+
+Lectura por lotes de archivos CSV:
+
+Para manejar grandes volúmenes de datos, se implementó la lectura de archivos CSV en lotes usando el parámetro chunksize=10000 de pandas:
+python
+Copiar código
+for chunk in pd.read_csv(os.path.join(path_to_csvs, file), delimiter='|', chunksize=10000):
+    # Procesar y validar los datos del chunk antes de la inserción
+Manejo de errores:
+
+Se capturaron errores comunes como archivos vacíos (EmptyDataError) y otros errores generales. Esto permite que el DAG continúe procesando los archivos restantes si un archivo falla:
+python
+Copiar código
+except pd.errors.EmptyDataError:
+    print(f"Advertencia: El archivo {file} está vacío y fue omitido.")
+except Exception as e:
+    print(f"Error procesando el archivo {file}: {str(e)}")
+    raise
+Validación de datos:
+
+Se añadieron reglas de validación para asegurarse de que los datos sean consistentes antes de insertarlos en la base de datos:
+python
+Copiar código
+def validate_data(chunk):
+    chunk = chunk[chunk['precio'] > 0]
+    chunk = chunk[chunk['area'] > 0]
+    chunk = chunk[chunk['fecha_publicacion'].notnull()]
+    return chunk
+5. Acceso a la base de datos PostgreSQL:
+Se documentó cómo acceder a la base de datos PostgreSQL desde el contenedor de Docker utilizando el cliente psql. Esto permite ejecutar consultas SQL y revisar el contenido de tablas como propiedades.
+
+Acceso al bash del contenedor:
+bash
+Copiar código
+docker exec -it <nombre_del_contenedor> bash
+Acceso al cliente psql:
+bash
+Copiar código
+psql -U <usuario> -d <nombre_base_de_datos>
+Consulta SQL para revisar el contenido de la tabla:
+sql
+Copiar código
+SELECT * FROM propiedades;
+6. Versión final del DAG:
+Finalmente, se guardó una versión definitiva del DAG que combina y carga los CSVs en PostgreSQL. Esta versión incluye optimizaciones para la lectura por lotes, manejo de errores y validación de datos antes de la inserción.
+
+DAG optimizado y robusto para la carga de datos en PostgreSQL:
+python
+Copiar código
+with DAG(
+    dag_id='Crear_tablas',
+    default_args=default_args,
+    description='DAG para crear tablas y combinar CSVs en PostgreSQL',
+    schedule_interval='@daily',
+) as dag:
+    create_table_task = PostgresOperator(...)
+    combine_csvs_task = PythonOperator(...)
+
+    create_table_task >> combine_csvs_task
+Con todas estas configuraciones y optimizaciones aplicadas, el entorno de Airflow está preparado para gestionar de manera eficiente la carga de datos desde archivos CSV en PostgreSQL.
+
+
+
+

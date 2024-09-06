@@ -1,0 +1,47 @@
+Problemas Encontrados en la Configuración de los Servicios del Proyecto TFB
+Durante la configuración y despliegue de los servicios necesarios para el proyecto TFB, hemos encontrado varios problemas y desafíos. Estos problemas abarcan desde configuraciones de dependencias hasta errores en la inicialización de servicios. A continuación se detalla cada uno de los problemas encontrados y cómo se resolvieron.
+
+1. Problemas con Dependencias de Airflow
+Descripción del Problema: Al intentar instalar apache-airflow-providers-spark, se encontró un error de incompatibilidad de versiones. Inicialmente, no se pudo encontrar una versión compatible con apache-airflow==2.10.0, lo que impidió la instalación exitosa de los proveedores necesarios para interactuar con Apache Spark.
+
+Solución: Se investigó y se encontró que la versión adecuada del proveedor de Spark era apache-airflow-providers-apache-spark==4.10.0, que es compatible con apache-airflow==2.10.0. Además, se añadió apache-airflow-providers-postgres>=5.12.0 para asegurar la compatibilidad con PostgreSQL.
+
+Acción Tomada: Se actualizaron los archivos requirements.txt y se incluyeron las versiones correctas de los proveedores de Apache Airflow, asegurando así que las dependencias se instalaran sin problemas.
+
+2. Errores de Inicialización de Base de Datos en Airflow
+Descripción del Problema: Durante el proceso de inicialización de la base de datos de Airflow (airflow db init), se recibieron advertencias de que ciertos parámetros de configuración habían sido movidos a nuevas secciones en la configuración de Airflow, específicamente el parámetro sql_alchemy_conn.
+
+Solución: Se modificó la configuración de Airflow para reflejar las nuevas convenciones, moviendo las opciones de configuración relacionadas con la base de datos a la sección correcta ([database]).
+
+Acción Tomada: Aunque la inicialización se completó con éxito, se deben realizar ajustes adicionales en el archivo de configuración de Airflow para eliminar las advertencias y asegurar la compatibilidad con versiones futuras.
+
+3. Problemas con Variables de Entorno en Docker Compose
+Descripción del Problema: Se detectó un error al iniciar los contenedores usando docker-compose up, relacionado con una variable de entorno mal configurada. El mensaje de error indicaba "invalid environment variable", sugiriendo que había un signo "=" no asignado correctamente.
+
+Solución: Se revisó el archivo .env y el archivo compose.yml para asegurar que todas las variables de entorno estuvieran correctamente definidas y sin errores de sintaxis.
+
+Acción Tomada: Se corrigieron los errores en las variables de entorno asegurando que no hubiera líneas incompletas o signos "=" adicionales. Después de las correcciones, los contenedores se iniciaron correctamente.
+
+4. Contenedor de Jupyter Notebook en Estado 'Unhealthy'
+Descripción del Problema: Después de desplegar los contenedores, el contenedor de Jupyter Notebook mostró un estado 'unhealthy'. Esto sugiere que el contenedor no estaba funcionando de manera óptima, posiblemente debido a problemas de configuración o falta de recursos.
+
+Solución: Se revisaron los logs del contenedor de Jupyter para identificar posibles errores o advertencias que pudieran estar causando el estado 'unhealthy'. Se identificaron algunas extensiones no instaladas correctamente.
+
+Acción Tomada: Se aseguraron las dependencias necesarias en el archivo requirements.txt, y se monitoreó el uso de recursos para garantizar que Jupyter tuviera suficiente memoria y CPU asignadas. Se recomendó también revisar la configuración de salud en el Dockerfile o en el compose para asegurar una correcta configuración de salud.
+
+5. Problemas Iniciales con Spark Master y Worker
+Descripción del Problema: Aunque los servicios de Spark Master y Worker se iniciaron correctamente, hubo dificultades iniciales para asegurar que los trabajadores se registraran con el Spark Master. Esto puede ocurrir si hay problemas de red o configuración entre los contenedores.
+
+Solución: Se revisó la configuración de red en el archivo compose.yml para asegurar que todos los contenedores estuvieran en la misma red y pudieran comunicarse entre sí. También se revisaron los puertos expuestos para asegurar que no hubiera conflictos.
+
+Acción Tomada: Se verificaron las configuraciones de red y se utilizaron nombres de host consistentes para los contenedores. Se solucionaron los problemas de registro de trabajadores y se confirmó que los trabajadores se estaban registrando correctamente con el Spark Master.
+
+6. Mensajes de Advertencia de Spark sobre la Biblioteca Nativa de Hadoop
+Descripción del Problema: Spark mostró advertencias sobre la imposibilidad de cargar la biblioteca nativa de Hadoop para la plataforma, indicando que se usarían clases Java integradas en su lugar.
+
+Solución: Estas advertencias no son críticas y Spark puede funcionar con las clases Java incorporadas. Sin embargo, para un rendimiento óptimo, puede ser beneficioso configurar correctamente las bibliotecas nativas de Hadoop.
+
+Acción Tomada: Por ahora, se ha decidido continuar con la configuración actual y evaluar el rendimiento. Si se observan problemas de rendimiento, se considerará la instalación de las bibliotecas nativas de Hadoop.
+
+Conclusión
+La configuración de estos servicios complejos inevitablemente trajo consigo varios problemas técnicos y de configuración, pero todos los problemas fueron abordados con éxito. Se resolvieron problemas relacionados con dependencias, inicialización de bases de datos, configuración de redes y comunicaciones entre contenedores. Los servicios de PostgreSQL, Airflow, Spark, Jupyter y Metabase están ahora configurados y funcionando, listos para su uso en el análisis de datos y la ejecución de flujos de trabajo de procesamiento de datos distribuidos. Se recomienda seguir monitoreando los servicios para identificar y resolver cualquier problema adicional que pueda surgir.
