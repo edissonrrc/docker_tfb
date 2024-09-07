@@ -1,0 +1,50 @@
+Documentación de Problemas Encontrados en Remax: Extracción y Análisis Exploratorio
+Durante el proceso de extracción y análisis exploratorio de los datos de propiedades de Remax, nos encontramos con varios desafíos y problemas, tanto en la extracción de datos como en su análisis. A continuación, se detallan los principales problemas identificados y las soluciones implementadas:
+
+Problemas en la Extracción de Datos
+Formato de los Precios con Texto Adicional
+Descripción del Problema: Los precios de las propiedades venían acompañados de texto adicional, como "USD" o espacios en blanco. Esto dificultaba la conversión directa a formato numérico.
+Solución Implementada: Se utilizó una función personalizada para limpiar el texto y extraer solo los valores numéricos. Además, se agregó una verificación para que los valores extraídos fueran números válidos y se descartara cualquier formato no numérico.
+Expensas con Valores Incorrectos
+Descripción del Problema: Los valores de expensas también venían acompañados de símbolos, texto o información adicional, lo que hacía complicado extraer solo el valor numérico. Además, algunos valores eran ilógicos, como expensas superiores a $10,000.
+Solución Implementada: Se implementó una limpieza similar a la de los precios, extrayendo solo los valores numéricos. Además, se limitó el rango de valores a un máximo de $10,000 para descartar valores atípicos o erróneos.
+Superficie Total y Cubierta con Formato Europeo
+Descripción del Problema: Algunos valores de superficie estaban formateados con comas en lugar de puntos, lo que causaba problemas al intentar realizar operaciones numéricas con los datos.
+Solución Implementada: Se estandarizó el formato de las superficies, reemplazando las comas por puntos para facilitar el análisis. Sin embargo, se decidió mantener el formato decimal estándar (con punto como separador decimal) para evitar problemas de interpretación.
+Textos Redundantes en Descripciones
+Descripción del Problema: Las descripciones de las propiedades incluían términos genéricos y redundantes como "Venta", "Departamento" y "Se vende", que no aportaban valor al análisis y afectaban a la calidad de la visualización (por ejemplo, en las nubes de palabras).
+Solución Implementada: Se eliminaron términos genéricos de las descripciones utilizando una lista de palabras excluidas (stopwords), lo que permitió obtener una visualización más limpia y representativa en la nube de palabras.
+Inconsistencias en los Enlaces y URLs
+Descripción del Problema: Algunas propiedades no incluían el enlace completo en el campo URL, o bien el enlace estaba mal formateado.
+Solución Implementada: Se corrigieron los enlaces agregando manualmente la URL base (https://www.remax.com.ec) a las propiedades con enlaces incompletos, garantizando que todas las propiedades tuvieran un enlace válido.
+
+Problemas en el Análisis Exploratorio
+Distribución de Precios con Valores Atípicos
+Descripción del Problema: Se identificaron precios extremadamente altos que no correspondían a las características de las propiedades. Esto generaba gráficos de distribución distorsionados y análisis de precios incorrectos.
+Solución Implementada: Se revisaron los valores atípicos y, en algunos casos, se aplicaron filtros para eliminar propiedades con precios fuera de los rangos razonables. Esto permitió generar visualizaciones más precisas y evitar distorsiones.
+Relación entre Superficie Total y Superficie Cubierta
+Descripción del Problema: Las propiedades que presentaban una diferencia excesiva entre la superficie total y la superficie cubierta no tenían sentido, ya que la diferencia entre ambas debería ser moderada. Esto podía estar relacionado con errores en la fuente de datos.
+Solución Implementada: Se investigaron los valores extremos y, en algunos casos, se descartaron o ajustaron manualmente los valores incoherentes. Además, se realizaron gráficas de dispersión que mostraban la correlación para identificar posibles errores de registro.
+Expensas Faltantes o Nulas
+Descripción del Problema: Una parte significativa de los registros no incluía información sobre las expensas mensuales, lo que dificultaba el análisis de este aspecto financiero crucial.
+Solución Implementada: Se manejaron los valores nulos con imputación, utilizando la mediana o media de expensas en propiedades similares para completar los valores faltantes. Esto permitió incluir más propiedades en los análisis sin perder demasiada información.
+Problemas de Agrupación por Agente
+Descripción del Problema: Algunos agentes tenían una dispersión muy alta en los precios, lo que hacía que las visualizaciones de boxplot fueran difíciles de interpretar, ya que las medianas y rangos intercuartílicos no estaban bien distribuidos.
+Solución Implementada: Se agruparon los agentes en función de la mediana de precios que gestionaban, para así generar visualizaciones más equilibradas. Se descartaron agentes con muy pocos datos o con propiedades anómalas.
+Desviaciones en los Clusters de Propiedades
+Descripción del Problema: El análisis de clustering mostró que había una gran dispersión en las propiedades de tamaño pequeño (en términos de superficie), lo que complicaba la formación de grupos claros.
+Solución Implementada: Se ajustaron los parámetros del clustering para priorizar las características más relevantes, como el precio y la superficie, lo que permitió una agrupación más coherente. También se aplicaron filtros para eliminar propiedades con características atípicas.
+Relación Precio y Expensas con Valores Fuera de Rango
+Descripción del Problema: Algunas propiedades mostraban una relación desproporcionada entre el precio y las expensas, con precios bajos y expensas extremadamente altas, o viceversa.
+Solución Implementada: Se identificaron y eliminaron las propiedades con valores inusuales. Además, se realizó un análisis adicional para comprobar la relación entre las expensas y las características de las propiedades, identificando patrones más claros.
+
+Resumen de Problemas y Acciones Tomadas:
+Problemas de Extracción:
+Se corrigieron y limpiaron los valores de precios, expensas y superficies.
+Se eliminaron términos genéricos en las descripciones y se corrigieron URLs incompletas.
+Problemas de Análisis:
+Se filtraron valores atípicos y se ajustaron los rangos de precios y superficies.
+Se imputaron valores faltantes y se mejoraron las técnicas de clustering.
+Se ajustaron los gráficos para obtener representaciones más claras y se mejoraron las visualizaciones de correlación.
+En conclusión, la extracción y análisis de datos de Remax presentó una serie de desafíos, principalmente relacionados con la calidad de los datos y la consistencia de los valores. Las soluciones aplicadas permitieron mejorar tanto la extracción como la interpretación de los datos, lo que facilitó la realización de análisis más precisos y relevantes. Estas mejoras nos proporcionan un entendimiento más claro del mercado inmobiliario en Quito, permitiendo identificar tendencias y oportunidades de inversión.
+

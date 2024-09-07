@@ -30,7 +30,7 @@ def procesar_pagina(ciudad, pagina):
             # Crear la carpeta si no existe
             os.makedirs(carpeta_salida, exist_ok=True)
             
-            archivo_salida = f'{carpeta_salida}/ReMax_raw_p{pagina}_{fecha_actual}.txt'
+            archivo_salida = f'{carpeta_salida}/Remax_raw_p{pagina}_{fecha_actual}.txt'
             
             with open(archivo_salida, 'w', encoding='utf-8') as archivo:
                 archivo.write(f"Datos de la página {pagina} de {ciudad} obtenidos el {fecha_actual}:\n")
