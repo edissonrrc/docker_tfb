@@ -6,6 +6,11 @@ from bs4 import BeautifulSoup
 def limpiar_texto(texto):
     return re.sub(r'\s+', ' ', texto).strip()
 
+def extraer_numeros(texto):
+    """Extrae solo los números de un texto"""
+    numeros = re.findall(r'\d+', texto)
+    return ''.join(numeros) if numeros else 'N/A'
+
 # Función para procesar el archivo de texto y extraer los datos
 def procesar_txt_a_csv(archivo_txt, archivo_csv):
     with open(archivo_txt, 'r', encoding='utf-8') as archivo:
@@ -16,10 +21,8 @@ def procesar_txt_a_csv(archivo_txt, archivo_csv):
     
     with open(archivo_csv, 'w', newline='', encoding='utf-8') as csvfile:
         escritor_csv = csv.writer(csvfile, delimiter='|')
-        # Escribir encabezado con todos los campos extraíbles
+        # Escribir encabezado con los campos relevantes (sin Título ni Etiqueta Proyecto)
         escritor_csv.writerow([
-            'Título', 
-            'Etiqueta Proyecto', 
             'Precio', 
             'Ubicación', 
             'Área', 
@@ -30,38 +33,41 @@ def procesar_txt_a_csv(archivo_txt, archivo_csv):
         ])
 
         for propiedad in propiedades:
-            # Extraer título
-            titulo = limpiar_texto(propiedad.find("div", {"class": "listing-card__title"}).text) if propiedad.find("div", {"class": "listing-card__title"}) else 'N/A'
-            
-            # Extraer etiqueta de proyecto
+            # Extraer etiqueta de proyecto y excluir si es "PROYECTO"
             etiqueta_proyecto = limpiar_texto(propiedad.find("div", {"class": "listing-card__project-label"}).text) if propiedad.find("div", {"class": "listing-card__project-label"}) else 'N/A'
-
-            # Extraer precio
-            precio = limpiar_texto(propiedad.find("div", {"class": "price"}).text) if propiedad.find("div", {"class": "price"}) else 'N/A'
+            if etiqueta_proyecto == 'PROYECTO':
+                continue  # Saltar propiedades que sean proyectos
             
+            # Extraer precio y dejar solo los números
+            precio = limpiar_texto(propiedad.find("div", {"class": "price"}).text) if propiedad.find("div", {"class": "price"}) else 'N/A'
+            precio = extraer_numeros(precio)
+
             # Extraer ubicación
             ubicacion = limpiar_texto(propiedad.find("div", {"class": "listing-card__location"}).text) if propiedad.find("div", {"class": "listing-card__location"}) else 'N/A'
-            
-            # Extraer área (verificando que el span exista después del div)
+
+            # Extraer área y dejar solo los números
             area_div = propiedad.find("div", {"class": "card-icon__area"})
             area = limpiar_texto(area_div.find_next("span").text) if area_div and area_div.find_next("span") else 'N/A'
-            
-            # Extraer habitaciones (verificando el span content)
+            area = extraer_numeros(area)
+
+            # Extraer habitaciones y dejar solo los números
             habitaciones_span = propiedad.find("div", {"class": "card-icon__bedrooms"}).find_next("span", {"content": True})
             habitaciones = limpiar_texto(habitaciones_span.text) if habitaciones_span else 'N/A'
-            
-            # Extraer baños (verificando el span content)
+            habitaciones = extraer_numeros(habitaciones)
+
+            # Extraer baños y dejar solo los números
             banos_span = propiedad.find("div", {"class": "card-icon__bathrooms"}).find_next("span", {"content": True})
             banos = limpiar_texto(banos_span.text) if banos_span else 'N/A'
-            
+            banos = extraer_numeros(banos)
+
             # Extraer agencia
             agencia = limpiar_texto(propiedad.find("div", {"class": "listing-card__agency-name"}).text) if propiedad.find("div", {"class": "listing-card__agency-name"}) else 'N/A'
-            
+
             # Extraer fecha de publicación
             fecha_publicacion = limpiar_texto(propiedad.find("div", {"class": "listing-card__published-date"}).text) if propiedad.find("div", {"class": "listing-card__published-date"}) else 'N/A'
 
-            # Escribir fila en el CSV
-            escritor_csv.writerow([titulo, etiqueta_proyecto, precio, ubicacion, area, habitaciones, banos, agencia, fecha_publicacion])
+            # Escribir fila en el CSV (sin el campo de Título ni Etiqueta Proyecto)
+            escritor_csv.writerow([precio, ubicacion, area, habitaciones, banos, agencia, fecha_publicacion])
 
     print(f"Datos procesados y guardados en {archivo_csv}")
 

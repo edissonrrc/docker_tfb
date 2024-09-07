@@ -1,0 +1,92 @@
+Documentación de los Procesos para FazWaz: Extracción y Análisis Exploratorio
+I. Extracción de Datos desde FazWaz
+1. Creación del Script de Extracción
+Se desarrolló un script en Python utilizando las bibliotecas BeautifulSoup y re para extraer los datos de las propiedades listadas en el sitio web FazWaz. El objetivo era convertir los archivos de texto crudo (.txt) en archivos CSV estructurados para un análisis más sencillo.
+
+2. Funcionalidad del Script de Extracción
+Lectura de los archivos crudos: Se leyó el contenido HTML desde los archivos .txt utilizando BeautifulSoup.
+Limpieza de Datos: Se creó la función limpiar_texto para normalizar los datos extraídos, eliminando caracteres innecesarios y espacios en blanco.
+Extracción de Datos:
+Precio: Se extrajo el precio de la propiedad eliminando los símbolos monetarios y dejando solo los valores numéricos.
+Título: Inicialmente se capturó el título descriptivo de la propiedad.
+Ubicación: Se extrajo el campo de ubicación, obteniendo la ciudad y el área donde se encontraba la propiedad.
+Precio por m²: Este campo fue extraído y limpiado, eliminando paréntesis y símbolos innecesarios.
+Área: Se capturó el valor de la superficie habitable en metros cuadrados (m²), eliminando el sufijo de unidad.
+Habitaciones y Baños: Ambos campos se extrajeron y limpiaron para tener solo valores numéricos.
+Extras: Se obtuvieron características adicionales de las propiedades, como "Vista de la Montaña" o "Piscina Privada", consolidando estos datos en un campo "Extras".
+Última Actualización: Se extrajo la fecha de la última actualización del listado.
+Tipo de Propiedad y Enlace de Propiedad: Estos campos proporcionan información adicional, como el tipo de propiedad (e.g., "Apartamento") y el enlace directo a la publicación en el sitio web de FazWaz.
+3. Resultado del Proceso de Extracción
+El script guardó los datos procesados en archivos CSV con los siguientes campos:
+
+Precio
+Título
+Ubicación
+Precio por m²
+Área
+Habitaciones
+Baños
+Descripción Características
+Descripción Título
+Última Actualización
+Tipo de Propiedad
+Enlace de Propiedad
+Extras
+Los archivos fueron guardados en la carpeta de salida correspondiente (e.g., data/csv).
+
+II. Análisis Exploratorio de los Datos Extraídos
+1. Análisis de la Estructura de los Datos
+Verificación del Tipo de Datos: Utilizamos pandas para cargar los archivos CSV generados y verificamos los tipos de datos. Se observó que los campos relevantes, como "Precio", "Área", "Habitaciones" y "Baños", eran numéricos, mientras que otros campos como "Ubicación" y "Extras" eran de tipo object.
+
+python
+Copiar código
+df_fazwaz.info()
+2. Limpieza Adicional de Datos
+Aunque la mayoría de los campos estaban ya en formato limpio, realizamos algunos ajustes adicionales:
+
+Se eliminaron posibles símbolos o caracteres no deseados de los valores numéricos utilizando expresiones regulares para los campos "Precio", "Área", "Habitaciones" y "Baños".
+3. Visualización de los Datos
+Para comprender mejor la distribución de las propiedades y su relación con diversas variables, generamos varias visualizaciones usando matplotlib y seaborn.
+
+4. Gráficos Generados
+A) Distribución de Precios por Número de Habitaciones
+
+Observación General: La gráfica de caja muestra cómo varía el precio según el número de habitaciones.
+Conclusiones:
+Las propiedades de 1 habitación están mayormente concentradas entre $100,000 y $150,000.
+Las propiedades de 2 y 3 habitaciones muestran una mayor variabilidad en precio.
+Las propiedades de 4 habitaciones tienen menos datos, con una distribución más estable.
+Recomendación: Realizar análisis de factores como ubicación y amenidades para entender mejor la variabilidad.
+
+B) Relación entre Precio y Área
+
+Observación General: Se observa una correlación positiva entre el tamaño de la propiedad y su precio.
+Conclusiones:
+Las propiedades más grandes tienden a tener precios más elevados.
+Hay algunas propiedades de mayor tamaño con precios menores, lo que puede indicar factores como la ubicación.
+Recomendación: Un análisis de regresión puede ayudar a cuantificar la relación entre el área y el precio.
+
+C) Distribución del Precio por m²
+
+Observación General: Se visualiza la distribución del precio por m², lo que nos permite ver la variabilidad en los costos por área.
+Conclusiones:
+La mayoría de las propiedades tienen precios por m² que oscilan entre $1000 y $2500.
+Se observan algunas propiedades con precios por m² muy bajos, lo que podría ser un reflejo de una menor demanda o menor calidad de construcción.
+Recomendación: Evaluar las ubicaciones y tipos de propiedades para identificar oportunidades de inversión.
+
+D) Distribución de Precios de Propiedades
+
+Observación General: Este histograma muestra cómo se distribuyen los precios de las propiedades en nuestro dataset.
+Conclusiones:
+La mayoría de las propiedades se encuentran en el rango de $150,000 a $300,000.
+Hay algunas propiedades en rangos de precio más altos, aunque son menos comunes.
+Recomendación: Identificar las características que justifican los precios más altos para aprovechar oportunidades en este segmento.
+
+5. Conclusión General del Análisis Exploratorio
+El análisis exploratorio de los datos de FazWaz revela patrones interesantes en cuanto al precio, la ubicación y las características de las propiedades. Entre los hallazgos más relevantes se encuentran:
+
+La fuerte correlación entre el área y el precio de la propiedad, lo cual sigue la lógica esperada.
+La variabilidad del precio en propiedades con más habitaciones, lo que sugiere la necesidad de considerar otros factores como ubicación y amenidades para entender la dispersión.
+La mayoría de las propiedades se concentran en el segmento medio de precios, con un mercado algo limitado en el extremo alto.
+Sería recomendable realizar un análisis de regresión para cuantificar la relación entre precio, área y otros factores clave.
+Este análisis exploratorio nos ha permitido identificar patrones y áreas de interés que podrían ser investigadas más a fondo en estudios futuros.
