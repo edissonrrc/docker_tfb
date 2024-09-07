@@ -53,3 +53,96 @@ Se eliminaron campos innecesarios como el "ID" y la "fecha de captura" en los ar
 4. Documentación adicional:
 Para cada script, se añadió una función que imprime los atributos de las propiedades extraídas, permitiendo una fácil verificación visual del contenido procesado.
 Este conjunto de scripts ahora permite un scraping eficiente y procesamiento de información de propiedades desde archivos HTML descargados, con salida en formato CSV organizada y estructurada para análisis posterior.
+
+
+Documentación del Proceso de Extracción de Datos de Sitios Web de Propiedades Inmobiliarias y Soluciones a Problemas
+Este documento detalla los problemas encontrados y las soluciones implementadas al trabajar con sitios web de propiedades como Remax, Mitula, y Plusvalia. El objetivo principal fue extraer datos de propiedades para almacenarlos en archivos CSV. A continuación, se describe cada problema, su solución y las estrategias utilizadas para mejorar la eficiencia del proceso.
+
+1. Remax: Extracción de Datos
+Problema:
+HTML Dinámico: El sitio web de Remax cargaba algunos de sus datos de manera dinámica, lo que dificultaba extraerlos directamente del código HTML.
+Solución:
+Se utilizó BeautifulSoup para analizar el código HTML, seleccionando los elementos HTML adecuados mediante soup.select().
+Implementamos un sistema de extracción en dos fases:
+Descarga Cruda del HTML: Primero se descargó el código HTML de cada página y se guardó en archivos de texto.
+Extracción de Atributos desde el HTML: Luego se procesaron esos archivos para extraer los datos clave como precios, ubicación, agente, entre otros, utilizando expresiones regulares y BeautifulSoup.
+Atributos Extraídos:
+Precio.
+Expensas.
+Dirección.
+Superficie total y cubierta.
+Ambientes, baños.
+Descripción y datos del agente.
+Solución Técnica:
+python
+Copiar código
+# Ejemplo de código para seleccionar propiedades en Remax
+propiedades = soup.select('qr-card-property')
+for propiedad in propiedades:
+    precio = propiedad.select_one('.card__price').text
+    # Otros atributos similares...
+2. Mitula: Captcha y Extracción de Datos
+Problema 1: Captcha
+Bloqueo por Captcha: En muchas ocasiones, al intentar acceder al sitio de Mitula, aparecía una página con un captcha que impedía el scraping directo.
+Solución:
+Para sortear este obstáculo, se realizaron accesos manuales a las páginas y se guardaron los HTML en archivos .txt para procesarlos posteriormente. Esto evitó tener que interactuar con el captcha directamente durante el scraping automatizado.
+Problema 2: No se Encontraban Propiedades
+Selección Incorrecta de Elementos HTML: Las primeras selecciones de elementos HTML no capturaban las propiedades correctamente.
+Solución:
+Se revisó el código HTML con más detalle, ajustando los selectores de BeautifulSoup y las expresiones regulares para capturar con precisión los elementos que contienen la información de las propiedades.
+python
+Copiar código
+# Selección ajustada de las propiedades en Mitula
+tarjetas = soup.select('div.listing.listing-card')  # Nuevo selector para Mitula
+Atributos Extraídos:
+Precio.
+Ubicación.
+Superficie.
+Habitaciones y baños.
+Instalaciones: Estacionamiento, Cocina, Jacuzzi, Seguridad, entre otros.
+Datos del agente.
+Solución Técnica:
+Para asegurarse de extraer la mayor cantidad de atributos posible, se implementaron expresiones regulares que capturan todos los elementos clave del archivo de texto descargado:
+
+python
+Copiar código
+# Expresiones regulares para extraer atributos de Mitula
+pattern_precio = re.compile(r'(\$\s?\d+(?:,\d+)*(?:\.\d+)?)')
+pattern_ubicacion = re.compile(r'data-location="([^"]+)"')
+# Otros patrones para habitaciones, baños, etc.
+3. Plusvalia: Problemas con el Formato de los Archivos
+Problema:
+Formato HTML Complejo: El HTML de Plusvalia incluía muchas capas y estructuras no estandarizadas, lo que hacía difícil seleccionar elementos de manera uniforme.
+Solución:
+Para este sitio, se adoptó una estrategia de post-procesamiento de archivos HTML descargados:
+Análisis manual inicial: Identificamos los patrones comunes en los HTML para realizar una selección más precisa.
+Uso de Expresiones Regulares: Dado que el formato era inconsistente, se optó por usar expresiones regulares más flexibles para capturar precios, descripciones y otros detalles.
+Solución Técnica:
+python
+Copiar código
+# Procesamiento de HTML en Plusvalia usando expresiones regulares
+pattern_precio = re.compile(r'<span class="price">(.*?)</span>')
+# Otras expresiones para capturar diferentes atributos
+4. Soluciones Generales Implementadas
+4.1. Uso de Archivos Temporales
+Se optó por un enfoque de descarga de archivos crudos antes de procesarlos, permitiendo:
+
+Evitar captchas.
+Minimizar el número de solicitudes al servidor.
+Asegurar que los datos se capturen incluso si cambia el sitio web.
+4.2. Flexibilidad con las Expresiones Regulares
+Se utilizaron expresiones regulares para extraer atributos clave cuando los selectores de HTML fallaban. Esto permitió capturar datos en sitios web con HTML menos estructurado o dinámico.
+
+4.3. Manejo de Errores y Datos Faltantes
+Dado que algunos campos no siempre están presentes, se implementó la lógica para rellenar con "N/A" cuando un dato no estaba disponible, asegurando que todos los archivos CSV tuvieran el mismo formato.
+
+Conclusión
+Los desafíos más comunes durante este proyecto fueron:
+
+Captchas: Resuelto con la descarga manual de archivos HTML crudos.
+HTML Dinámico o No Estándar: Solucionado con una combinación de expresiones regulares y selectores de BeautifulSoup bien afinados.
+Con estas estrategias, logramos extraer con éxito los atributos clave de varios sitios web de propiedades, guardando los resultados en archivos CSV listos para su análisis y uso posterior.
+
+
+
+

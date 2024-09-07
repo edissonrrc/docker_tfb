@@ -6,12 +6,12 @@ pyarrow==10.0.1
 
 
 # Librerías adicionales para análisis de datos y otros usos
-pandas==1.3.3
+pandas==2.2.2
 numpy==1.21.2
-scipy==1.7.0
+scipy==1.14.0
 scikit-learn==1.0.0
 matplotlib==3.4.0
-seaborn==0.11.0
+seaborn==0.13.2
 
 # Librerías adicionales que puedas necesitar
 grpcio-status==1.59.0
