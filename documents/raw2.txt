@@ -24,3 +24,32 @@ Preparación de scripts reutilizables:
 
 Se finalizó con un script que permite realizar el scraping en varias páginas, especificando la ciudad y la cantidad de páginas a iterar. El script extrae los datos relevantes y los guarda en un archivo de texto y en un CSV para un procesamiento más sencillo en el futuro.
 De esta manera, se completó una solución para el scraping de propiedades en la página de RE/MAX, adaptada a las necesidades de extracción de datos y almacenamiento.
+
+
+
+DOCS DE EXTRACTORES
+
+1. Modificación y creación de extractores de datos para portales inmobiliarios:
+Se han modificado y creado extractores de datos para tres portales principales: Properati, Fazwaz y Plusvalía. El objetivo principal fue desarrollar scripts en Python que permitieran la extracción de información de propiedades desde archivos HTML descargados. Los extractores se encargan de:
+
+Identificar archivos HTML en directorios específicos.
+Extraer atributos relevantes de cada propiedad (precio, ubicación, habitaciones, baños, área, precio por metro cuadrado, entre otros).
+Generar archivos CSV con la información extraída, manteniendo la estructura de los archivos originales y agregando la fecha y hora del procesamiento en el nombre de los archivos CSV.
+1.1. Extractores para Properati y Fazwaz:
+Properati: Se implementó un extractor que obtiene datos desde HTML descargados. El script busca archivos HTML en la carpeta de entrada y guarda los resultados en formato CSV en la carpeta de salida. Los atributos extraídos incluyen: precio, ubicación, habitaciones, baños, área, precio por m², fecha de publicación y descripción. El nombre del archivo CSV de salida conserva la fecha y hora de procesamiento.
+
+Fazwaz: Similar a Properati, se creó un extractor que recoge atributos clave de las propiedades como precio, ubicación, características del inmueble y otras especificaciones relevantes. El archivo de salida también sigue el formato CSV y conserva la fecha y hora.
+
+1.2. Plusvalía Extract:
+Plusvalía: En este caso, el script procesa archivos HTML descargados con información de propiedades de Plusvalía. Se extrajeron atributos como precio, ubicación, habitaciones, baños, área, precio por metro cuadrado, fecha de publicación y descripciones. Se añadió la capacidad de buscar automáticamente todos los archivos HTML que comiencen con "Plusvalia" en la carpeta de origen y se aseguró que los archivos CSV de salida mantengan la fecha y hora en su nombre.
+2. Modificaciones y mejoras en los extractores:
+Se revisaron y ajustaron las clases CSS y etiquetas HTML utilizadas en el proceso de scraping para que correspondan con la estructura de los archivos HTML de cada plataforma.
+Se implementó una lógica para normalizar las listas de atributos (completar listas con valores "N/A" en caso de que falten algunos datos) y asegurar que los archivos CSV tengan una estructura consistente.
+Los extractores fueron diseñados para ser reutilizables y modulares, lo que permite fácilmente agregar más archivos o ajustar la extracción según cambios futuros en las plataformas.
+3. Corrección de errores en scripts:
+Se solucionaron errores relacionados con la localización de archivos, como rutas incorrectas o problemas de búsqueda de archivos HTML.
+Se ajustaron las rutas de salida para que los archivos CSV se guarden en las carpetas correspondientes (data/csv/).
+Se eliminaron campos innecesarios como el "ID" y la "fecha de captura" en los archivos CSV finales, siguiendo las preferencias del usuario.
+4. Documentación adicional:
+Para cada script, se añadió una función que imprime los atributos de las propiedades extraídas, permitiendo una fácil verificación visual del contenido procesado.
+Este conjunto de scripts ahora permite un scraping eficiente y procesamiento de información de propiedades desde archivos HTML descargados, con salida en formato CSV organizada y estructurada para análisis posterior.
