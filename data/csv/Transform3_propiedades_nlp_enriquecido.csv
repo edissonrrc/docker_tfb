@@ -1,0 +1,289 @@
+captura,precio,agencia,aseos,zona,superficie,habitaciones,gastos,extras
+2024-09-06,150000.0,Fazwaz,1.5,"Quito, Quito",68.0,1.0,,"Vista, Vista, Parque, Mascotas, Piscina, Jacuzzi, Gimnasio, Parque, terraza, balcón"
+2024-09-06,266026.0,Fazwaz,3.0,"Cumbaya, Quito",139.0,3.0,,sin extra
+2024-09-06,255391.0,Fazwaz,3.0,"Cumbaya, Quito",136.0,3.0,,sin extra
+2024-09-06,242238.0,Fazwaz,2.0,"Cumbaya, Quito",124.0,2.0,,sin extra
+2024-09-06,252403.0,Fazwaz,2.0,"Cumbaya, Quito",130.0,2.0,,sin extra
+2024-09-06,258807.0,Fazwaz,2.0,"Cumbaya, Quito",134.0,2.0,,sin extra
+2024-09-06,256289.0,Fazwaz,2.0,"Cumbaya, Quito",113.0,2.0,,sin extra
+2024-09-06,312493.0,Fazwaz,3.0,"Cumbaya, Quito",143.0,3.0,,sin extra
+2024-09-06,290671.0,Fazwaz,3.0,"Cumbaya, Quito",146.0,3.0,,sin extra
+2024-09-06,238308.0,Fazwaz,2.0,"Cumbaya, Quito",122.0,2.0,,sin extra
+2024-09-06,285968.0,Fazwaz,2.0,"Cumbaya, Quito",120.0,2.0,,sin extra
+2024-09-06,152865.0,Fazwaz,1.0,"Cumbaya, Quito",63.0,1.0,,sin extra
+2024-09-06,284089.0,Fazwaz,2.0,"Cumbaya, Quito",128.0,2.0,,sin extra
+2024-09-06,499000.0,Fazwaz,3.0,"Quito, Quito",760.01,3.0,,sin extra
+2024-09-06,271626.0,Fazwaz,3.0,"Cumbaya, Quito",139.0,3.0,,sin extra
+2024-09-06,159263.0,Fazwaz,1.0,"Cumbaya, Quito",63.0,1.0,,sin extra
+2024-09-06,180000.0,Fazwaz,3.0,"Quito, Quito",228.0,4.0,,sin extra
+2024-09-06,99700.0,Fazwaz,2.0,"Quito, Quito",95.0,3.0,,sin extra
+2024-09-06,252434.0,Fazwaz,2.0,"Cumbaya, Quito",113.0,2.0,,sin extra
+2024-09-06,70000.0,Fazwaz,2.0,"Quito, Quito",115.0,3.0,,sin extra
+2024-09-06,140000.0,Fazwaz,2.0,"Quito, Quito",95.0,3.0,,sin extra
+2024-09-06,264110.0,Fazwaz,2.0,"Conocoto, Quito",148.53,3.0,,sin extra
+2024-09-06,323400.0,Fazwaz,2.0,"Cumbaya, Quito",147.1,3.0,,sin extra
+2024-09-06,174402.0,Fazwaz,2.0,"Quito, Quito",101.82,3.0,,sin extra
+2024-09-06,323125.0,Fazwaz,2.0,"Cumbaya, Quito",134.0,3.0,,sin extra
+2024-09-06,158197.0,Fazwaz,2.0,"Quito, Quito",96.83,3.0,,sin extra
+2024-09-06,407925.0,Fazwaz,2.0,"Cumbaya, Quito",166.0,3.0,,sin extra
+2024-09-06,220000.0,Fazwaz,4.0,"Quito, Quito",155.0,4.0,,"Bellavista, Bellavista"
+2024-09-06,216720.0,Fazwaz,2.0,"Tumbaco, Quito",129.0,2.0,,sin extra
+2024-09-06,131090.0,Fazwaz,1.0,"Quito, Quito",64.0,1.0,,sin extra
+2024-09-06,237920.0,Fazwaz,2.0,"Quito, Quito",110.0,3.0,,sin extra
+2024-09-06,318050.0,Fazwaz,2.0,"Cumbaya, Quito",127.0,3.0,,sin extra
+2024-09-06,302150.0,Fazwaz,2.0,"Cumbaya, Quito",117.5,3.0,,sin extra
+2024-09-06,188203.0,Fazwaz,2.0,"Cumbaya, Quito",98.0,2.0,,sin extra
+2024-09-06,75000.0,Fazwaz,1.0,"Quito, Quito",106.0,3.0,,sin extra
+2024-09-06,326350.0,Fazwaz,2.0,"Cumbaya, Quito",154.85,3.0,,sin extra
+2024-09-06,180331.0,Fazwaz,2.0,"Cumbaya, Quito",98.0,2.0,,sin extra
+2024-09-06,95000.0,Fazwaz,3.0,"Quito, Quito",105.0,3.0,,sin extra
+2024-09-06,321278.0,Fazwaz,2.0,"Quito, Quito",165.0,2.0,,sin extra
+2024-09-06,228000.0,Fazwaz,4.0,"Quito, Quito",200.0,4.0,,sin extra
+2024-09-06,91000.0,Fazwaz,2.0,"Pomasqui, Quito",102.0,2.0,,sin extra
+2024-09-06,389858.0,Fazwaz,3.0,"Cumbaya, Quito",182.0,3.0,,sin extra
+2024-09-06,240000.0,Fazwaz,3.0,"Quito, Quito",138.0,3.0,,sin extra
+2024-09-06,271050.0,Fazwaz,2.0,"Cumbaya, Quito",109.0,2.0,,sin extra
+2024-09-06,123480.0,Fazwaz,1.0,"Tumbaco, Quito",71.0,1.0,,sin extra
+2024-09-06,238000.0,Fazwaz,2.0,"Quito, Quito",152.0,3.0,,sin extra
+2024-09-06,125000.0,Fazwaz,1.0,"Quito, Quito",150.0,1.0,,sin extra
+2024-09-06,264100.0,Fazwaz,2.0,"Cumbaya, Quito",134.0,3.0,,sin extra
+2024-09-06,159696.0,Fazwaz,1.0,"Quito, Quito",100.0,2.0,,sin extra
+2024-09-06,143000.0,Fazwaz,1.0,"Cumbaya, Quito",66.0,1.0,,sin extra
+2024-09-06,345150.0,Fazwaz,2.0,"Cumbaya, Quito",134.5,3.0,,sin extra
+2024-09-06,323400.0,Fazwaz,2.0,"Cumbaya, Quito",147.1,3.0,,sin extra
+2024-09-06,216045.0,Fazwaz,2.0,"Tumbaco, Quito",129.0,2.0,,sin extra
+2024-09-06,297850.0,Fazwaz,2.0,"Cumbaya, Quito",123.5,3.0,,sin extra
+2024-09-06,132240.0,Fazwaz,1.0,"Tumbaco, Quito",79.0,1.0,,sin extra
+2024-09-06,195045.0,Fazwaz,2.0,"Tumbaco, Quito",119.0,2.0,,sin extra
+2024-09-06,324700.0,Fazwaz,2.0,"Cumbaya, Quito",128.0,3.0,,sin extra
+2024-09-06,328850.0,Fazwaz,2.0,"Cumbaya, Quito",131.0,3.0,,sin extra
+2024-09-06,140525.0,Fazwaz,2.0,"Quito, Quito",90.72,2.0,,sin extra
+2024-09-06,169922.0,Fazwaz,2.0,"Quito, Quito",101.82,3.0,,sin extra
+2024-09-07,188075.0,Intramuros Constructora,2.0,Distrito Metropolitano de Quito,101.0,2.0,,sin extra
+2024-09-07,156000.0,Emma Barragán,3.0,Distrito Metropolitano de Quito,110.0,2.0,,"Estacionamiento, Balcón, Jacuzzi, Vista, Patio, Terraza, Seguridad, Gimnasio, Piscina, Ascensor, Sauna, Jardín"
+2024-09-07,220920.0,GS CONSTRUCCIONES Y BIENES RAÍCES,3.0,Distrito Metropolitano de Quito,105.0,2.0,,"Estacionamiento, Balcón, Jacuzzi, Vista, Seguridad, Piscina, Ascensor, Jardín, Bellavista"
+2024-09-07,135000.0,GS CONSTRUCCIONES Y BIENES RAÍCES,2.0,Distrito Metropolitano de Quito,100.0,3.0,,"Estacionamiento, Jacuzzi, Vista, Terraza, Seguridad, Gimnasio, Piscina, Ascensor, Sauna, Jardín, Bellavista"
+2024-09-07,280000.0,GS CONSTRUCCIONES Y BIENES RAÍCES,5.0,Distrito Metropolitano de Quito,341.0,3.0,,"Estacionamiento, Terraza, Gimnasio, Ascensor, Jardín, Terraza, Bellavista"
+2024-09-07,150000.0,GS CONSTRUCCIONES Y BIENES RAÍCES,2.0,Distrito Metropolitano de Quito,98.0,2.0,,"Estacionamiento, Terraza, Gimnasio, Ascensor, Bellavista"
+2024-09-07,124000.0,GS CONSTRUCCIONES Y BIENES RAÍCES,3.0,Distrito Metropolitano de Quito,144.0,3.0,,"Estacionamiento, Vista, Terraza, Seguridad, Ascensor"
+2024-09-07,270000.0,Inmoejecutivos,3.0,Distrito Metropolitano de Quito,164.0,2.0,,"Estacionamiento, Ascensor, Vista"
+2024-09-07,220000.0,Inmoejecutivos,2.0,Distrito Metropolitano de Quito,155.0,3.0,,"Estacionamiento, Balcón, Jacuzzi, Vista, Patio, Terraza, Seguridad, Gimnasio, Piscina, Ascensor, Sauna, Jardín"
+2024-09-07,98000.0,FREDDY CABRERA - BIENES RAÍCES,3.0,Distrito Metropolitano de Quito,95.0,3.0,,"Estacionamiento, Balcón, Vista, Patio, Terraza, Seguridad, Gimnasio, Ascensor, Jardín"
+2024-09-07,683000.0,Proyectos con Futuro,5.0,Distrito Metropolitano de Quito,527.0,4.0,,"Estacionamiento, Seguridad, Gimnasio, Ascensor, Vista, Patio"
+2024-09-07,118000.0,Inmoejecutivos,2.0,Distrito Metropolitano de Quito,120.0,3.0,,"Estacionamiento, Balcón, Jacuzzi, Vista, Patio, Terraza, Seguridad, Gimnasio, Piscina, Ascensor, Sauna, Jardín, Gaspar"
+2024-09-07,149600.0,Intramuros Constructora,3.0,Distrito Metropolitano de Quito,86.0,2.0,,"Estacionamiento, Vista, Patio, Terraza, Seguridad, Ascensor"
+2024-09-07,229000.0,Inmoejecutivos,2.0,Distrito Metropolitano de Quito,186.0,2.0,,"Estacionamiento, Balcón, Jacuzzi, Vista, Patio, Terraza, Seguridad, Gimnasio, Ascensor, Sauna, Jardín, Jardín"
+2024-09-07,106515.0,Intramuros Constructora,1.0,Distrito Metropolitano de Quito,55.0,1.0,,"Estacionamiento, Jacuzzi, Patio, Terraza, Seguridad, Gimnasio, Piscina, Ascensor, Sauna, Jardín"
+2024-09-07,305652.0,Intramuros Constructora,4.0,Distrito Metropolitano de Quito,159.0,3.0,,"Estacionamiento, Balcón, Jacuzzi, Vista, Patio, Terraza, Seguridad, Gimnasio, Piscina, Ascensor, Sauna, Jardín"
+2024-09-07,169000.0,AB&amp;MD Gestión Inmobiliaria By KSA,2.0,Distrito Metropolitano de Quito,97.0,2.0,,"Estacionamiento, Balcón, Jacuzzi, Vista, Patio, Terraza, Seguridad, Gimnasio, Piscina, Ascensor, Sauna, Jardín, Bellavista"
+2024-09-07,115000.0,JAO Real Estate,2.0,Distrito Metropolitano de Quito,115.0,2.0,,"Estacionamiento, Balcón, Vista, Terraza, Gimnasio, Ascensor"
+2024-09-07,145000.0,JAO Real Estate,2.0,Distrito Metropolitano de Quito,172.0,3.0,,"Estacionamiento, Balcón, Seguridad, Piscina, Ascensor, Jardín"
+2024-09-07,69000.0,JAO Real Estate,1.0,Distrito Metropolitano de Quito,74.0,1.0,,"Estacionamiento, Balcón, Terraza"
+2024-09-07,110000.0,Intramuros Constructora,2.0,Distrito Metropolitano de Quito,79.0,1.0,,"Estacionamiento, Balcón, Seguridad, Ascensor"
+2024-09-07,300551.0,Intramuros Constructora,3.0,Distrito Metropolitano de Quito,157.0,3.0,,"Estacionamiento, Balcón, Jacuzzi, Vista, Patio, Terraza, Seguridad, Gimnasio, Ascensor, Sauna, Jardín"
+2024-09-07,428502.0,Intramuros Constructora,4.0,Distrito Metropolitano de Quito,249.0,3.0,,"Estacionamiento, Balcón, Jacuzzi, Vista, Patio, Terraza, Seguridad, Gimnasio, Ascensor, Sauna, Jardín"
+2024-09-07,627486.0,Intramuros Constructora,4.0,Distrito Metropolitano de Quito,464.0,3.0,,"Estacionamiento, Balcón, Jacuzzi, Vista, Patio, Terraza, Seguridad, Gimnasio, Piscina, Ascensor, Sauna, Jardín"
+2024-09-07,140056.0,Intramuros Constructora,2.0,Distrito Metropolitano de Quito,88.0,1.0,,"Estacionamiento, Balcón, Jacuzzi, Vista, Patio, Terraza, Seguridad, Gimnasio, Piscina, Ascensor, Sauna, Jardín"
+2024-09-07,130710.0,Intramuros Constructora,2.0,Distrito Metropolitano de Quito,68.0,1.0,,"Estacionamiento, Balcón, Jacuzzi, Vista, Patio, Terraza, Seguridad, Gimnasio, Piscina, Ascensor, Sauna, Jardín"
+2024-09-07,181342.0,Intramuros Constructora,2.0,Distrito Metropolitano de Quito,95.0,2.0,,"Estacionamiento, Balcón, Jacuzzi, Vista, Patio, Terraza, Seguridad, Gimnasio, Piscina, Ascensor, Sauna, Jardín"
+2024-09-07,90000.0,Adriana Tipán,3.0,Distrito Metropolitano de Quito,137.0,3.0,,"Estacionamiento, Balcón, Jacuzzi, Vista, Patio, Terraza, Seguridad, Gimnasio, Piscina, Ascensor, Sauna, Jardín"
+2024-09-07,253500.0,Adriana Tipán,3.0,Distrito Metropolitano de Quito,185.0,3.0,,"Seguridad, Ascensor"
+2024-09-07,134000.0,Emma Barragán,3.0,Distrito Metropolitano de Quito,136.0,3.0,,"Estacionamiento, Seguridad, Parque"
+2024-09-07,280000.0,GS CONSTRUCCIONES Y BIENES RAÍCES,5.0,Distrito Metropolitano de Quito,341.0,3.0,,"Terraza, Bellavista"
+2024-09-07,150000.0,GS CONSTRUCCIONES Y BIENES RAÍCES,2.0,Distrito Metropolitano de Quito,98.0,2.0,,"Estacionamiento, Terraza, Gimnasio, Ascensor, Bellavista"
+2024-09-07,110000.0,Johanna Chalen - Remax Impacta,4.0,Distrito Metropolitano de Quito,183.0,3.0,,"Estacionamiento, Vista, Terraza, Seguridad, Ascensor"
+2024-09-07,96900.0,Emerson Medina - Inmoimpakto,2.0,Distrito Metropolitano de Quito,105.0,2.0,,"Estacionamiento, Jardín, Patio"
+2024-09-07,95000.0,Cbr. Ximena Loma - Bienes Raíces LM,3.0,Distrito Metropolitano de Quito,140.0,3.0,,Patio
+2024-09-07,95000.0,Cbr. Ximena Loma - Bienes Raíces LM,3.0,Distrito Metropolitano de Quito,140.0,3.0,,"Estacionamiento, Terraza, Seguridad, Ascensor"
+2024-09-07,50000.0,Diego Germán Unda - Remax Impacta,1.0,Distrito Metropolitano de Quito,74.0,3.0,,"Estacionamiento, Seguridad, Ascensor"
+2024-09-07,150000.0,Carolina Silva,3.0,Distrito Metropolitano de Quito,308.0,3.0,,"Estacionamiento, Patio, Terraza, Seguridad"
+2024-09-07,136000.0,Fernando Falconi,2.0,Distrito Metropolitano de Quito,93.0,3.0,,"Estacionamiento, Balcón, Vista, Patio, Terraza, Seguridad, Jardín"
+2024-09-07,136000.0,Fernando Falconi,2.0,Distrito Metropolitano de Quito,93.0,3.0,,"Estacionamiento, Vista, Seguridad, Ascensor"
+2024-09-07,150000.0,Carolina Silva,2.0,Distrito Metropolitano de Quito,128.0,2.0,,"Estacionamiento, Vista, Seguridad, Ascensor"
+2024-09-07,450000.0,Carolina Silva,4.0,Distrito Metropolitano de Quito,200.0,3.0,,"Estacionamiento, Balcón, Vista, Terraza, Seguridad, Gimnasio, Ascensor, Jardín"
+2024-09-07,157899.0,Andres Altamirano,2.0,Distrito Metropolitano de Quito,87.0,2.0,,"Estacionamiento, Balcón, Calefacción, Jacuzzi, Vista, Patio, Terraza, Seguridad, Gimnasio, Piscina, Ascensor, Sauna, Jardín, Vista"
+2024-09-07,246286.0,Andres Altamirano,3.0,Distrito Metropolitano de Quito,137.0,3.0,,"Estacionamiento, Balcón, Jacuzzi, Terraza, Seguridad, Gimnasio, Ascensor, Sauna, Vista"
+2024-09-07,112000.0,Ing. Roberto Alarcón,2.0,Distrito Metropolitano de Quito,105.0,3.0,,"Estacionamiento, Balcón, Jacuzzi, Terraza, Seguridad, Gimnasio, Ascensor"
+2024-09-07,380000.0,MIRAI,4.0,Distrito Metropolitano de Quito,350.0,3.0,,"Estacionamiento, Patio, Piscina, Jardín, Espada"
+2024-09-07,80000.0,MIRAI,2.0,Distrito Metropolitano de Quito,130.0,2.0,,"Estacionamiento, Jacuzzi, Patio, Seguridad, Ascensor, Jardín, Gaspar"
+2024-09-07,175000.0,MIRAI,2.0,Metropolitan District of Quito,134.0,3.0,,"Estacionamiento, Vista, Patio, Terraza, Ascensor"
+2024-09-07,640000.0,MIRAI,6.0,Quito,650.0,5.0,,"Estacionamiento, Balcón, Vista, Terraza, Piscina, Ascensor"
+2024-09-07,210000.0,MIRAI,4.0,Quito,198.0,3.0,,"Estacionamiento, Balcón, Jacuzzi, Vista, Patio, Terraza, Seguridad, Sauna, Jardín"
+2024-09-07,48000.0,GS CONSTRUCCIONES Y BIENES RAÍCES,1.0,Distrito Metropolitano de Quito,55.0,3.0,,"Estacionamiento, Balcón, Terraza, Ascensor"
+2024-09-07,118000.0,GS CONSTRUCCIONES Y BIENES RAÍCES,3.0,Distrito Metropolitano de Quito,133.0,3.0,,"Estacionamiento, Jardín"
+2024-09-07,210000.0,Horizonte Azul,6.0,Metropolitan District of Quito,209.0,7.0,,"Estacionamiento, Patio"
+2024-09-07,115000.0,Horizonte Azul,1.0,Distrito Metropolitano de Quito,102.0,3.0,,"Estacionamiento, Balcón, Jacuzzi, Patio, Terraza, Sauna"
+2024-09-07,110000.0,Horizonte Azul,3.0,Distrito Metropolitano de Quito,220.0,3.0,,"Estacionamiento, Patio, Terraza"
+2024-09-07,95000.0,Horizonte Azul,1.0,Distrito Metropolitano de Quito,91.0,2.0,,"Estacionamiento, Patio, Terraza, Ascensor"
+2024-09-07,195000.0,GS CONSTRUCCIONES Y BIENES RAÍCES,4.0,Distrito Metropolitano de Quito,156.0,3.0,,"Estacionamiento, Patio, Bellavista"
+2024-09-07,118000.0,Inmoejecutivos,2.0,Distrito Metropolitano de Quito,120.0,3.0,,"Estacionamiento, Balcón, Calefacción, Terraza, Seguridad, Gimnasio, Ascensor, Jardín, Gaspar"
+2024-09-07,229000.0,Inmoejecutivos,2.0,Distrito Metropolitano de Quito,186.0,2.0,,"Estacionamiento, Vista, Patio, Terraza, Seguridad, Ascensor, Jardín"
+2024-09-07,149600.0,Intramuros Constructora,3.0,Distrito Metropolitano de Quito,86.0,2.0,,"Estacionamiento, Jacuzzi, Patio, Terraza, Seguridad, Gimnasio, Piscina, Ascensor, Sauna, Jardín"
+2024-09-06,124900.0,Plusvalia,3.0,"Cumbayá, Quito CUMBAYÁ",,,150.0,"terraza, terraza, terraza, jardín, Gimnasio, Piscina, Parque, espacio, gimnasio, terraza, estacionamiento"
+2024-09-06,158359.0,Plusvalia,2.0,"La Carolina, Quito El Batán y Av. Eloy Alfaro",,,138.0,"balcón, parqueadero, ascensor, terraza, jacuzzi, sauna, gimnasio, vista, estacionamiento"
+2024-09-06,67686.0,Plusvalia,3.0,"Ponceano, Quito Av. Real Audiencia entre Francisco Dalmau y Moises Luna Andrade.",,,103.0,"Gimnasio, Club, Club, Spa, piscina, Parqueadero, estacionamiento"
+2024-09-06,90000.0,Plusvalia,2.0,"Cumbayá, Quito calle carchi",,,20.0,"Gimnasio, Spa, estacionamiento"
+2024-09-06,102328.0,Plusvalia,1.0,"Quito Tenis, Quito Hidalgo de Pinto y Mariano Echeverría",,,200.0,"parque, espacio, balcón, Gimnasio, Club, Spa, estacionamiento"
+2024-09-06,105000.0,Plusvalia,2.0,"Ponceano, Quito Francisco Dalmau y Calle 6",,3.0,,"vista, gimnasio, ascensor, parqueaderos, parqueadero, Ascensor, gimnasio, Terraza, Seguridad, Parqueaderos, estacionamiento"
+2024-09-06,176300.0,Plusvalia,2.0,"Puembo, Quito TEOFILO CARRERA Y HERMANOS BRAUER",,,,"piscina, jacuzzi, estacionamiento, estacionamiento"
+2024-09-06,80389.0,Plusvalia,2.0,"Cumbayá, Quito Giovanni Boccaccio",,,,"vista, vista, terraza, estacionamiento"
+2024-09-06,78302.0,Plusvalia,3.0,"Norte de Quito, Quito Julio Arellano y Malvas",,,200.0,"Parques, Ascensor, Jacuzzi, Terraza, Espacio, gimnasio, Parqueadero, estacionamiento"
+2024-09-06,186000.0,Plusvalia,3.0,"La Carolina, Quito Torre Ganté - Av. Portugal (La Carolina) - Centro Norte - Entrega Inmediata",157.0,,220.0,"balcón, espacio, Parque, Parque, Cines, Terraza, Vista, Jacuzzi, Sauna, Club, Space, Vista, Parqueaderos, Parqueaderos, ascensor, Domótica, Españoles, estacionamiento"
+2024-09-06,234900.0,Plusvalia,2.0,"González Suárez, Quito Gonzàlez Suàrez",100.0,3.0,94.0,"Balcón, Balcón, vista, Balcón, Balcón, Balcón, Parqueaderos, Ascensores, Jacuzzi, Terraza, Gimnasio, estacionamiento"
+2024-09-06,110000.0,Plusvalia,2.0,"Iñaquito Alto, Quito Iñaquito Alto S/N",140.0,2.0,65.0,"balcón, parqueadero, piscina, Gimnasio, estacionamiento"
+2024-09-06,195000.0,Plusvalia,3.0,"Centro Norte, Quito Suecia",109.0,3.0,1.0,"terraza, jardín, parqueadero, estacionamiento"
+2024-09-06,49300.0,Plusvalia,1.0,"Sur de Quito, Quito Ciudad Jardín",69.0,1.0,,"Jardín, espacio, Espacio, Parqueadero, Jardín, Jardín, seguridad, parque, parque, estacionamiento"
+2024-09-06,135000.0,Plusvalia,2.0,"La Orellana, Quito Invierte en Torres JW Marriott Exclusividad Para ti",105.0,1.0,135.0,"parque, gimnasio, parqueadero-, terraza-, piscinaamenities, Gimnasio•Piscina, Spa•, Ascensor, cine, Terraza, espacio, estacionamiento"
+2024-09-06,213855.0,Plusvalia,2.0,"Cumbayá, Quito Av. Miguel Ángel, La Primavera 1",94.0,2.0,98.0,"parque, piscina, terraza, jardín, balcón, jardín, parqueadero, balcón, estacionamiento"
+2024-09-06,148000.0,Plusvalia,2.0,"Cumbayá, Quito CUMBAYA - LA PRIMAVERA 2",130.0,2.0,105.0,"parque, Balcón, parqueaderos|, Ascensor|, estacionamiento"
+2024-09-06,194039.0,Plusvalia,2.0,"Centro Norte, Quito CALLE EL BATAN N34-41 Y ELOY ALFARO",90.0,3.0,60.0,"Parque, ascensor, estacionamiento, sauna, gimnasio, vista, terraza, espacioso, balcón, seguridad, estacionamiento"
+2024-09-06,220000.0,Plusvalia,3.0,"La Carolina, Quito Shyris y suecia",265.0,2.0,85.0,"Domótica, Seguridad, piscinar, vista, terraza, Gimnasio, Sauna, Terraza, Parqueadero, vista, balcón, Parqueadero, estacionamiento"
+2024-09-06,155000.0,Plusvalia,2.0,"La Coruña, Quito Av. Coruña y Ernesto Noboa",88.0,3.0,116.0,"balcón, parqueadero, espacioso, espacio, balcón, ascensor, estacionamiento"
+2024-09-06,135000.0,Plusvalia,,"Bosmediano, Quito Bossano",128.0,2.0,,"vista, Parqueadero, Terraza, Gimnasio, Seguridad"
+2024-09-06,125000.0,Plusvalia,,"Centro Norte, Quito Villalengua-Granda centeno",130.0,2.0,,"gimnasio, parqueo, -terraza, espacio, balcón, parqueadero"
+2024-09-06,129000.0,Plusvalia,,"Monteserrín, Quito MONTESERRIN",97.0,3.0,,"ascensor, terraza, terraza, parqueadero, ascensor"
+2024-09-06,75000.0,Plusvalia,,"La Kennedy, Quito Los pinos y Galo Plaza Lasso",83.0,3.0,,sin extra
+2024-09-06,95000.0,Plusvalia,,"La Carolina, Quito Whymper y Diego de Almagro",104.0,2.0,,"espacio, parqueadero"
+2024-09-06,112000.0,Plusvalia,,"La Coruña, Quito Vendo Deartamento 3 Habitaciones Sector La Coruña , Whymper",115.0,3.0,,parqueo
+2024-09-06,89000.0,Plusvalia,,"Ponceano, Quito Moises Luna Andrade",156.0,2.0,,"terraza, parqueadero"
+2024-09-06,98000.0,Plusvalia,,"Norte de Quito, Quito Eloy Alfaro - Sector Embajada Americana",148.0,3.0,,"seguridad, terraza, patio"
+2024-09-06,148500.0,Plusvalia,,"Monteserrín, Quito Monteserrín",160.0,3.0,,"parqueadero, terraza, ascensor, parqueaderos, seguridad"
+2024-09-06,145000.0,Plusvalia,,"Norte de Quito, Quito Monteserrin",,3.0,,"patio, parqueadero, seguridad, piscina, terraza, seguridad"
+2024-09-06,117000.0,Plusvalia,4.0,"Centro Norte, Quito Tnte. Gonzalo Galo y Gonzalo Benitez",,,1.0,"Estacionamiento, Terrazas, gimnasio, estacionamiento"
+2024-09-06,190410.0,Plusvalia,2.0,"Cumbayá, Quito QHGM+722, Quito 170184",,,,"vista, jardín, parqueadero, -piscina, -gimnasio, espacio, estacionamiento"
+2024-09-06,66000.0,Plusvalia,3.0,"Mitad del Mundo, Quito Pomasqui",69.0,3.0,190.0,"patio, estacionamiento, estacionamiento, estacionamiento, Piscina, Piscina, estacionamiento"
+2024-09-06,101661.0,Plusvalia,2.0,"Cumbayá, Quito Cumbaya",,,,"terraza, terraza, bbqgimnasiojacuzziárea, estacionamiento"
+2024-09-06,71973.0,Plusvalia,3.0,"El Bosque , Quito José Paredes y Otero sector Entre el Bosque y  el pinar",,,40.0,"patio, seguridad, espacio, terraza, vista, -gimnasio, estacionamiento"
+2024-09-06,57200.0,Plusvalia,2.0,"Quitumbe, Quito Quitumbe Ñan",,,99.0,"parques, seguridad, Club, gimnasio, estacionamiento, estacionamiento"
+2024-09-06,52000.0,Plusvalia,4.0,"Pomasqui, Quito Huiragchuros y Razu Razu",,,250.0,"club, patio, terraza, club, Piscina, club, gimnasio, estacionamiento, estacionamiento"
+2024-09-06,126640.0,Plusvalia,2.0,"Cumbayá, Quito QHHV+GVM Quito, cumbaya",,,,"parqueadero, parqueadero, -gimnasio, -piscina, -piscina, -piscina, seguridad, Ascensor, Seguridad, parqueadero, estacionamiento"
+2024-09-06,179000.0,Plusvalia,1.0,"República de El Salvador, Quito Av. República de El Salvador y Suiza",73.0,2.0,,"vista, Club, club, club, espacio, gimnasio, terraza, Espacio, esparcimiento, terraza, terraza, Solarium, ascensor, Seguridad, estacionamiento, estacionamiento"
+2024-09-06,194000.0,Plusvalia,3.0,"Centro Norte, Quito Calle El Batán y Eloy Alfaro",,3.0,228.0,"Supercines, Garaje, seguridad, gimnasio, jacuzzi, estacionamiento"
+2024-09-06,430000.0,Plusvalia,3.0,"Cumbayá, Quito Cumbaya",410.0,3.0,,"vista, terraza, terraza, Vista, balcón, balcón, parqueadero, estacionamiento"
+2024-09-06,235000.0,Plusvalia,2.0,"Cumbayá, Quito Cumbayá Francisco de Orellana",240.0,2.0,,"terraza, terraza, parqueadero, Seguridad, seguridad, estacionamiento"
+2024-09-06,279000.0,Plusvalia,2.0,"Centro Norte, Quito Departamento Venta Atelier 3 Dormitorios",150.0,3.0,85.0,"vista, AmericanaBalcón, parqueos1, piscinaárea, sauna, adultoscineárea, estacionamiento"
+2024-09-06,169900.0,Plusvalia,1.0,"Ponceano, Quito Mariano Paredes y Tadeo Benítez",163.0,3.0,20.0,"Balcón, parqueadero, espacio, cine, Seguridad, estacionamiento"
+2024-09-06,99700.0,Plusvalia,2.0,"Mariana de Jesús, Quito nuño de valderrama y mariana de jesus",133.0,3.0,137.0,"vista, vista, parque, Vista, vista, espacio, espacio, Espaciosa, espacio, gimnasio, parqueo, espacio, vista, VistaEspectacular, estacionamiento"
+2024-09-06,105000.0,Plusvalia,2.0,"La Carolina, Quito Av. Eloy Alfaro",105.0,2.0,115.0,"terraza, parqueadero, espacio, terraza, terraza, terrazar, parqueadero, estacionamiento"
+2024-09-06,339000.0,Plusvalia,2.0,"Cumbayá, Quito CITE CENTER",300.0,2.0,70.0,"balcón, piscina, parqueadero, estacionamiento"
+2024-09-06,199987.0,Plusvalia,2.0,"Cumbayá, Quito INTERVALLES",167.0,2.0,,"jardín, jardín, vista, jardín, parqueadero, Parqueadero, estacionamiento"
+2024-09-06,95000.0,Plusvalia,2.0,"Cumbayá, Quito Vendo Suite en Proyecto con la Mejor Ubicación Estratégica en el Sector de Cumbayá",61.0,1.0,1.0,"jardín, m2jardín, Parqueaderos, visitasBodegasTerraza, mascotasgimnasio, espacio"
+2024-09-06,269999.0,Plusvalia,2.0,"Centro de Quito, Quito CATALINA ALDAS Y PORTUGAL",155.0,4.0,,"estacionamiento, piscina, cine"
+2024-09-06,285000.0,Plusvalia,,"Cumbayá, Quito Renta O Venta  Departamento 3 Dormitorios - Cumbayá",170.0,3.0,,"seguridad, parque, club, balcón*cocín, Balcón, vista, parqueaderos, golf*Cines, club*Teens, Yoga*Spa, Sauna, Jacuzzi, piscinas*gimnasio, spa*solárium*salón"
+2024-09-06,146837.0,Plusvalia,,"Cumbayá, Quito General Eloy Alfaro Cumbaya a Pocos Minutos del Paseo",100.0,2.0,,"terraza, jardín, jacuzzi, terraza23, jardín$146, terraza$164"
+2024-09-06,95000.0,Plusvalia,,"Centro Norte, Quito De los Laureles",85.0,3.0,,"seguridad, gimnasio-, piscina-, Parqueadero"
+2024-09-06,43000.0,Plusvalia,,"Centro Norte, Quito San Isidro del Inca",58.0,2.0,,"Parqueaderos, Parqueadero, parqueadero"
+2024-09-06,156000.0,Plusvalia,,"Miravalle, Quito Vista Grande, Calle Eugenio Espejo",154.0,2.0,,"Vista, Vista, estacionamiento, estacionamiento, vista, espacio, estacionamiento, seguridad, Parque"
+2024-09-06,118000.0,Plusvalia,,"El Bosque , Quito Bosque",135.0,3.0,,"balcón, espacioso, parqueadero, Seguridad"
+2024-09-06,118000.0,Plusvalia,,"Cumbayá, Quito CUMBAYA, UNIVERSIDAD SAN FRANCISCO",135.0,2.0,,"seguridad, piscinar, parque, gimnasio, parqueaderos, terraza, parqueadero"
+2024-09-06,111500.0,Plusvalia,,"Cumbayá, Quito Calle Eugenio Espero, Tanda, Cumbaya",125.0,2.0,,"patio, garaje"
+2024-09-06,159000.0,Plusvalia,,"Cumbayá, Quito CUMBAYA",90.0,2.0,,"vista, piscina, ascensor, parqueadero, parqueadero"
+2024-09-06,107903.0,Plusvalia,,"San Rafael, Quito Avenida ilaló & San Juan De Dios",93.0,2.0,,"espacio, balcón, espacio, Ascensor, parqueadero, Parqueaderos, Terraza, gimnasio, sauna, vista"
+2024-09-06,149600.0,Intramuros Constructora,3.0,"Centro Norte, Quito, Pichincha",86.0,2.0,,sin extra
+2024-09-06,106515.0,Intramuros Constructora,1.0,"Cumbaya, Valle Tumbaco, Quito, Pichincha",55.0,1.0,,sin extra
+2024-09-06,305652.0,Intramuros Constructora,4.0,"Cumbaya, Valle Tumbaco, Quito, Pichincha",159.0,3.0,,sin extra
+2024-09-06,270000.0,Inmoejecutivos,3.0,"Gonzalez Suarez, Iñaquito, Centro Norte, Quito, Pichincha",164.0,2.0,,sin extra
+2024-09-06,220000.0,Inmoejecutivos,2.0,"Cumbaya, Valle Tumbaco, Quito, Pichincha",155.0,3.0,,sin extra
+2024-09-06,683000.0,Proyectos con Futuro,5.0,"Cumbaya, Valle Tumbaco, Quito, Pichincha",527.0,4.0,,sin extra
+2024-09-06,98000.0,FREDDY CABRERA - BIENES RAÍCES,3.0,"El Batan, Iñaquito, Centro Norte, Quito, Pichincha",95.0,3.0,,sin extra
+2024-09-06,110000.0,Intramuros Constructora,2.0,"Centro Norte, Quito, Pichincha",79.0,1.0,,sin extra
+2024-09-06,300551.0,Intramuros Constructora,3.0,"Centro Norte, Quito, Pichincha",157.0,3.0,,sin extra
+2024-09-06,428502.0,Intramuros Constructora,4.0,"Cumbaya, Valle Tumbaco, Quito, Pichincha",249.0,3.0,,sin extra
+2024-09-06,627486.0,Intramuros Constructora,4.0,"Cumbaya, Valle Tumbaco, Quito, Pichincha",464.0,3.0,,sin extra
+2024-09-06,140056.0,Intramuros Constructora,2.0,"Cumbaya, Valle Tumbaco, Quito, Pichincha",88.0,1.0,,sin extra
+2024-09-06,130710.0,Intramuros Constructora,2.0,"Cumbaya, Valle Tumbaco, Quito, Pichincha",68.0,1.0,,sin extra
+2024-09-06,181342.0,Intramuros Constructora,2.0,"Cumbaya, Valle Tumbaco, Quito, Pichincha",95.0,2.0,,sin extra
+2024-09-06,169279.0,Intramuros Constructora,2.0,"Cumbaya, Valle Tumbaco, Quito, Pichincha",94.0,2.0,,sin extra
+2024-09-06,202578.0,Intramuros Constructora,3.0,"Cumbaya, Valle Tumbaco, Quito, Pichincha",147.0,2.0,,sin extra
+2024-09-06,188075.0,Intramuros Constructora,2.0,"Cumbaya, Valle Tumbaco, Quito, Pichincha",101.0,2.0,,sin extra
+2024-09-06,118000.0,Inmoejecutivos,2.0,"El Batan, Iñaquito, Centro Norte, Quito, Pichincha",120.0,3.0,,sin extra
+2024-09-06,229000.0,Inmoejecutivos,2.0,"Cumbaya, Valle Tumbaco, Quito, Pichincha",186.0,2.0,,sin extra
+2024-09-06,169000.0,AB&MD Gestión Inmobiliaria By KSA,2.0,"Bellavista, Iñaquito, Centro Norte, Quito, Pichincha",97.0,2.0,,sin extra
+2024-09-06,115000.0,JAO Real Estate,2.0,"Tumbaco, Valle Tumbaco, Quito, Pichincha",115.0,2.0,,sin extra
+2024-09-06,145000.0,JAO Real Estate,2.0,"Tumbaco, Valle Tumbaco, Quito, Pichincha",172.0,3.0,,sin extra
+2024-09-06,69000.0,JAO Real Estate,1.0,"Tumbaco, Valle Tumbaco, Quito, Pichincha",74.0,1.0,,sin extra
+2024-09-06,295000.0,AB&MD Gestión Inmobiliaria By KSA,2.0,"Cumbaya, Valle Tumbaco, Quito, Pichincha",190.0,2.0,,sin extra
+2024-09-06,480000.0,AB&MD Gestión Inmobiliaria By KSA,3.0,"Gonzalez Suarez, Iñaquito, Centro Norte, Quito, Pichincha",406.0,3.0,,sin extra
+2024-09-06,480000.0,AB&MD Gestión Inmobiliaria By KSA,4.0,"Quito Tenis, Centro Norte, Quito, Pichincha",243.0,3.0,,sin extra
+2024-09-06,100000.0,AB&MD Gestión Inmobiliaria By KSA,2.0,"El Batan, Iñaquito, Centro Norte, Quito, Pichincha",145.0,3.0,,sin extra
+2024-09-06,118000.0,AB&MD Gestión Inmobiliaria By KSA,2.0,"Bellavista, Iñaquito, Centro Norte, Quito, Pichincha",85.0,2.0,,sin extra
+2024-09-06,97488.0,SU CASA SOBRE LA ROCA,2.0,"Bellavista, Iñaquito, Centro Norte, Quito, Pichincha",63.0,1.0,,sin extra
+2024-09-06,189516.0,SU CASA SOBRE LA ROCA,3.0,"Cumbaya, Valle Tumbaco, Quito, Pichincha",137.0,2.0,,sin extra
+2024-09-06,110000.0,Johanna Chalen - Remax Impacta,4.0,"Ponceano, Norte De Quito, Quito, Pichincha",183.0,3.0,,sin extra
+2024-09-06,96900.0,Emerson Medina - Inmoimpakto,2.0,"Tumbaco, Valle Tumbaco, Quito, Pichincha",105.0,2.0,,sin extra
+2024-09-06,50000.0,Diego Germán Unda - Remax Impacta,1.0,"Cotocollao, Norte De Quito, Quito, Pichincha",74.0,3.0,,sin extra
+2024-09-06,95000.0,Cbr. Ximena Loma - Bienes Raíces LM,3.0,"Kennedy, Centro Norte, Quito, Pichincha",140.0,3.0,,sin extra
+2024-09-06,95000.0,Cbr. Ximena Loma - Bienes Raíces LM,3.0,"Kennedy, Centro Norte, Quito, Pichincha",140.0,3.0,,sin extra
+2024-09-06,136000.0,Fernando Falconi,2.0,"Centro Norte, Quito, Pichincha",93.0,3.0,,sin extra
+2024-09-06,136000.0,Fernando Falconi,2.0,"Centro Norte, Quito, Pichincha",93.0,3.0,,sin extra
+2024-09-06,150000.0,Carolina Silva,3.0,"Carcelen, Norte De Quito, Quito, Pichincha",308.0,3.0,,sin extra
+2024-09-06,157899.0,Andres Altamirano,2.0,"La Carolina, Iñaquito, Centro Norte, Quito, Pichincha",87.0,2.0,,sin extra
+2024-09-06,246286.0,Andres Altamirano,3.0,"La Carolina, Iñaquito, Centro Norte, Quito, Pichincha",137.0,3.0,,sin extra
+2024-09-06,150000.0,Carolina Silva,2.0,"Monteserrin, Jipijapa, Centro Norte, Quito, Pichincha",128.0,2.0,,sin extra
+2024-09-06,450000.0,Carolina Silva,4.0,"Centro Norte, Quito, Pichincha",200.0,3.0,,sin extra
+2024-09-06,112000.0,Ing. Roberto Alarcón,2.0,"Tumbaco, Valle Tumbaco, Quito, Pichincha",105.0,3.0,,sin extra
+2024-09-06,380000.0,MIRAI,4.0,"Centro Norte, Quito, Pichincha",350.0,3.0,,sin extra
+2024-09-06,80000.0,MIRAI,2.0,"El Batan, Iñaquito, Centro Norte, Quito, Pichincha",130.0,2.0,,sin extra
+2024-09-06,175000.0,MIRAI,2.0,"Granda Centeno, Rumipamba, Centro Norte, Quito, Pichincha",134.0,3.0,,sin extra
+2024-09-06,640000.0,MIRAI,6.0,"Quito Tenis, Centro Norte, Quito, Pichincha",650.0,5.0,,sin extra
+2024-09-06,210000.0,MIRAI,4.0,"Bellavista, Iñaquito, Centro Norte, Quito, Pichincha",198.0,3.0,,sin extra
+2024-09-06,48000.0,GS CONSTRUCCIONES Y BIENES RAÍCES,1.0,"Ponceano, Norte De Quito, Quito, Pichincha",55.0,3.0,,sin extra
+2024-09-06,118000.0,GS CONSTRUCCIONES Y BIENES RAÍCES,3.0,"Jipijapa, Centro Norte, Quito, Pichincha",133.0,3.0,,sin extra
+2024-09-06,210000.0,Horizonte Azul,6.0,"Ponceano, Norte De Quito, Quito, Pichincha",209.0,7.0,,sin extra
+2024-09-06,115000.0,Horizonte Azul,1.0,"Ponceano, Norte De Quito, Quito, Pichincha",102.0,3.0,,sin extra
+2024-09-06,110000.0,Horizonte Azul,3.0,"San Isidro del Inca, Centro Norte, Quito, Pichincha",220.0,3.0,,sin extra
+2024-09-06,95000.0,Horizonte Azul,1.0,"Ponceano, Norte De Quito, Quito, Pichincha",91.0,2.0,,sin extra
+2024-09-06,195000.0,GS CONSTRUCCIONES Y BIENES RAÍCES,4.0,"Bellavista, Iñaquito, Centro Norte, Quito, Pichincha",156.0,3.0,,sin extra
+2024-09-06,220920.0,GS CONSTRUCCIONES Y BIENES RAÍCES,3.0,"Bellavista, Iñaquito, Centro Norte, Quito, Pichincha",105.0,2.0,,sin extra
+2024-09-06,135000.0,GS CONSTRUCCIONES Y BIENES RAÍCES,2.0,"Bellavista, Iñaquito, Centro Norte, Quito, Pichincha",100.0,3.0,,sin extra
+2024-09-06,280000.0,GS CONSTRUCCIONES Y BIENES RAÍCES,5.0,"Bellavista, Iñaquito, Centro Norte, Quito, Pichincha",341.0,3.0,,sin extra
+2024-09-06,150000.0,GS CONSTRUCCIONES Y BIENES RAÍCES,2.0,"Bellavista, Iñaquito, Centro Norte, Quito, Pichincha",98.0,2.0,,sin extra
+2024-09-06,124000.0,GS CONSTRUCCIONES Y BIENES RAÍCES,3.0,"Ponceano, Norte De Quito, Quito, Pichincha",144.0,3.0,,sin extra
+2024-09-07,75000.0,Remax,1.0,Noruega y Moscú S/N,4208.0,3.0,75.0,sin extra
+2024-09-07,70000.0,Remax,2.0,De los Eucaliptos 0,77.0,4.0,31.0,sin extra
+2024-09-07,50000.0,Remax,2.0,De los Eucaliptos 0,77.0,4.0,31.0,sin extra
+2024-09-07,195000.0,Remax,3.0,Avenida Edmundo Carvajal 800,150.0,2.0,190.0,VISTA
+2024-09-07,87000.0,Remax,1.0,República del Salvador y Moscú 0,54.0,2.0,80.0,sin extra
+2024-09-07,76000.0,Remax,2.0,De Las Cucardas S/N,12266.0,8.0,1.0,sin extra
+2024-09-07,64500.0,Remax,1.0,Pedro de Alvarado 0,78.0,4.0,50.0,Bellavista
+2024-09-07,55000.0,Remax,1.0,Mañosca Oe760 S/N,50.0,3.0,40.0,sin extra
+2024-09-07,70000.0,Remax,2.0,Calle B y Manuel Valdiviezo 100,86.0,4.0,60.0,sin extra
+2024-09-07,82000.0,Remax,1.0,Bosmediano S/N,65.0,4.0,90.0,"balcón, Bellavista"
+2024-09-07,158494.0,Remax,2.0,Mariano Egas S/N,104.0,6.0,,sin extra
+2024-09-07,208800.0,Remax,3.0,Mariano Egas S/N,1305.0,6.0,,sin extra
+2024-09-07,100000.0,Remax,2.0,Korea E Iñaquito S/N,103.0,5.0,78.0,sin extra
+2024-09-07,149000.0,Remax,1.0,Av. República y Av. Eloy Alfaro S/N,61.0,3.0,80.0,sin extra
+2024-09-07,146349.0,Remax,1.0,Pasaje Dolomitas y de los Naranjos S/N,12191.0,5.0,40.0,sin extra
+2024-09-07,110000.0,Remax,2.0,Versalles S/N,204.0,6.0,60.0,sin extra
+2024-09-07,73000.0,Remax,1.0,El Bosque Segunda Transversal S/N,58.0,3.0,78.0,sin extra
+2024-09-07,74900.0,Remax,1.0,Rusia S/N,451.0,4.0,80.0,sin extra
+2024-09-07,159000.0,Remax,2.0,Eloy Alfaro S/N,105.0,6.0,84.0,sin extra
+2024-09-07,199000.0,Remax,3.0,Mariano Echeverria & Francisco de Nates S/N,16654.0,2.0,67.0,sin extra
+2024-09-07,87500.0,Remax,2.0,"De los Cipreses, Conjunto Toulousse S/N",10195.0,7.0,74.0,sin extra
+2024-09-07,42800.0,Remax,1.0,Miguel Riofrio S/N,7201.0,4.0,1.0,sin extra
+2024-09-07,38000.0,Remax,1.0,Manuel Coronado S/N,625.0,4.0,,sin extra
+2024-09-07,118000.0,Remax,2.0,Urbanización el Condado 300,15553.0,8.0,110.0,sin extra
+2024-09-07,110000.0,Remax,1.0,Suiza 3400,5915.0,3.0,139.0,sin extra
+2024-09-07,59000.0,Remax,1.0,Mariscal Antonio José de Sucre S/N,9207.0,6.0,40.0,sin extra
+2024-09-07,109000.0,Remax,2.0,Francisco Dalmau S/N,136.0,8.0,83.0,sin extra
+2024-09-07,240000.0,Remax,3.0,González Suárez S/N,330.0,9.0,,Jardín
+2024-09-07,135041.0,Remax,2.0,Avigiras S/N,88.0,3.0,20.0,sin extra
+2024-09-07,135041.0,Remax,2.0,Avigiras S/N,88.0,3.0,20.0,sin extra
+2024-09-07,104227.0,Remax,1.0,Avigiras S/N,6966.0,4.0,20.0,sin extra
+2024-09-07,162906.0,Remax,2.0,Avigiras S/N,86.0,4.0,45.0,sin extra
+2024-09-07,110000.0,Remax,2.0,Manuel Valdiviezo S/N,95.0,3.0,100.0,sin extra
+2024-09-07,430000.0,Remax,3.0,González Suárez S/N,15324.0,15.0,330.0,parqueadero
+2024-09-07,88076.0,Remax,1.0,Pasaje Dolomitas y de los Naranjos S/N,6387.0,5.0,40.0,sin extra
+2024-09-07,173240.0,Remax,2.0,Pasaje Dolomitas y de los Naranjos S/N,12191.0,7.0,40.0,sin extra
+2024-09-07,98000.0,Remax,1.0,Gonzalo Endara Crown 0,87.0,5.0,112.0,sin extra
+2024-09-07,300000.0,Remax,2.0,Pasaje Pons y Pasaje Girasol S/N,170.0,9.0,180.0,sin extra
+2024-09-07,106000.0,Remax,1.0,Mariano Echeverria S/N,6698.0,6.0,127.0,sin extra
+2024-09-07,89900.0,Remax,2.0,Francisco Dalmau 500,126.0,8.0,50.0,sin extra
+2024-09-07,63000.0,Remax,1.0,General Jose Maria Guerrero-manta S/N,665.0,3.0,,sin extra
+2024-09-07,101000.0,Remax,2.0,Los Laureles S/N,100.0,4.0,100.0,sin extra
+2024-09-07,79000.0,Remax,2.0,Carlos Mantilla 100,18908.0,8.0,35.0,TERRAZA
+2024-09-07,200.0,Remax,1.0,Antonio Elizalde S/N,35.0,2.0,,sin extra
+2024-09-07,200.0,Remax,1.0,Antonio Elizalde S/N,35.0,2.0,,sin extra
+2024-09-07,160000.0,Remax,2.0,El Zurriago 144 100,110.0,6.0,125.0,sin extra
+2024-09-07,20000.0,Remax,2.0,Calle E10 S/N,56.0,5.0,,sin extra
+2024-09-07,81000.0,Remax,2.0,Ugarte y Saravia 100,123.0,6.0,30.0,sin extra

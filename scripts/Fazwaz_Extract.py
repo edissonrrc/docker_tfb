@@ -18,7 +18,7 @@ def extraer_datos_fazwaz_html(archivo_txt, carpeta_csv):
     # Crear la carpeta de salida si no existe
     os.makedirs(carpeta_csv, exist_ok=True)
     
-    archivo_nombre = os.path.basename(archivo_txt).replace('raw', 'csv').replace('.txt', '.csv')
+    archivo_nombre = os.path.basename(archivo_txt).replace('raw_', '').replace('.txt', '.csv')
     archivo_csv = os.path.join(carpeta_csv, archivo_nombre)
     
     with open(archivo_txt, 'r', encoding='utf-8') as f:
