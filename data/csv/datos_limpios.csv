@@ -1,0 +1,661 @@
+captura,precio,agencia,aseos,zona,superficie,habitaciones,gastos,extras
+2024-09-10,273381,Fazwaz,2.0,Quito,143.0,3,124.0,"quiet, views, condo, amenities"
+2024-09-10,284732,Fazwaz,2.0,Quito,98.0,2,90.0,"brand-new, views, condo"
+2024-09-10,191619,Fazwaz,2.0,Quito,96.0,3,82.0,"quiet, views, condo, amenities"
+2024-09-10,204880,Fazwaz,2.0,Quito,109.0,3,86.0,"quiet, views, condo, amenities"
+2024-09-10,125336,Fazwaz,1.0,Quito,49.0,1,62.0,"brand-new, views, condo"
+2024-09-10,167473,Fazwaz,1.0,Quito,63.0,1,65.0,"brand-new, views, condo"
+2024-09-10,299000,Fazwaz,2.0,Nayon,208.0,3,73.0,sin extras
+2024-09-10,180000,Fazwaz,2.0,Guangopolo,200.0,4,102.0,sin extras
+2024-09-10,381720,Fazwaz,4.0,Tumbaco,244.0,3,186.0,condo
+2024-09-10,190000,Fazwaz,2.0,Nayon,140.0,3,66.0,sin extras
+2024-09-10,243750,Fazwaz,1.0,Cumbaya,115.0,2,85.0,"condo, appreciation, luxury"
+2024-09-10,396390,Fazwaz,4.0,Tumbaco,244.0,3,186.0,condo
+2024-09-10,238906,Fazwaz,2.0,Quito,117.0,3,77.0,condo
+2024-09-10,284993,Fazwaz,2.0,Quito,90.0,2,48.0,"brand-new, views, condo"
+2024-09-10,212319,Fazwaz,2.0,Quito,106.0,3,57.0,"quiet, views, condo, amenities"
+2024-09-10,123869,Fazwaz,1.0,Quito,51.0,1,62.0,"brand-new, views, condo"
+2024-09-10,141464,Fazwaz,2.0,Quito,76.0,2,29.0,"quiet, views, condo, amenities"
+2024-09-10,127727,Fazwaz,1.0,Quito,47.0,1,62.0,"brand-new, views, condo"
+2024-09-10,213837,Fazwaz,2.0,Quito,112.0,3,77.0,"quiet, views, condo, amenities"
+2024-09-10,127000,Fazwaz,1.0,Guangopolo,92.0,2,56.0,sin extras
+2024-09-10,251910,Fazwaz,2.0,Quito,105.0,3,57.0,"quiet, views, condo, amenities"
+2024-09-10,153759,Fazwaz,2.0,Quito,80.0,2,18.0,"quiet, views, condo, amenities"
+2024-09-10,359185,Fazwaz,3.0,Cumbaya,193.0,3,198.0,"privileged, condo, condos"
+2024-09-10,253518,Fazwaz,2.0,Tumbaco,143.0,2,128.0,condo
+2024-09-10,118788,Fazwaz,1.0,Quito,58.0,1,73.0,condo
+2024-09-10,154233,Fazwaz,2.0,Quito,80.0,2,18.0,condo
+2024-09-10,114116,Fazwaz,1.0,Quito,58.0,1,73.0,condo
+2024-09-10,174457,Fazwaz,2.0,Quito,88.0,2,48.0,condo
+2024-09-10,140214,Fazwaz,2.0,Quito,76.0,2,29.0,"quiet, views, condo, amenities"
+2024-09-10,179119,Fazwaz,2.0,Quito,78.0,2,29.0,"quiet, views, condo, amenities"
+2024-09-10,150000,Fazwaz,1.5,Quito,68.0,1,58.0,"piscina, terraza, gimnasio, jacuzzi, balcón, piscina privada, gimnasio privado"
+2024-09-10,325860,Fazwaz,3.0,Tumbaco,192.0,3,198.0,condo
+2024-09-10,305745,Fazwaz,3.0,Tumbaco,193.0,3,198.0,condo
+2024-09-10,203962,Fazwaz,2.0,Tumbaco,111.0,2,95.0,condo
+2024-09-10,264090,Fazwaz,2.0,Tumbaco,143.0,2,128.0,condo
+2024-09-10,302400,Fazwaz,3.0,Tumbaco,165.0,3,137.0,condo
+2024-09-10,203580,Fazwaz,2.0,Tumbaco,111.0,2,95.0,condo
+2024-09-10,296744,Fazwaz,3.0,Cumbaya,161.0,3,154.0,"privileged, condo, condos"
+2024-09-10,289680,Fazwaz,3.0,Tumbaco,178.0,3,203.0,condo
+2024-09-10,236548,Fazwaz,2.0,Quito,117.0,3,77.0,condo
+2024-09-10,137074,Fazwaz,1.0,Quito,60.0,1,86.0,condo
+2024-09-10,138286,Fazwaz,1.0,Quito,60.0,1,86.0,condo
+2024-09-10,115284,Fazwaz,1.0,Quito,58.0,1,73.0,condo
+2024-09-10,376815,Fazwaz,4.0,Tumbaco,243.0,3,186.0,condo
+2024-09-10,291015,Fazwaz,3.0,Tumbaco,178.0,3,203.0,condo
+2024-09-10,292140,Fazwaz,3.0,Tumbaco,174.0,3,203.0,condo
+2024-09-10,175406,Fazwaz,2.0,Quito,88.0,2,48.0,condo
+2024-09-10,135863,Fazwaz,1.0,Quito,60.0,1,86.0,condo
+2024-09-10,132369,Fazwaz,1.0,Quito,64.0,1,65.0,condo
+2024-09-10,152622,Fazwaz,2.0,Quito,80.0,2,18.0,condo
+2024-09-10,177163,Fazwaz,2.0,Quito,88.0,2,48.0,condo
+2024-09-10,117620,Fazwaz,1.0,Quito,58.0,1,73.0,condo
+2024-09-10,130674,Fazwaz,1.0,Quito,64.0,1,65.0,condo
+2024-09-10,233926,Fazwaz,2.0,Quito,109.0,3,86.0,"quiet, views, condo, amenities"
+2024-09-10,257290,Fazwaz,2.0,Quito,106.0,3,57.0,"quiet, views, condo, amenities"
+2024-09-10,237920,Fazwaz,2.0,Quito,110.0,3,86.0,condo
+2024-09-10,216720,Fazwaz,2.0,Tumbaco,129.0,2,88.0,condo
+2024-09-10,116452,Fazwaz,1.0,Quito,58.0,1,73.0,condo
+2024-09-10,131090,Fazwaz,1.0,Quito,64.0,1,65.0,condo
+2024-09-10,213120,Fazwaz,2.0,Tumbaco,121.0,2,126.0,condo
+2024-09-10,144751,Fazwaz,1.0,Quito,84.0,1,26.0,"brand-new, views, center, condo"
+2024-09-10,285700,Fazwaz,2.0,Cumbaya,134.46,2,88.0,condo
+2024-09-10,136400,Fazwaz,1.0,Cumbaya,71.5,1,58.0,condo
+2024-09-10,204283,Fazwaz,2.0,Cumbaya,98.0,2,90.0,"privileged, condo, condos"
+2024-09-10,323125,Fazwaz,2.0,Cumbaya,134.0,3,79.0,"condo, appreciation, luxury"
+2024-09-10,158197,Fazwaz,2.0,Quito,96.83,3,82.0,"views, condo"
+2024-09-10,136400,Fazwaz,1.0,Cumbaya,71.5,1,58.0,condo
+2024-09-10,174402,Fazwaz,2.0,Quito,101.82,3,63.0,"views, condo"
+2024-09-10,243572,Fazwaz,2.0,Cumbaya,129.0,3,79.0,"privileged, condo, condos"
+2024-09-10,169922,Fazwaz,2.0,Quito,101.82,3,63.0,"views, condo"
+2024-09-10,318300,Fazwaz,2.0,Cumbaya,133.0,3,79.0,"condo, appreciation, luxury"
+2024-09-10,359185,Fazwaz,3.0,Cumbaya,193.0,3,198.0,"privileged, condo, condos"
+2024-09-10,292140,Fazwaz,3.0,Tumbaco,174.0,3,203.0,condo
+2024-09-10,396390,Fazwaz,4.0,Tumbaco,244.0,3,186.0,condo
+2024-09-10,376815,Fazwaz,4.0,Tumbaco,243.0,3,186.0,condo
+2024-09-10,291015,Fazwaz,3.0,Tumbaco,178.0,3,203.0,condo
+2024-09-10,253518,Fazwaz,2.0,Tumbaco,143.0,2,128.0,condo
+2024-09-10,325860,Fazwaz,3.0,Tumbaco,192.0,3,198.0,condo
+2024-09-10,145890,Fazwaz,1.0,Tumbaco,84.0,1,26.0,condo
+2024-09-10,203580,Fazwaz,2.0,Tumbaco,111.0,2,95.0,condo
+2024-09-10,318050,Fazwaz,2.0,Cumbaya,127.0,3,74.0,"condo, appreciation, luxury"
+2024-09-10,75000,Fazwaz,1.0,Quito,106.0,3,56.0,condado
+2024-09-10,328850,Fazwaz,2.0,Cumbaya,131.0,3,79.0,"condo, appreciation, luxury"
+2024-09-10,302150,Fazwaz,2.0,Cumbaya,117.5,3,77.0,"condo, appreciation, luxury"
+2024-09-10,188203,Fazwaz,2.0,Cumbaya,98.0,2,90.0,"privileged, condo, condos"
+2024-09-10,140525,Fazwaz,2.0,Quito,90.72,2,48.0,"views, condo"
+2024-09-10,233926,Fazwaz,2.0,Quito,109.0,3,86.0,"quiet, views, condo, amenities"
+2024-09-10,257290,Fazwaz,2.0,Quito,106.0,3,57.0,"quiet, views, condo, amenities"
+2024-09-10,284993,Fazwaz,2.0,Quito,90.0,2,48.0,"brand-new, views, condo"
+2024-09-10,212319,Fazwaz,2.0,Quito,106.0,3,57.0,"quiet, views, condo, amenities"
+2024-09-10,150000,Fazwaz,1.5,Quito,68.0,1,58.0,"piscina, terraza, gimnasio, jacuzzi, balcón, piscina privada, gimnasio privado"
+2024-09-10,264110,Fazwaz,2.0,Conocoto,148.53,3,121.0,sin extras
+2024-09-10,70000,Fazwaz,2.0,Quito,115.0,3,77.0,sin extras
+2024-09-10,140000,Fazwaz,2.0,Quito,95.0,3,82.0,sin extras
+2024-09-10,99700,Fazwaz,2.0,Quito,95.0,3,82.0,sin extras
+2024-09-10,180000,Fazwaz,3.0,Quito,228.0,4,187.0,"condo, mountains"
+2024-09-10,499000,Fazwaz,3.0,Quito,760.01,3,48.0,sin extras
+2024-09-10,252434,Fazwaz,2.0,Cumbaya,113.0,2,86.0,"condo, condos"
+2024-09-10,271626,Fazwaz,3.0,Cumbaya,139.0,3,89.0,"condo, condos"
+2024-09-10,159263,Fazwaz,1.0,Cumbaya,63.0,1,65.0,"condo, condos"
+2024-09-10,152865,Fazwaz,1.0,Cumbaya,63.0,1,65.0,"condo, condos"
+2024-09-10,284089,Fazwaz,2.0,Cumbaya,128.0,2,88.0,"condo, condos"
+2024-09-10,258807,Fazwaz,2.0,Cumbaya,134.0,2,88.0,"condo, condos"
+2024-09-10,256289,Fazwaz,2.0,Cumbaya,113.0,2,86.0,"condo, condos"
+2024-09-10,238308,Fazwaz,2.0,Cumbaya,122.0,2,126.0,"condo, condos"
+2024-09-10,290671,Fazwaz,3.0,Cumbaya,146.0,3,180.0,"condo, condos"
+2024-09-10,312493,Fazwaz,3.0,Cumbaya,143.0,3,180.0,"condo, condos"
+2024-09-10,285968,Fazwaz,2.0,Cumbaya,120.0,2,145.0,"condo, condos"
+2024-09-10,266026,Fazwaz,3.0,Cumbaya,139.0,3,89.0,"condo, condos"
+2024-09-10,255391,Fazwaz,3.0,Cumbaya,136.0,3,100.0,"condo, condos"
+2024-09-10,252403,Fazwaz,2.0,Cumbaya,130.0,2,88.0,"condo, condos"
+2024-09-10,242238,Fazwaz,2.0,Cumbaya,124.0,2,83.0,"condo, condos"
+2024-09-10,224267,Fazwaz,2.0,Quito,110.0,3,86.0,"quiet, views, condo, amenities"
+2024-09-10,240575,Fazwaz,1.0,Quito,74.0,1,41.0,"brand-new, views, condo"
+2024-09-10,245579,Fazwaz,2.0,Quito,96.0,3,82.0,"quiet, views, condo, amenities"
+2024-09-10,195418,Fazwaz,1.0,Quito,61.0,1,74.0,"brand-new, views, condo"
+2024-09-10,381720,Fazwaz,4.0,Tumbaco,244.0,3,186.0,condo
+2024-09-10,180000,Fazwaz,2.0,Guangopolo,200.0,4,102.0,sin extras
+2024-09-10,243750,Fazwaz,1.0,Cumbaya,115.0,2,85.0,"condo, appreciation, luxury"
+2024-09-10,190000,Fazwaz,2.0,Nayon,140.0,3,66.0,sin extras
+2024-09-10,280000,GS CONSTRUCCIONES Y BIENES RAÍCES,5.0,Distrito Metropolitano Quito,341.0,3,195.0,terraza
+2024-09-10,150000,GS CONSTRUCCIONES Y BIENES RAÍCES,2.0,Distrito Metropolitano Quito,98.0,2,90.0,"terraza, gimnasio, ascensor, conserje, garita de guardianía, acceso para personas con discapacidad, cuarto de servicio, estacionamiento"
+2024-09-10,110000,Johanna Chalen - Remax Impacta,4.0,Distrito Metropolitano Quito,183.0,3,198.0,"terraza, ascensor, conserje, garita de guardianía, acceso para personas con discapacidad, vista panorámica, seguridad, sin amoblar, estacionamiento"
+2024-09-10,96900,Emerson Medina - Inmoimpakto,2.0,Distrito Metropolitano Quito,105.0,2,66.0,"chimenea, conserje, patio, alarma, sin amoblar, jardín, estacionamiento"
+2024-09-10,95000,Cbr. Ximena Loma - Bienes Raíces LM,3.0,Distrito Metropolitano Quito,140.0,3,89.0,"patio, sin amoblar"
+2024-09-10,95000,Cbr. Ximena Loma - Bienes Raíces LM,3.0,Distrito Metropolitano Quito,140.0,3,89.0,"terraza, ascensor, conserje, garita de guardianía, acceso para personas con discapacidad, seguridad, internet, sin amoblar, estacionamiento"
+2024-09-10,136000,Fernando Falconi,2.0,Distrito Metropolitano Quito,93.0,3,39.0,"ascensor, conserje, garita de guardianía, seguridad, sin amoblar, estacionamiento"
+2024-09-10,136000,Fernando Falconi,2.0,Distrito Metropolitano Quito,93.0,3,39.0,"ascensor, conserje, garita de guardianía, acceso para personas con discapacidad, vista panorámica, seguridad, alarma, estacionamiento"
+2024-09-10,150000,Carolina Silva,3.0,Distrito Metropolitano Quito,308.0,3,195.0,"ascensor, conserje, garita de guardianía, acceso para personas con discapacidad, vista panorámica, seguridad, alarma, estacionamiento"
+2024-09-10,157899,Andres Altamirano,2.0,Distrito Metropolitano Quito,87.0,2,69.0,"terraza, balcón, conserje, garita de guardianía, acceso para personas con discapacidad, patio, vista panorámica, seguridad, cuarto de servicio, internet, alarma, sin amoblar, jardín, estacionamiento"
+2024-09-10,246286,Andres Altamirano,3.0,Distrito Metropolitano Quito,137.0,3,100.0,"terraza, gimnasio, jacuzzi, sauna, balcón, ascensor, garita de guardianía, seguridad, sin amoblar, estacionamiento"
+2024-09-10,150000,Carolina Silva,2.0,Distrito Metropolitano Quito,128.0,2,88.0,"terraza, gimnasio, jacuzzi, balcón, ascensor, seguridad, sin amoblar, estacionamiento"
+2024-09-10,450000,Carolina Silva,4.0,Distrito Metropolitano Quito,200.0,3,198.0,"terraza, gimnasio, balcón, ascensor, conserje, garita de guardianía, acceso para personas con discapacidad, vista panorámica, seguridad, internet, alarma, sin amoblar, jardín, estacionamiento"
+2024-09-10,112000,Ing. Roberto Alarcón,2.0,Distrito Metropolitano Quito,105.0,3,57.0,"piscina, terraza, gimnasio, jacuzzi, sauna, balcón, ascensor, chimenea, conserje, garita de guardianía, acceso para personas con discapacidad, patio, vista panorámica, seguridad, cuarto de servicio, internet, alarma, calefacción, cancha de tenis, jardín, estacionamiento"
+2024-09-10,380000,MIRAI,4.0,Distrito Metropolitano Quito,350.0,3,195.0,"piscina, spa, conserje, garita de guardianía, patio, alarma, sin amoblar, jardín, estacionamiento"
+2024-09-10,80000,MIRAI,2.0,Distrito Metropolitano Quito,130.0,2,88.0,"jacuzzi, spa, ascensor, chimenea, conserje, garita de guardianía, acceso para personas con discapacidad, patio, seguridad, cuarto de servicio, internet, alarma, sin amoblar, jardín, estacionamiento"
+2024-09-10,175000,MIRAI,2.0,Metropolitan District of Quito,134.0,3,79.0,"terraza, ascensor, conserje, garita de guardianía, acceso para personas con discapacidad, patio, vista panorámica, estacionamiento"
+2024-09-10,210000,Horizonte Azul,6.0,Metropolitan District of Quito,209.0,7,194.0,"piscina, terraza, balcón, ascensor, conserje, garita de guardianía, acceso para personas con discapacidad, vista panorámica, alarma, sin amoblar, estacionamiento"
+2024-09-10,115000,Horizonte Azul,1.0,Distrito Metropolitano Quito,102.0,3,62.0,"terraza, jacuzzi, sauna, balcón, conserje, patio, estacionamiento"
+2024-09-10,640000,MIRAI,6.0,Quito,650.0,5,36.0,"terraza, conserje, patio, estacionamiento"
+2024-09-10,110000,Horizonte Azul,3.0,Distrito Metropolitano Quito,220.0,3,186.0,"terraza, jacuzzi, sauna, balcón, chimenea, conserje, garita de guardianía, patio, vista panorámica, seguridad, cuarto de servicio, alarma, sin amoblar, jardín, estacionamiento"
+2024-09-10,95000,Horizonte Azul,1.0,Distrito Metropolitano Quito,91.0,2,56.0,"terraza, ascensor, conserje, garita de guardianía, patio, estacionamiento"
+2024-09-10,210000,MIRAI,4.0,Quito,198.0,3,198.0,"conserje, patio, estacionamiento"
+2024-09-10,48000,GS CONSTRUCCIONES Y BIENES RAÍCES,1.0,Distrito Metropolitano Quito,55.0,3,77.0,"terraza, balcón, ascensor, chimenea, conserje, garita de guardianía, acceso para personas con discapacidad, alarma, sin amoblar, estacionamiento"
+2024-09-10,118000,GS CONSTRUCCIONES Y BIENES RAÍCES,3.0,Distrito Metropolitano Quito,133.0,3,102.0,"conserje, sin amoblar, jardín, estacionamiento"
+2024-09-10,50000,Diego Germán Unda - Remax Impacta,1.0,Distrito Metropolitano Quito,74.0,3,43.0,"conserje, patio, estacionamiento"
+2024-09-10,195000,GS CONSTRUCCIONES Y BIENES RAÍCES,4.0,Distrito Metropolitano Quito,156.0,3,177.0,"terraza, conserje, garita de guardianía, patio, seguridad, sin amoblar, estacionamiento"
+2024-09-10,90000,Emma Barragán,2.0,Distrito Metropolitano Quito,70.0,2,46.0,"terraza, gimnasio, balcón, ascensor, conserje, garita de guardianía, acceso para personas con discapacidad, seguridad, calefacción, jardín, estacionamiento"
+2024-09-10,683000,Proyectos con Futuro,5.0,Distrito Metropolitano Quito,527.0,4,72.0,"terraza, gimnasio, jacuzzi, sauna, ascensor, conserje, garita de guardianía, patio, vista panorámica, internet, sin amoblar, estacionamiento"
+2024-09-10,118000,Inmoejecutivos,2.0,Distrito Metropolitano Quito,120.0,3,136.0,"piscina, terraza, gimnasio, jacuzzi, spa, sauna, balcón, ascensor, conserje, garita de guardianía, acceso para personas con discapacidad, patio, vista panorámica, seguridad, cuarto de servicio, internet, alarma, cancha de tenis, sin amoblar, jardín, estacionamiento"
+2024-09-10,169279,Intramuros Constructora,2.0,Distrito Metropolitano Quito,94.0,2,88.0,nuovo
+2024-09-10,202578,Intramuros Constructora,3.0,Distrito Metropolitano Quito,147.0,2,181.0,"piscina, terraza, gimnasio, jacuzzi, sauna, balcón, ascensor, conserje, garita de guardianía, nuovo, acceso para personas con discapacidad, patio, vista panorámica, seguridad, cuarto de servicio, internet, alarma, sin amoblar, jardín, estacionamiento"
+2024-09-10,220920,GS CONSTRUCCIONES Y BIENES RAÍCES,3.0,Distrito Metropolitano Quito,105.0,2,100.0,"piscina, terraza, gimnasio, jacuzzi, sauna, balcón, ascensor, conserje, garita de guardianía, acceso para personas con discapacidad, patio, vista panorámica, seguridad, cuarto de servicio, internet, alarma, sin amoblar, jardín, estacionamiento"
+2024-09-10,135000,GS CONSTRUCCIONES Y BIENES RAÍCES,2.0,Distrito Metropolitano Quito,100.0,3,63.0,"piscina, terraza, gimnasio, jacuzzi, sauna, ascensor, conserje, garita de guardianía, acceso para personas con discapacidad, vista panorámica, seguridad, sin amoblar, jardín, estacionamiento"
+2024-09-10,280000,GS CONSTRUCCIONES Y BIENES RAÍCES,5.0,Distrito Metropolitano Quito,341.0,3,195.0,"terraza, gimnasio, ascensor, chimenea, conserje, garita de guardianía, acceso para personas con discapacidad, jardín, estacionamiento"
+2024-09-10,150000,GS CONSTRUCCIONES Y BIENES RAÍCES,2.0,Distrito Metropolitano Quito,98.0,2,90.0,"terraza, gimnasio, ascensor, conserje, garita de guardianía, acceso para personas con discapacidad, cuarto de servicio, estacionamiento"
+2024-09-10,270000,Inmoejecutivos,3.0,Distrito Metropolitano Quito,164.0,2,162.0,"terraza, ascensor, conserje, garita de guardianía, acceso para personas con discapacidad, vista panorámica, seguridad, sin amoblar, estacionamiento"
+2024-09-10,124000,GS CONSTRUCCIONES Y BIENES RAÍCES,3.0,Distrito Metropolitano Quito,144.0,3,180.0,"piscina, terraza, gimnasio, jacuzzi, sauna, balcón, ascensor, chimenea, garita de guardianía, acceso para personas con discapacidad, patio, vista panorámica, seguridad, internet, alarma, jardín, estacionamiento"
+2024-09-10,220000,Inmoejecutivos,2.0,Distrito Metropolitano Quito,155.0,3,121.0,"ascensor, conserje, sin amoblar, estacionamiento"
+2024-09-10,98000,FREDDY CABRERA - BIENES RAÍCES,3.0,Distrito Metropolitano Quito,95.0,3,116.0,"terraza, gimnasio, balcón, ascensor, conserje, garita de guardianía, acceso para personas con discapacidad, patio, vista panorámica, seguridad, internet, jardín, estacionamiento"
+2024-09-10,156000,Emma Barragán,3.0,Distrito Metropolitano Quito,110.0,2,121.0,"gimnasio, ascensor, conserje, garita de guardianía, seguridad, internet, alarma, sin amoblar, estacionamiento"
+2024-09-10,90000,Emma Barragán,2.0,Distrito Metropolitano Quito,70.0,2,46.0,"piscina, jacuzzi, balcón, ascensor, conserje, garita de guardianía, acceso para personas con discapacidad, vista panorámica, seguridad, sin amoblar, jardín, estacionamiento"
+2024-09-10,118000,Inmoejecutivos,2.0,Distrito Metropolitano Quito,120.0,3,136.0,"terraza, gimnasio, jacuzzi, spa, sauna, ascensor, conserje, garita de guardianía, vista panorámica, internet, sin amoblar, estacionamiento"
+2024-09-10,229000,Inmoejecutivos,2.0,Distrito Metropolitano Quito,186.0,2,110.0,"terraza, ascensor, conserje, garita de guardianía, patio, vista panorámica, seguridad, internet, alarma, jardín, estacionamiento"
+2024-09-10,683000,Proyectos con Futuro,5.0,Distrito Metropolitano Quito,527.0,4,72.0,"piscina, terraza, gimnasio, jacuzzi, sauna, ascensor, chimenea, conserje, garita de guardianía, acceso para personas con discapacidad, patio, seguridad, internet, alarma, jardín, estacionamiento"
+2024-09-10,149600,Intramuros Constructora,3.0,Distrito Metropolitano Quito,86.0,2,109.0,"piscina, terraza, gimnasio, jacuzzi, sauna, balcón, ascensor, conserje, garita de guardianía, pontebello, acceso para personas con discapacidad, patio, vista panorámica, seguridad, cuarto de servicio, internet, alarma, cancha de tenis, sin amoblar, jardín, estacionamiento"
+2024-09-10,106515,Intramuros Constructora,1.0,Distrito Metropolitano Quito,55.0,1,78.0,"terraza, gimnasio, jacuzzi, sauna, balcón, ascensor, conserje, garita de guardianía, nuovo, acceso para personas con discapacidad, patio, vista panorámica, seguridad, cuarto de servicio, internet, alarma, sin amoblar, jardín, estacionamiento"
+2024-09-10,305652,Intramuros Constructora,4.0,Distrito Metropolitano Quito,159.0,3,154.0,"piscina, terraza, gimnasio, jacuzzi, sauna, balcón, ascensor, conserje, garita de guardianía, nuovo, acceso para personas con discapacidad, patio, vista panorámica, seguridad, cuarto de servicio, internet, alarma, sin amoblar, jardín, estacionamiento"
+2024-09-10,134000,Emma Barragán,3.0,Distrito Metropolitano Quito,136.0,3,100.0,"piscina, terraza, gimnasio, jacuzzi, sauna, balcón, ascensor, conserje, garita de guardianía, acceso para personas con discapacidad, patio, vista panorámica, seguridad, cuarto de servicio, internet, alarma, sin amoblar, jardín, estacionamiento"
+2024-09-10,220000,Emma Barragán,5.0,Distrito Metropolitano Quito,327.0,4,196.0,"ascensor, conserje, garita de guardianía, seguridad, cuarto de servicio, estacionamiento"
+2024-09-10,245000,Emma Barragán,5.0,Distrito Metropolitano Quito,300.0,4,196.0,"conserje, vista panorámica, seguridad, cuarto de servicio, estacionamiento"
+2024-09-10,94000,Emma Barragán,3.0,Distrito Metropolitano Quito,116.0,2,114.0,"ascensor, conserje, garita de guardianía, patio, seguridad, cuarto de servicio, estacionamiento, condado"
+2024-09-10,110000,Intramuros Constructora,2.0,Distrito Metropolitano Quito,79.0,1,29.0,pontebello
+2024-09-10,300551,Intramuros Constructora,3.0,Distrito Metropolitano Quito,157.0,3,177.0,"terraza, gimnasio, jacuzzi, sauna, balcón, ascensor, conserje, garita de guardianía, pontebello, acceso para personas con discapacidad, patio, vista panorámica, seguridad, cuarto de servicio, internet, alarma, sin amoblar, jardín, estacionamiento"
+2024-09-10,428502,Intramuros Constructora,4.0,Distrito Metropolitano Quito,249.0,3,186.0,"terraza, gimnasio, jacuzzi, sauna, balcón, ascensor, conserje, garita de guardianía, nuovo, acceso para personas con discapacidad, patio, vista panorámica, seguridad, cuarto de servicio, internet, alarma, sin amoblar, jardín, estacionamiento"
+2024-09-10,627486,Intramuros Constructora,4.0,Distrito Metropolitano Quito,464.0,3,71.0,"piscina, terraza, gimnasio, jacuzzi, sauna, balcón, ascensor, conserje, garita de guardianía, nuovo, acceso para personas con discapacidad, patio, vista panorámica, seguridad, cuarto de servicio, internet, alarma, sin amoblar, jardín, estacionamiento"
+2024-09-10,140056,Intramuros Constructora,2.0,Distrito Metropolitano Quito,88.0,1,48.0,"piscina, terraza, gimnasio, jacuzzi, sauna, balcón, ascensor, conserje, garita de guardianía, nuovo, acceso para personas con discapacidad, patio, vista panorámica, seguridad, cuarto de servicio, internet, alarma, sin amoblar, jardín, estacionamiento"
+2024-09-10,318994,SU CASA SOBRE LA ROCA,4.0,Distrito Metropolitano Quito,139.0,3,89.0,"piscina, terraza, gimnasio, jacuzzi, sauna, balcón, ascensor, conserje, garita de guardianía, acceso para personas con discapacidad, patio, vista panorámica, seguridad, cuarto de servicio, internet, alarma, sin amoblar, jardín, estacionamiento"
+2024-09-10,220000,SU CASA SOBRE LA ROCA,4.0,Distrito Metropolitano Quito,290.0,3,195.0,"terraza, estacionamiento"
+2024-09-10,194039,SU CASA SOBRE LA ROCA,3.0,Distrito Metropolitano Quito,104.0,3,97.0,"piscina, terraza, gimnasio, jacuzzi, sauna, balcón, ascensor, conserje, garita de guardianía, acceso para personas con discapacidad, patio, vista panorámica, seguridad, internet, jardín, estacionamiento"
+2024-09-10,135000,GS CONSTRUCCIONES Y BIENES RAÍCES,2.0,Distrito Metropolitano Quito,100.0,3,63.0,sin extras
+2024-09-10,280000,GS CONSTRUCCIONES Y BIENES RAÍCES,5.0,Distrito Metropolitano Quito,341.0,3,195.0,"terraza, gimnasio, ascensor, chimenea, conserje, garita de guardianía, acceso para personas con discapacidad, jardín, estacionamiento"
+2024-09-10,110000,Johanna Chalen - Remax Impacta,4.0,Distrito Metropolitano Quito,183.0,3,198.0,"terraza, gimnasio, ascensor, conserje, garita de guardianía, acceso para personas con discapacidad, cuarto de servicio, estacionamiento"
+2024-09-10,96900,Emerson Medina - Inmoimpakto,2.0,Distrito Metropolitano Quito,105.0,2,66.0,"chimenea, conserje, patio, alarma, sin amoblar, jardín, estacionamiento"
+2024-09-10,95000,Cbr. Ximena Loma - Bienes Raíces LM,3.0,Distrito Metropolitano Quito,140.0,3,89.0,"patio, sin amoblar"
+2024-09-10,95000,Cbr. Ximena Loma - Bienes Raíces LM,3.0,Distrito Metropolitano Quito,140.0,3,89.0,"terraza, ascensor, conserje, garita de guardianía, acceso para personas con discapacidad, seguridad, internet, sin amoblar, estacionamiento"
+2024-09-10,50000,Diego Germán Unda - Remax Impacta,1.0,Distrito Metropolitano Quito,74.0,3,43.0,"ascensor, conserje, garita de guardianía, seguridad, sin amoblar, estacionamiento"
+2024-09-10,136000,Fernando Falconi,2.0,Distrito Metropolitano Quito,93.0,3,39.0,"terraza, conserje, garita de guardianía, patio, seguridad, sin amoblar, estacionamiento"
+2024-09-10,136000,Fernando Falconi,2.0,Distrito Metropolitano Quito,93.0,3,39.0,"ascensor, conserje, garita de guardianía, acceso para personas con discapacidad, vista panorámica, seguridad, alarma, estacionamiento"
+2024-09-10,150000,Carolina Silva,3.0,Distrito Metropolitano Quito,308.0,3,195.0,"ascensor, conserje, garita de guardianía, acceso para personas con discapacidad, vista panorámica, seguridad, alarma, estacionamiento"
+2024-09-10,157899,Andres Altamirano,2.0,Distrito Metropolitano Quito,87.0,2,69.0,"terraza, balcón, conserje, garita de guardianía, acceso para personas con discapacidad, patio, vista panorámica, seguridad, cuarto de servicio, internet, alarma, sin amoblar, jardín, estacionamiento"
+2024-09-10,246286,Andres Altamirano,3.0,Distrito Metropolitano Quito,137.0,3,100.0,"terraza, gimnasio, jacuzzi, sauna, balcón, ascensor, garita de guardianía, seguridad, sin amoblar, estacionamiento"
+2024-09-10,150000,Carolina Silva,2.0,Distrito Metropolitano Quito,128.0,2,88.0,"terraza, gimnasio, jacuzzi, balcón, ascensor, seguridad, sin amoblar, estacionamiento"
+2024-09-10,450000,Carolina Silva,4.0,Distrito Metropolitano Quito,200.0,3,198.0,"terraza, gimnasio, balcón, ascensor, conserje, garita de guardianía, acceso para personas con discapacidad, vista panorámica, seguridad, internet, alarma, sin amoblar, jardín, estacionamiento"
+2024-09-10,112000,Ing. Roberto Alarcón,2.0,Distrito Metropolitano Quito,105.0,3,57.0,"piscina, terraza, gimnasio, jacuzzi, sauna, balcón, ascensor, chimenea, conserje, garita de guardianía, acceso para personas con discapacidad, patio, vista panorámica, seguridad, cuarto de servicio, internet, alarma, calefacción, cancha de tenis, jardín, estacionamiento"
+2024-09-10,380000,MIRAI,4.0,Distrito Metropolitano Quito,350.0,3,195.0,"piscina, spa, conserje, garita de guardianía, patio, alarma, sin amoblar, jardín, estacionamiento"
+2024-09-10,80000,MIRAI,2.0,Distrito Metropolitano Quito,130.0,2,88.0,"jacuzzi, spa, ascensor, chimenea, conserje, garita de guardianía, acceso para personas con discapacidad, patio, seguridad, cuarto de servicio, internet, alarma, sin amoblar, jardín, estacionamiento"
+2024-09-10,175000,MIRAI,2.0,Metropolitan District of Quito,134.0,3,79.0,"terraza, ascensor, conserje, garita de guardianía, acceso para personas con discapacidad, patio, vista panorámica, estacionamiento"
+2024-09-10,70000,AB&amp;MD Gestión Inmobiliaria By KSA,2.0,Distrito Metropolitano Quito,123.0,3,74.0,"piscina, terraza, balcón, ascensor, conserje, garita de guardianía, acceso para personas con discapacidad, vista panorámica, alarma, sin amoblar, estacionamiento"
+2024-09-10,210000,Horizonte Azul,6.0,Metropolitan District of Quito,209.0,7,194.0,"terraza, vista panorámica, sin amoblar, estacionamiento"
+2024-09-10,48000,GS CONSTRUCCIONES Y BIENES RAÍCES,1.0,Distrito Metropolitano Quito,55.0,3,77.0,"terraza, jacuzzi, sauna, balcón, conserje, patio, estacionamiento"
+2024-09-10,118000,GS CONSTRUCCIONES Y BIENES RAÍCES,3.0,Distrito Metropolitano Quito,133.0,3,102.0,"conserje, sin amoblar, jardín, estacionamiento"
+2024-09-10,115000,Horizonte Azul,1.0,Distrito Metropolitano Quito,102.0,3,62.0,"conserje, patio, estacionamiento"
+2024-09-10,640000,MIRAI,6.0,Quito,650.0,5,36.0,"terraza, conserje, patio, estacionamiento"
+2024-09-10,110000,Horizonte Azul,3.0,Distrito Metropolitano Quito,220.0,3,186.0,"terraza, jacuzzi, sauna, balcón, chimenea, conserje, garita de guardianía, patio, vista panorámica, seguridad, cuarto de servicio, alarma, sin amoblar, jardín, estacionamiento"
+2024-09-10,95000,Horizonte Azul,1.0,Distrito Metropolitano Quito,91.0,2,56.0,"terraza, ascensor, conserje, garita de guardianía, patio, estacionamiento"
+2024-09-10,210000,MIRAI,4.0,Quito,198.0,3,198.0,"conserje, patio, estacionamiento"
+2024-09-10,156000,Emma Barragán,3.0,Distrito Metropolitano Quito,110.0,2,121.0,"terraza, balcón, ascensor, chimenea, conserje, garita de guardianía, acceso para personas con discapacidad, alarma, sin amoblar, estacionamiento"
+2024-09-10,90000,Emma Barragán,2.0,Distrito Metropolitano Quito,70.0,2,46.0,"piscina, jacuzzi, balcón, ascensor, conserje, garita de guardianía, acceso para personas con discapacidad, vista panorámica, seguridad, sin amoblar, jardín, estacionamiento"
+2024-09-10,118000,Inmoejecutivos,2.0,Distrito Metropolitano Quito,120.0,3,136.0,"terraza, gimnasio, jacuzzi, spa, sauna, ascensor, conserje, garita de guardianía, vista panorámica, internet, sin amoblar, estacionamiento"
+2024-09-10,130710,Intramuros Constructora,2.0,Distrito Metropolitano Quito,68.0,1,46.0,nuovo
+2024-09-10,181342,Intramuros Constructora,2.0,Distrito Metropolitano Quito,95.0,2,90.0,"piscina, terraza, gimnasio, jacuzzi, sauna, balcón, ascensor, conserje, garita de guardianía, nuovo, acceso para personas con discapacidad, patio, vista panorámica, seguridad, cuarto de servicio, internet, alarma, sin amoblar, jardín, estacionamiento"
+2024-09-10,195000,GS CONSTRUCCIONES Y BIENES RAÍCES,4.0,Distrito Metropolitano Quito,156.0,3,177.0,"piscina, terraza, gimnasio, jacuzzi, sauna, balcón, ascensor, conserje, garita de guardianía, acceso para personas con discapacidad, patio, vista panorámica, seguridad, cuarto de servicio, internet, alarma, sin amoblar, jardín, estacionamiento"
+2024-09-10,220920,GS CONSTRUCCIONES Y BIENES RAÍCES,3.0,Distrito Metropolitano Quito,105.0,2,100.0,"terraza, gimnasio, balcón, ascensor, conserje, garita de guardianía, acceso para personas con discapacidad, seguridad, calefacción, jardín, estacionamiento"
+2024-09-10,135000,GS CONSTRUCCIONES Y BIENES RAÍCES,2.0,Distrito Metropolitano Quito,100.0,3,63.0,"piscina, terraza, gimnasio, jacuzzi, sauna, ascensor, conserje, garita de guardianía, acceso para personas con discapacidad, vista panorámica, seguridad, sin amoblar, jardín, estacionamiento"
+2024-09-10,280000,GS CONSTRUCCIONES Y BIENES RAÍCES,5.0,Distrito Metropolitano Quito,341.0,3,195.0,"terraza, gimnasio, ascensor, chimenea, conserje, garita de guardianía, acceso para personas con discapacidad, jardín, estacionamiento"
+2024-09-10,150000,GS CONSTRUCCIONES Y BIENES RAÍCES,2.0,Distrito Metropolitano Quito,98.0,2,90.0,"terraza, gimnasio, ascensor, conserje, garita de guardianía, acceso para personas con discapacidad, cuarto de servicio, estacionamiento"
+2024-09-10,124000,GS CONSTRUCCIONES Y BIENES RAÍCES,3.0,Distrito Metropolitano Quito,144.0,3,180.0,"terraza, ascensor, conserje, garita de guardianía, acceso para personas con discapacidad, vista panorámica, seguridad, sin amoblar, estacionamiento"
+2024-09-10,270000,Inmoejecutivos,3.0,Distrito Metropolitano Quito,164.0,2,162.0,"ascensor, conserje, sin amoblar, estacionamiento"
+2024-09-10,220000,Inmoejecutivos,2.0,Distrito Metropolitano Quito,155.0,3,121.0,"piscina, terraza, gimnasio, jacuzzi, sauna, balcón, ascensor, chimenea, garita de guardianía, acceso para personas con discapacidad, patio, vista panorámica, seguridad, internet, alarma, jardín, estacionamiento"
+2024-09-10,98000,FREDDY CABRERA - BIENES RAÍCES,3.0,Distrito Metropolitano Quito,95.0,3,116.0,"terraza, gimnasio, balcón, ascensor, conserje, garita de guardianía, acceso para personas con discapacidad, patio, vista panorámica, seguridad, internet, jardín, estacionamiento"
+2024-09-10,683000,Proyectos con Futuro,5.0,Distrito Metropolitano Quito,527.0,4,72.0,"gimnasio, ascensor, conserje, garita de guardianía, patio, seguridad, internet, alarma, sin amoblar, estacionamiento"
+2024-09-10,156000,Emma Barragán,3.0,Distrito Metropolitano Quito,110.0,2,121.0,"piscina, terraza, gimnasio, jacuzzi, sauna, balcón, ascensor, conserje, garita de guardianía, acceso para personas con discapacidad, patio, vista panorámica, seguridad, cuarto de servicio, internet, alarma, cancha de tenis, sin amoblar, jardín, estacionamiento"
+2024-09-10,90000,Emma Barragán,2.0,Distrito Metropolitano Quito,70.0,2,46.0,"piscina, jacuzzi, balcón, ascensor, conserje, garita de guardianía, acceso para personas con discapacidad, vista panorámica, seguridad, sin amoblar, jardín, estacionamiento"
+2024-09-10,118000,Inmoejecutivos,2.0,Distrito Metropolitano Quito,120.0,3,136.0,"terraza, gimnasio, jacuzzi, spa, sauna, ascensor, conserje, garita de guardianía, vista panorámica, internet, sin amoblar, estacionamiento"
+2024-09-10,229000,Inmoejecutivos,2.0,Distrito Metropolitano Quito,186.0,2,110.0,"terraza, ascensor, conserje, garita de guardianía, patio, vista panorámica, seguridad, internet, alarma, jardín, estacionamiento"
+2024-09-10,149600,Intramuros Constructora,3.0,Distrito Metropolitano Quito,86.0,2,109.0,"piscina, terraza, gimnasio, jacuzzi, sauna, ascensor, chimenea, conserje, garita de guardianía, pontebello, acceso para personas con discapacidad, patio, seguridad, internet, alarma, jardín, estacionamiento"
+2024-09-10,106515,Intramuros Constructora,1.0,Distrito Metropolitano Quito,55.0,1,78.0,"terraza, gimnasio, jacuzzi, sauna, balcón, ascensor, conserje, garita de guardianía, nuovo, acceso para personas con discapacidad, patio, vista panorámica, seguridad, cuarto de servicio, internet, alarma, sin amoblar, jardín, estacionamiento"
+2024-09-10,305652,Intramuros Constructora,4.0,Distrito Metropolitano Quito,159.0,3,154.0,"piscina, terraza, gimnasio, jacuzzi, sauna, balcón, ascensor, conserje, garita de guardianía, nuovo, acceso para personas con discapacidad, patio, vista panorámica, seguridad, cuarto de servicio, internet, alarma, sin amoblar, jardín, estacionamiento"
+2024-09-10,134000,Emma Barragán,3.0,Distrito Metropolitano Quito,136.0,3,100.0,"piscina, terraza, gimnasio, jacuzzi, sauna, balcón, ascensor, conserje, garita de guardianía, acceso para personas con discapacidad, patio, vista panorámica, seguridad, cuarto de servicio, internet, alarma, sin amoblar, jardín, estacionamiento"
+2024-09-10,220000,Emma Barragán,5.0,Distrito Metropolitano Quito,327.0,4,196.0,"ascensor, conserje, garita de guardianía, seguridad, cuarto de servicio, estacionamiento"
+2024-09-10,245000,Emma Barragán,5.0,Distrito Metropolitano Quito,300.0,4,196.0,"conserje, vista panorámica, seguridad, cuarto de servicio, estacionamiento"
+2024-09-10,94000,Emma Barragán,3.0,Distrito Metropolitano Quito,116.0,2,114.0,"ascensor, conserje, garita de guardianía, patio, seguridad, cuarto de servicio, estacionamiento, condado"
+2024-09-10,110000,Intramuros Constructora,2.0,Distrito Metropolitano Quito,79.0,1,29.0,pontebello
+2024-09-10,300551,Intramuros Constructora,3.0,Distrito Metropolitano Quito,157.0,3,177.0,"terraza, gimnasio, jacuzzi, sauna, balcón, ascensor, conserje, garita de guardianía, pontebello, acceso para personas con discapacidad, patio, vista panorámica, seguridad, cuarto de servicio, internet, alarma, sin amoblar, jardín, estacionamiento"
+2024-09-10,428502,Intramuros Constructora,4.0,Distrito Metropolitano Quito,249.0,3,186.0,"terraza, gimnasio, jacuzzi, sauna, balcón, ascensor, conserje, garita de guardianía, nuovo, acceso para personas con discapacidad, patio, vista panorámica, seguridad, cuarto de servicio, internet, alarma, sin amoblar, jardín, estacionamiento"
+2024-09-10,627486,Intramuros Constructora,4.0,Distrito Metropolitano Quito,464.0,3,71.0,"piscina, terraza, gimnasio, jacuzzi, sauna, balcón, ascensor, conserje, garita de guardianía, nuovo, acceso para personas con discapacidad, patio, vista panorámica, seguridad, cuarto de servicio, internet, alarma, sin amoblar, jardín, estacionamiento"
+2024-09-10,93945,Sonia Herrera,2.0,Distrito Metropolitano Quito,104.0,3,63.0,"piscina, terraza, gimnasio, jacuzzi, sauna, balcón, ascensor, conserje, garita de guardianía, acceso para personas con discapacidad, patio, vista panorámica, seguridad, cuarto de servicio, internet, alarma, sin amoblar, jardín, estacionamiento"
+2024-09-10,63987,Sonia Herrera,2.0,Distrito Metropolitano Quito,61.0,2,62.0,"terraza, gimnasio, ascensor, conserje, garita de guardianía, acceso para personas con discapacidad, patio, seguridad, jardín, estacionamiento"
+2024-09-10,70000,AB&amp;MD Gestión Inmobiliaria By KSA,2.0,Distrito Metropolitano Quito,123.0,3,74.0,"terraza, gimnasio, ascensor, conserje, acceso para personas con discapacidad, estacionamiento"
+2024-09-10,110000,Johanna Chalen - Remax Impacta,4.0,Ponceano,183.0,3,198.0,sin extras
+2024-09-10,96900,Emerson Medina - Inmoimpakto,2.0,Tumbaco,105.0,2,66.0,sin extras
+2024-09-10,95000,Cbr. Ximena Loma - Bienes Ra√≠ces LM,3.0,Kennedy,140.0,3,89.0,sin extras
+2024-09-10,95000,Cbr. Ximena Loma - Bienes Ra√≠ces LM,3.0,Kennedy,140.0,3,89.0,sin extras
+2024-09-10,136000,Fernando Falconi,2.0,Centro Norte,93.0,3,39.0,sin extras
+2024-09-10,136000,Fernando Falconi,2.0,Centro Norte,93.0,3,39.0,sin extras
+2024-09-10,150000,Carolina Silva,3.0,Carcelen,308.0,3,195.0,sin extras
+2024-09-10,157899,Andres Altamirano,2.0,"La Carolina, I√±aquito",87.0,2,69.0,sin extras
+2024-09-10,246286,Andres Altamirano,3.0,"La Carolina, I√±aquito",137.0,3,100.0,sin extras
+2024-09-10,150000,Carolina Silva,2.0,Monteserrin,128.0,2,88.0,sin extras
+2024-09-10,450000,Carolina Silva,4.0,Cumbaya,200.0,3,198.0,sin extras
+2024-09-10,112000,Ing. Roberto Alarc√≥n,2.0,Tumbaco,105.0,3,57.0,sin extras
+2024-09-10,380000,MIRAI,4.0,Centro Norte,350.0,3,195.0,sin extras
+2024-09-10,80000,MIRAI,2.0,"El Batan, I√±aquito",130.0,2,88.0,sin extras
+2024-09-10,175000,MIRAI,2.0,"Granda Centeno, Rumipamba",134.0,3,79.0,sin extras
+2024-09-10,210000,Horizonte Azul,6.0,Ponceano,209.0,7,194.0,sin extras
+2024-09-10,115000,Horizonte Azul,1.0,Ponceano,102.0,3,62.0,sin extras
+2024-09-10,110000,Horizonte Azul,3.0,San Isidro del Inca,220.0,3,186.0,sin extras
+2024-09-10,640000,MIRAI,6.0,Quito Tenis,650.0,5,36.0,sin extras
+2024-09-10,95000,Horizonte Azul,1.0,Ponceano,91.0,2,56.0,sin extras
+2024-09-10,210000,MIRAI,4.0,"Bellavista, I√±aquito",198.0,3,198.0,sin extras
+2024-09-10,48000,GS CONSTRUCCIONES Y BIENES RA√çCES,1.0,Ponceano,55.0,3,77.0,sin extras
+2024-09-10,118000,GS CONSTRUCCIONES Y BIENES RA√çCES,3.0,Jipijapa,133.0,3,102.0,sin extras
+2024-09-10,50000,Diego Germ√°n Unda - Remax Impacta,1.0,Cotocollao,74.0,3,43.0,sin extras
+2024-09-10,195000,GS CONSTRUCCIONES Y BIENES RA√çCES,4.0,"Bellavista, I√±aquito",156.0,3,177.0,sin extras
+2024-09-10,220920,GS CONSTRUCCIONES Y BIENES RA√çCES,3.0,"Bellavista, I√±aquito",105.0,2,100.0,sin extras
+2024-09-10,135000,GS CONSTRUCCIONES Y BIENES RA√çCES,2.0,"Bellavista, I√±aquito",100.0,3,63.0,sin extras
+2024-09-10,280000,GS CONSTRUCCIONES Y BIENES RA√çCES,5.0,"Bellavista, I√±aquito",341.0,3,195.0,sin extras
+2024-09-10,150000,GS CONSTRUCCIONES Y BIENES RA√çCES,2.0,"Bellavista, I√±aquito",98.0,2,90.0,sin extras
+2024-09-10,270000,Inmoejecutivos,3.0,"Gonzalez Suarez, I√±aquito",164.0,2,162.0,sin extras
+2024-09-10,124000,GS CONSTRUCCIONES Y BIENES RAÍCES,3.0,Ponceano,144.0,3,180.0,sin extras
+2024-09-10,270000,Inmoejecutivos,3.0,Gonzalez Suarez,164.0,2,162.0,sin extras
+2024-09-10,220000,Inmoejecutivos,2.0,Cumbaya,155.0,3,121.0,sin extras
+2024-09-10,98000,FREDDY CABRERA - BIENES RAÍCES,3.0,El Batan,95.0,3,116.0,sin extras
+2024-09-10,683000,Proyectos con Futuro,5.0,Cumbaya,527.0,4,72.0,sin extras
+2024-09-10,156000,Emma Barragán,3.0,Cumbaya,110.0,2,121.0,sin extras
+2024-09-10,90000,Emma Barragán,2.0,Bellavista,70.0,2,46.0,sin extras
+2024-09-10,118000,Inmoejecutivos,2.0,El Batan,120.0,3,136.0,sin extras
+2024-09-10,229000,Inmoejecutivos,2.0,Cumbaya,186.0,2,110.0,sin extras
+2024-09-10,149600,Intramuros Constructora,3.0,Centro Norte,86.0,2,109.0,sin extras
+2024-09-10,106515,Intramuros Constructora,1.0,Cumbaya,55.0,1,78.0,sin extras
+2024-09-10,305652,Intramuros Constructora,4.0,Cumbaya,159.0,3,154.0,sin extras
+2024-09-10,134000,Emma Barragán,3.0,Bellavista,136.0,3,100.0,sin extras
+2024-09-10,220000,Emma Barragán,5.0,"El Bosque, Cochapamba",327.0,4,196.0,sin extras
+2024-09-10,245000,Emma Barragán,5.0,Bellavista,300.0,4,196.0,sin extras
+2024-09-10,94000,Emma Barragán,3.0,El Condado,116.0,2,114.0,sin extras
+2024-09-10,110000,Intramuros Constructora,2.0,Centro Norte,79.0,1,29.0,sin extras
+2024-09-10,300551,Intramuros Constructora,3.0,Centro Norte,157.0,3,177.0,sin extras
+2024-09-10,428502,Intramuros Constructora,4.0,Cumbaya,249.0,3,186.0,sin extras
+2024-09-10,627486,Intramuros Constructora,4.0,Cumbaya,464.0,3,71.0,sin extras
+2024-09-10,140056,Intramuros Constructora,2.0,Cumbaya,88.0,1,48.0,sin extras
+2024-09-10,130710,Intramuros Constructora,2.0,Cumbaya,68.0,1,46.0,sin extras
+2024-09-10,181342,Intramuros Constructora,2.0,Cumbaya,95.0,2,90.0,sin extras
+2024-09-10,169279,Intramuros Constructora,2.0,Cumbaya,94.0,2,88.0,sin extras
+2024-09-10,202578,Intramuros Constructora,3.0,Cumbaya,147.0,2,181.0,sin extras
+2024-09-10,188075,Intramuros Constructora,2.0,Cumbaya,101.0,2,71.0,sin extras
+2024-09-10,169000,AB&MD Gestión Inmobiliaria By KSA,2.0,Bellavista,97.0,2,90.0,sin extras
+2024-09-10,145000,Sandra Rodríguez,2.0,Centro Norte,90.0,2,48.0,sin extras
+2024-09-10,128000,Sandra Rodríguez,2.0,La Carolina,67.0,1,46.0,sin extras
+2024-09-10,269000,Sandra Rodríguez,3.0,Quito Tenis,269.0,3,186.0,sin extras
+2024-09-10,124000,GS CONSTRUCCIONES Y BIENES RAÍCES,3.0,Ponceano,144.0,3,180.0,sin extras
+2024-09-10,220000,Inmoejecutivos,2.0,Cumbaya,155.0,3,121.0,sin extras
+2024-09-10,98000,FREDDY CABRERA - BIENES RAÍCES,3.0,El Batan,95.0,3,116.0,sin extras
+2024-09-10,156000,Emma Barragán,3.0,Cumbaya,110.0,2,121.0,sin extras
+2024-09-10,90000,Emma Barragán,2.0,Bellavista,70.0,2,46.0,sin extras
+2024-09-10,118000,Inmoejecutivos,2.0,El Batan,120.0,3,136.0,sin extras
+2024-09-10,229000,Inmoejecutivos,2.0,Cumbaya,186.0,2,110.0,sin extras
+2024-09-10,683000,Proyectos con Futuro,5.0,Cumbaya,527.0,4,72.0,sin extras
+2024-09-10,149600,Intramuros Constructora,3.0,Centro Norte,86.0,2,109.0,sin extras
+2024-09-10,106515,Intramuros Constructora,1.0,Cumbaya,55.0,1,78.0,sin extras
+2024-09-10,305652,Intramuros Constructora,4.0,Cumbaya,159.0,3,154.0,sin extras
+2024-09-10,134000,Emma Barragán,3.0,Bellavista,136.0,3,100.0,sin extras
+2024-09-10,220000,Emma Barragán,5.0,"El Bosque, Cochapamba",327.0,4,196.0,sin extras
+2024-09-10,245000,Emma Barragán,5.0,Bellavista,300.0,4,196.0,sin extras
+2024-09-10,94000,Emma Barragán,3.0,El Condado,116.0,2,114.0,sin extras
+2024-09-10,110000,Intramuros Constructora,2.0,Centro Norte,79.0,1,29.0,sin extras
+2024-09-10,300551,Intramuros Constructora,3.0,Centro Norte,157.0,3,177.0,sin extras
+2024-09-10,428502,Intramuros Constructora,4.0,Cumbaya,249.0,3,186.0,sin extras
+2024-09-10,627486,Intramuros Constructora,4.0,Cumbaya,464.0,3,71.0,sin extras
+2024-09-10,140056,Intramuros Constructora,2.0,Cumbaya,88.0,1,48.0,sin extras
+2024-09-10,130710,Intramuros Constructora,2.0,Cumbaya,68.0,1,46.0,sin extras
+2024-09-10,181342,Intramuros Constructora,2.0,Cumbaya,95.0,2,90.0,sin extras
+2024-09-10,169279,Intramuros Constructora,2.0,Cumbaya,94.0,2,88.0,sin extras
+2024-09-10,202578,Intramuros Constructora,3.0,Cumbaya,147.0,2,181.0,sin extras
+2024-09-10,188075,Intramuros Constructora,2.0,Cumbaya,101.0,2,71.0,sin extras
+2024-09-10,97488,SU CASA SOBRE LA ROCA,2.0,Bellavista,63.0,1,53.0,sin extras
+2024-09-10,189516,SU CASA SOBRE LA ROCA,3.0,Cumbaya,137.0,2,109.0,sin extras
+2024-09-10,68000,SU CASA SOBRE LA ROCA,1.0,"La Magdalena, Sur De Quito",64.0,2,65.0,sin extras
+2024-09-10,168255,SU CASA SOBRE LA ROCA,2.0,Jipijapa,95.0,2,90.0,sin extras
+2024-09-10,92087,SU CASA SOBRE LA ROCA,2.0,"La Magdalena, Sur De Quito",104.0,3,63.0,sin extras
+2024-09-10,110000,Johanna Chalen - Remax Impacta,4.0,Ponceano,183.0,3,198.0,sin extras
+2024-09-10,96900,Emerson Medina - Inmoimpakto,2.0,Tumbaco,105.0,2,66.0,sin extras
+2024-09-10,95000,Cbr. Ximena Loma - Bienes Raíces LM,3.0,Kennedy,140.0,3,89.0,sin extras
+2024-09-10,95000,Cbr. Ximena Loma - Bienes Raíces LM,3.0,Kennedy,140.0,3,89.0,sin extras
+2024-09-10,50000,Diego Germán Unda - Remax Impacta,1.0,Cotocollao,74.0,3,43.0,sin extras
+2024-09-10,136000,Fernando Falconi,2.0,Centro Norte,93.0,3,39.0,sin extras
+2024-09-10,136000,Fernando Falconi,2.0,Centro Norte,93.0,3,39.0,sin extras
+2024-09-10,150000,Carolina Silva,3.0,Carcelen,308.0,3,195.0,sin extras
+2024-09-10,157899,Andres Altamirano,2.0,La Carolina,87.0,2,69.0,sin extras
+2024-09-10,246286,Andres Altamirano,3.0,La Carolina,137.0,3,100.0,sin extras
+2024-09-10,150000,Carolina Silva,2.0,Monteserrin,128.0,2,88.0,sin extras
+2024-09-10,450000,Carolina Silva,4.0,Centro Norte,200.0,3,198.0,sin extras
+2024-09-10,112000,Ing. Roberto Alarcón,2.0,Tumbaco,105.0,3,57.0,sin extras
+2024-09-10,380000,MIRAI,4.0,Centro Norte,350.0,3,195.0,sin extras
+2024-09-10,80000,MIRAI,2.0,El Batan,130.0,2,88.0,sin extras
+2024-09-10,175000,MIRAI,2.0,"Granda Centeno, Rumipamba",134.0,3,79.0,sin extras
+2024-09-10,70000,AB&MD Gestión Inmobiliaria By KSA,2.0,Ponceano,123.0,3,74.0,sin extras
+2024-09-10,210000,Horizonte Azul,6.0,Ponceano,209.0,7,194.0,sin extras
+2024-09-10,48000,GS CONSTRUCCIONES Y BIENES RAÍCES,1.0,Ponceano,55.0,3,77.0,sin extras
+2024-09-10,118000,GS CONSTRUCCIONES Y BIENES RAÍCES,3.0,Jipijapa,133.0,3,102.0,sin extras
+2024-09-10,115000,Horizonte Azul,1.0,Ponceano,102.0,3,62.0,sin extras
+2024-09-10,110000,Horizonte Azul,3.0,San Isidro del Inca,220.0,3,186.0,sin extras
+2024-09-10,640000,MIRAI,6.0,Quito Tenis,650.0,5,36.0,sin extras
+2024-09-10,95000,Horizonte Azul,1.0,Ponceano,91.0,2,56.0,sin extras
+2024-09-10,210000,MIRAI,4.0,Bellavista,198.0,3,198.0,sin extras
+2024-09-10,195000,GS CONSTRUCCIONES Y BIENES RAÍCES,4.0,Bellavista,156.0,3,177.0,sin extras
+2024-09-10,220920,GS CONSTRUCCIONES Y BIENES RAÍCES,3.0,Bellavista,105.0,2,100.0,sin extras
+2024-09-10,135000,GS CONSTRUCCIONES Y BIENES RAÍCES,2.0,Bellavista,100.0,3,63.0,sin extras
+2024-09-10,280000,GS CONSTRUCCIONES Y BIENES RAÍCES,5.0,Bellavista,341.0,3,195.0,sin extras
+2024-09-10,150000,GS CONSTRUCCIONES Y BIENES RAÍCES,2.0,Bellavista,98.0,2,90.0,sin extras
+2024-09-10,74900,RE/MAX Asesoría Inmobiliaria,1.0,Rusia,451.0,4,80.0,sin extras
+2024-09-10,159000,RE/MAX Capital,2.0,Eloy Alfaro,105.0,6,84.0,sin extras
+2024-09-10,199000,RE/MAX Impacta,3.0,Mariano Echeverria & Francisco Nates,16654.0,2,67.0,sin extras
+2024-09-10,87500,RE/MAX Advance,2.0,"De los Cipreses, Conjunto Toulousse",10195.0,7,74.0,sin extras
+2024-09-10,42800,RE/MAX Impacta,1.0,Miguel Riofrio,7201.0,4,1.0,sin extras
+2024-09-10,38000,RE/MAX Advance,1.0,Manuel Coronado,625.0,4,45.0,sin extras
+2024-09-10,118000,RE/MAX Asesoría Inmobiliaria,2.0,Urbanización el Condado 300,15553.0,8,110.0,sin extras
+2024-09-10,110000,RE/MAX Asesoría Inmobiliaria,1.0,Suiza 3400,5915.0,3,139.0,sin extras
+2024-09-10,59000,RE/MAX Asesoría Inmobiliaria,1.0,Mariscal Antonio José Sucre,9207.0,6,40.0,sin extras
+2024-09-10,109000,RE/MAX Asesoría Inmobiliaria,2.0,Francisco Dalmau,136.0,8,83.0,sin extras
+2024-09-10,135041,RE/MAX Capital,2.0,Avigiras,88.0,3,20.0,sin extras
+2024-09-10,135041,RE/MAX Capital,2.0,Avigiras,88.0,3,20.0,sin extras
+2024-09-10,104227,RE/MAX Capital,1.0,Avigiras,6966.0,4,20.0,sin extras
+2024-09-10,162906,RE/MAX Capital,2.0,Avigiras,86.0,4,45.0,sin extras
+2024-09-10,110000,RE/MAX Capital,2.0,Manuel Valdiviezo,95.0,3,100.0,sin extras
+2024-09-10,88076,RE/MAX Capital,1.0,Pasaje Dolomitas y los Naranjos,6387.0,5,40.0,sin extras
+2024-09-10,173240,RE/MAX Capital,2.0,Pasaje Dolomitas y los Naranjos,12191.0,7,40.0,sin extras
+2024-09-10,98000,RE/MAX Capital,1.0,Gonzalo Endara Crown 0,87.0,5,112.0,sin extras
+2024-09-10,106000,RE/MAX Asesoría Inmobiliaria,1.0,Mariano Echeverria,6698.0,6,127.0,sin extras
+2024-09-10,89900,RE/MAX Supremo,2.0,Francisco Dalmau 500,126.0,8,50.0,sin extras
+2024-09-10,63000,RE/MAX Empire,1.0,General Jose Maria Guerrero-manta,665.0,3,61.0,sin extras
+2024-09-10,43000,RE/MAX Capital,1.0,Huiragchuros 500,30.0,5,1.0,sin extras
+2024-09-10,75000,RE/MAX Traditions,2.0,Hernan Gmoiner,9518.0,7,40.0,sin extras
+2024-09-10,158000,RE/MAX Asesoría Inmobiliaria,2.0,Calle N,110.0,5,120.0,sin extras
+2024-09-10,50000,RE/MAX Asesoría Inmobiliaria,1.0,Doctor José Fernández Salvador,75.0,6,35.0,sin extras
+2024-09-10,279000,RE/MAX Asesoría Inmobiliaria,3.0,S7d,182.0,8,200.0,sin extras
+2024-09-10,75000,RE/MAX Asesoría Inmobiliaria,1.0,Noruega y Moscú,4208.0,3,75.0,sin extras
+2024-09-10,70000,RE/MAX Empire,2.0,De los Eucaliptos 0,77.0,4,31.0,sin extras
+2024-09-10,50000,RE/MAX Empire,2.0,De los Eucaliptos 0,77.0,4,31.0,sin extras
+2024-09-10,195000,RE/MAX Asesoría Inmobiliaria,3.0,Avenida Edmundo Carvajal 800,150.0,2,190.0,sin extras
+2024-09-10,87000,RE/MAX Asesoría Inmobiliaria,1.0,República del Salvador y Moscú 0,54.0,2,80.0,sin extras
+2024-09-10,76000,RE/MAX Capital,2.0,De Las Cucardas,12266.0,8,1.0,sin extras
+2024-09-10,64500,RE/MAX Advance,1.0,Pedro Alvarado 0,78.0,4,50.0,sin extras
+2024-09-10,55000,RE/MAX Capital,1.0,Mañosca Oe760,50.0,3,40.0,sin extras
+2024-09-10,70000,RE/MAX Asesoría Inmobiliaria,2.0,Calle B y Manuel Valdiviezo 100,86.0,4,60.0,sin extras
+2024-09-10,82000,RE/MAX Asesoría Inmobiliaria,1.0,Bosmediano,65.0,4,90.0,sin extras
+2024-09-10,158494,RE/MAX Advance,2.0,Mariano Egas,104.0,6,87.0,sin extras
+2024-09-10,208800,RE/MAX Advance,3.0,Mariano Egas,1305.0,6,35.0,sin extras
+2024-09-10,100000,RE/MAX Capital,2.0,Korea E Iñaquito,103.0,5,78.0,sin extras
+2024-09-10,149000,RE/MAX Capital,1.0,Av. República y Av. Eloy Alfaro,61.0,3,80.0,sin extras
+2024-09-10,146349,RE/MAX Capital,1.0,Pasaje Dolomitas y los Naranjos,12191.0,5,40.0,sin extras
+2024-09-10,110000,RE/MAX Capital,2.0,Versalles,204.0,6,60.0,sin extras
+2024-09-10,73000,RE/MAX Capital,1.0,El Bosque Segunda Transversal,58.0,3,78.0,sin extras
+2024-09-10,80000,RE/MAX Futuro,1.0,El Bosque,56.0,4,90.0,sin extras
+2024-09-10,63000,RE/MAX Advance,2.0,De los Juncos,7608.0,5,20.0,sin extras
+2024-09-10,35000,RE/MAX Impacta,1.0,Juan Pio Montufar,7768.0,3,20.0,sin extras
+2024-09-10,80000,RE/MAX Capital,1.0,De Las Cucardas,11125.0,4,20.0,sin extras
+2024-09-10,55000,RE/MAX Asesoría Inmobiliaria,1.0,Av. Real Audiencia y Francisco Dalmau,47.0,3,45.0,sin extras
+2024-09-10,145000,RE/MAX Advance,2.0,Ponceabo Alto - Mariano Pozo y N70c,147.0,7,140.0,sin extras
+2024-09-10,138000,RE/MAX Advance,1.0,Avenida Naciones Unidas,6254.0,3,90.0,sin extras
+2024-09-10,57900,RE/MAX Asesoría Inmobiliaria,2.0,Av 10 Agosto y Jeronimo Carrion,127.0,4,60.0,sin extras
+2024-09-10,79900,RE/MAX Capital,3.0,Bernardo Legarda,141.0,7,30.0,sin extras
+2024-09-10,150000,RE/MAX Asesoría Inmobiliaria,2.0,La Tierra,134.0,8,125.0,sin extras
+2024-09-10,144900,RE/MAX Asesoría Inmobiliaria,2.0,Juan Barrezueta y Jose Andrade,158.0,7,98.0,sin extras
+2024-09-10,141000,RE/MAX Asesoría Inmobiliaria,2.0,La Carolina,121.0,6,178.0,sin extras
+2024-09-10,98000,RE/MAX Asesoría Inmobiliaria,2.0,Huachi,238.0,6,15.0,sin extras
+2024-09-10,110000,RE/MAX Asesoría Inmobiliaria,1.0,Luxemburgo,45.0,4,88.0,sin extras
+2024-09-10,1500947,RE/MAX Capital,2.0,Pasaje Dolomitas y los Naranjos,10733.0,6,40.0,sin extras
+2024-09-10,126176,RE/MAX Capital,2.0,Pasaje Dolomitas y los Naranjos,9514.0,6,40.0,sin extras
+2024-09-10,150095,RE/MAX Capital,2.0,Pasaje Dolomitas y los Naranjos,10733.0,6,40.0,sin extras
+2024-09-10,166116,RE/MAX Capital,2.0,Pasaje Dolomitas y los Naranjos,12191.0,7,40.0,sin extras
+2024-09-10,93013,RE/MAX Capital,1.0,Pasaje Dolomitas y los Naranjos,6552.0,5,40.0,sin extras
+2024-09-10,97793,RE/MAX Capital,1.0,Pasaje Dolomitas y los Naranjos,699.0,5,40.0,sin extras
+2024-09-10,97793,RE/MAX Capital,1.0,Pasaje Dolomitas y los Naranjos,699.0,5,40.0,sin extras
+2024-09-10,89045,RE/MAX Capital,1.0,Pasaje Dolomitas y los Naranjos,6387.0,5,40.0,sin extras
+2024-09-10,105000,RE/MAX Asesoría Inmobiliaria,3.0,Avebida Ilalo y Jose Joaquin Olmedo,150.0,4,80.0,sin extras
+2024-09-10,113900,RE/MAX Capital,2.0,Fernando Dávalos y Pasaje Bernal,100.0,3,40.0,sin extras
+2024-09-10,105000,RE/MAX Capital,2.0,Mañosca,100.0,3,50.0,sin extras
+2024-09-10,53000,RE/MAX Asesoría Inmobiliaria,2.0,Pedro Pinto G 0,8313.0,5,25.0,sin extras
+2024-09-10,54900,RE/MAX Advance,1.0,Av. Mariscal Antonio Jose Sucre y Calle N68-b,70.0,3,45.0,sin extras
+2024-09-10,149000,RE/MAX Asesoría Inmobiliaria,2.0,Gonzalo Endara Crown y Jaime Andrade Moscoso,118.0,5,87.0,sin extras
+2024-09-10,90000,RE/MAX Advance,1.0,Isla Española,1607.0,5,45.0,sin extras
+2024-09-10,70000,RE/MAX Asesoría Inmobiliaria,2.0,Elicio Flor,118.0,3,20.0,sin extras
+2024-09-10,98000,RE/MAX Asesoría Inmobiliaria,1.0,Alonso Torres,70.0,3,85.0,sin extras
+2024-09-10,54000,RE/MAX Capital,1.0,Juan Díaz y Rodrigo Muriel,6533.0,3,25.0,sin extras
+2024-09-10,85000,RE/MAX Asesoría Inmobiliaria,1.0,Rafael Almeida,6712.0,3,106.0,sin extras
+2024-09-10,217000,RE/MAX Asesoría Inmobiliaria,3.0,Granda Centeno,130.0,6,90.0,sin extras
+2024-09-10,85000,RE/MAX Asesoría Inmobiliaria,2.0,Oe2 Soldado David Caicedo,100.0,4,10.0,sin extras
+2024-09-10,126000,RE/MAX Asesoría Inmobiliaria,2.0,6 Diciembre,137.0,5,125.0,sin extras
+2024-09-10,45000,RE/MAX Asesoría Inmobiliaria,2.0,Eje Longitudinal Pedro Vicen...,58.0,5,5.0,sin extras
+2024-09-10,115000,RE/MAX Capital,2.0,Hernandez Giron,131.0,8,120.0,sin extras
+2024-09-10,68000,RE/MAX Capital,1.0,Avenida 10 Agosto,73.0,4,55.0,sin extras
+2024-09-10,68500,RE/MAX Asesoría Inmobiliaria,2.0,Calle Antonio Nuñez y Av. Diego Vasquez,112.0,4,45.0,sin extras
+2024-09-10,65000,RE/MAX Asesoría Inmobiliaria,2.0,Vicente Heredia,106.0,4,50.0,sin extras
+2024-09-10,163300,RE/MAX Asesoría Inmobiliaria,2.0,De Las Amapolas y Cactus,102.0,4,1.0,sin extras
+2024-09-10,56500,RE/MAX Advance,1.0,"Pusuqui, Av Manuel Córdova Galarza Km 4",704.0,5,31.0,sin extras
+2024-09-10,159000,RE/MAX Futuro,2.0,Gregorio Bobadilla,134.0,8,193.0,sin extras
+2024-09-10,119000,RE/MAX Futuro,2.0,Brasil y Edmundo Carvajal,120.0,8,125.0,sin extras
+2024-09-10,55000,RE/MAX Asesoría Inmobiliaria,2.0,Eloy Alfaro y la Higuera,74.0,4,25.0,sin extras
+2024-09-10,74900,RE/MAX Asesoría Inmobiliaria,1.0,Rusia,451.0,4,80.0,sin extras
+2024-09-10,159000,RE/MAX Capital,2.0,Eloy Alfaro,105.0,6,84.0,sin extras
+2024-09-10,199000,RE/MAX Impacta,3.0,Mariano Echeverria & Francisco Nates,16654.0,2,67.0,sin extras
+2024-09-10,87500,RE/MAX Advance,2.0,"De los Cipreses, Conjunto Toulousse",10195.0,7,74.0,sin extras
+2024-09-10,42800,RE/MAX Impacta,1.0,Miguel Riofrio,7201.0,4,1.0,sin extras
+2024-09-10,38000,RE/MAX Advance,1.0,Manuel Coronado,625.0,4,45.0,sin extras
+2024-09-10,118000,RE/MAX Asesoría Inmobiliaria,2.0,Urbanización el Condado 300,15553.0,8,110.0,sin extras
+2024-09-10,110000,RE/MAX Asesoría Inmobiliaria,1.0,Suiza 3400,5915.0,3,139.0,sin extras
+2024-09-10,59000,RE/MAX Asesoría Inmobiliaria,1.0,Mariscal Antonio José Sucre,9207.0,6,40.0,sin extras
+2024-09-10,109000,RE/MAX Asesoría Inmobiliaria,2.0,Francisco Dalmau,136.0,8,83.0,sin extras
+2024-09-10,135041,RE/MAX Capital,2.0,Avigiras,88.0,3,20.0,sin extras
+2024-09-10,135041,RE/MAX Capital,2.0,Avigiras,88.0,3,20.0,sin extras
+2024-09-10,104227,RE/MAX Capital,1.0,Avigiras,6966.0,4,20.0,sin extras
+2024-09-10,162906,RE/MAX Capital,2.0,Avigiras,86.0,4,45.0,sin extras
+2024-09-10,110000,RE/MAX Capital,2.0,Manuel Valdiviezo,95.0,3,100.0,sin extras
+2024-09-10,88076,RE/MAX Capital,1.0,Pasaje Dolomitas y los Naranjos,6387.0,5,40.0,sin extras
+2024-09-10,173240,RE/MAX Capital,2.0,Pasaje Dolomitas y los Naranjos,12191.0,7,40.0,sin extras
+2024-09-10,98000,RE/MAX Capital,1.0,Gonzalo Endara Crown 0,87.0,5,112.0,sin extras
+2024-09-10,106000,RE/MAX Asesoría Inmobiliaria,1.0,Mariano Echeverria,6698.0,6,127.0,sin extras
+2024-09-10,89900,RE/MAX Supremo,2.0,Francisco Dalmau 500,126.0,8,50.0,sin extras
+2024-09-10,63000,RE/MAX Empire,1.0,General Jose Maria Guerrero-manta,665.0,3,61.0,sin extras
+2024-09-10,155000,RE/MAX Futuro,2.0,Ruta Viva / Tumbaco,9629.0,7,145.0,sin extras
+2024-09-10,42000,RE/MAX Capital,1.0,Gonzalo Gordillo 0,65.0,3,15.0,sin extras
+2024-09-10,53000,RE/MAX Impacta,2.0,Capitán Giovanni Calles,59.0,3,65.0,sin extras
+2024-09-10,36000,RE/MAX Impacta,1.0,Ciudad Jardín Sur Quito,5623.0,4,23.0,sin extras
+2024-09-10,149000,RE/MAX Impacta,1.0,Avenida Naciones Unidas,7203.0,1,84.0,sin extras
+2024-09-10,90000,RE/MAX Asesoría Inmobiliaria,1.0,Avenida 6 Diciembre,8127.0,4,112.0,sin extras
+2024-09-10,250000,RE/MAX Futuro,3.0,N42 Beck Rollo 0,112.0,3,120.0,sin extras
+2024-09-10,89900,RE/MAX Asesoría Inmobiliaria,2.0,Av. Eloy Alfaro y los Nogales,65.0,7,69.0,sin extras
+2024-09-10,260000,RE/MAX Asesoría Inmobiliaria,3.0,Bernabe Lovato 0,240.0,8,50.0,sin extras
+2024-09-10,127000,RE/MAX Asesoría Inmobiliaria,2.0,Panamericana Norte,168.0,8,35.0,sin extras
+2024-09-10,164900,RE/MAX Asesoría Inmobiliaria,3.0,Eloy Alfaro,261.0,8,350.0,sin extras
+2024-09-10,125000,RE/MAX Asesoría Inmobiliaria,2.0,6 Diciembre y Cordero,8475.0,6,173.0,sin extras
+2024-09-10,74500,RE/MAX Asesoría Inmobiliaria,1.0,Av. Gaspar Villarroel,63.0,4,53.0,sin extras
+2024-09-10,169000,RE/MAX Capital,2.0,Terrazas del Moral,142.0,4,173.0,sin extras
+2024-09-10,210000,RE/MAX Asesoría Inmobiliaria,3.0,Quiteño Libre y la Cumbre,165.0,4,90.0,sin extras
+2024-09-10,65000,RE/MAX Asesoría Inmobiliaria,1.0,Ulpiano Paez y Luis Cordero 0,42.0,4,60.0,sin extras
+2024-09-10,99900,RE/MAX Asesoría Inmobiliaria,2.0,Lugo y Lerida 0,813.0,6,80.0,sin extras
+2024-09-10,99900,RE/MAX Asesoría Inmobiliaria,1.0,Bossano,80.0,4,1.0,sin extras
+2024-09-10,94000,RE/MAX Asesoría Inmobiliaria,1.0,Republica del Salvador,25.0,1,80.0,sin extras
+2024-09-10,53000,RE/MAX Asesoría Inmobiliaria,1.0,Guillermo Mensi 0,932.0,4,60.0,sin extras
+2024-09-10,45000,RE/MAX Capital,1.0,Avenida los Granados,51.0,4,15.0,sin extras
+2024-09-10,65000,RE/MAX Capital,2.0,De Las Anonas,976.0,8,25.0,sin extras
+2024-09-10,82000,RE/MAX Asesoría Inmobiliaria,1.0,Bosmediano,65.0,4,90.0,sin extras
+2024-09-10,158494,RE/MAX Advance,2.0,Mariano Egas,104.0,6,87.0,sin extras
+2024-09-10,208800,RE/MAX Advance,3.0,Mariano Egas,1305.0,6,35.0,sin extras
+2024-09-10,100000,RE/MAX Capital,2.0,Korea E Iñaquito,103.0,5,78.0,sin extras
+2024-09-10,149000,RE/MAX Capital,1.0,Av. República y Av. Eloy Alfaro,61.0,3,80.0,sin extras
+2024-09-10,146349,RE/MAX Capital,1.0,Pasaje Dolomitas y los Naranjos,12191.0,5,40.0,sin extras
+2024-09-10,110000,RE/MAX Capital,2.0,Versalles,204.0,6,60.0,sin extras
+2024-09-10,73000,RE/MAX Capital,1.0,El Bosque Segunda Transversal,58.0,3,78.0,sin extras
+2024-09-10,74900,RE/MAX Asesoría Inmobiliaria,1.0,Rusia,451.0,4,80.0,sin extras
+2024-09-10,159000,RE/MAX Capital,2.0,Eloy Alfaro,105.0,6,84.0,sin extras
+2024-09-10,199000,RE/MAX Impacta,3.0,Mariano Echeverria & Francisco Nates,16654.0,2,67.0,sin extras
+2024-09-10,87500,RE/MAX Advance,2.0,"De los Cipreses, Conjunto Toulousse",10195.0,7,74.0,sin extras
+2024-09-10,38000,RE/MAX Advance,1.0,Manuel Coronado,625.0,4,45.0,sin extras
+2024-09-10,118000,RE/MAX Asesoría Inmobiliaria,2.0,Urbanización el Condado 300,15553.0,8,110.0,sin extras
+2024-09-10,110000,RE/MAX Asesoría Inmobiliaria,1.0,Suiza 3400,5915.0,3,139.0,sin extras
+2024-09-10,59000,RE/MAX Asesoría Inmobiliaria,1.0,Mariscal Antonio José Sucre,9207.0,6,40.0,sin extras
+2024-09-10,109000,RE/MAX Asesoría Inmobiliaria,2.0,Francisco Dalmau,136.0,8,83.0,sin extras
+2024-09-10,135041,RE/MAX Capital,2.0,Avigiras,88.0,3,20.0,sin extras
+2024-09-10,135041,RE/MAX Capital,2.0,Avigiras,88.0,3,20.0,sin extras
+2024-09-10,104227,RE/MAX Capital,1.0,Avigiras,6966.0,4,20.0,sin extras
+2024-09-10,162906,RE/MAX Capital,2.0,Avigiras,86.0,4,45.0,sin extras
+2024-09-10,110000,RE/MAX Capital,2.0,Manuel Valdiviezo,95.0,3,100.0,sin extras
+2024-09-10,101000,RE/MAX Empire,2.0,Los Laureles,100.0,4,100.0,sin extras
+2024-09-10,79000,RE/MAX Asesoría Inmobiliaria,2.0,Carlos Mantilla 100,18908.0,8,35.0,sin extras
+2024-09-10,200,RE/MAX Impacta,1.0,Antonio Elizalde,35.0,2,62.0,sin extras
+2024-09-10,200,RE/MAX Impacta,1.0,Antonio Elizalde,35.0,2,62.0,sin extras
+2024-09-10,160000,RE/MAX Capital,2.0,El Zurriago 144 100,110.0,6,125.0,sin extras
+2024-09-10,20000,RE/MAX Asesoría Inmobiliaria,2.0,Calle E10,56.0,5,62.0,sin extras
+2024-09-10,81000,RE/MAX Asesoría Inmobiliaria,2.0,Ugarte y Saravia 100,123.0,6,30.0,sin extras
+2024-09-10,109000,RE/MAX Asesoría Inmobiliaria,2.0,Calle E6a,138.0,8,30.0,sin extras
+2024-09-10,329000,RE/MAX Asesoría Inmobiliaria,2.0,Naciones Unidas,107.0,8,270.0,sin extras
+2024-09-10,105000,RE/MAX Asesoría Inmobiliaria,1.0,Avenida Antonio Granda Centeno 0,5505.0,5,65.0,sin extras
+2024-09-10,30000,RE/MAX Advance,1.0,Av. Teniente Hugo Ortiz y Moromoro,45.0,4,24.0,sin extras
+2024-09-10,23000,RE/MAX Capital,1.0,E10,4875.0,4,6.0,sin extras
+2024-09-10,140000,RE/MAX Asesoría Inmobiliaria,2.0,Rafael Almeida,100.0,7,155.0,sin extras
+2024-09-10,218000,RE/MAX Asesoría Inmobiliaria,2.0,Francisco Feijo,120.0,4,327.0,sin extras
+2024-09-10,125000,RE/MAX Asesoría Inmobiliaria,1.0,Avenida Eloy Alfaro,70.0,4,90.0,sin extras
+2024-09-10,249000,RE/MAX Asesoría Inmobiliaria,2.0,Avenida República el Salvador,121.0,8,220.0,sin extras
+2024-09-10,73900,RE/MAX Impacta,2.0,Jose María Guerreo,103.0,4,35.0,sin extras
+2024-09-10,26900,RE/MAX Asesoría Inmobiliaria,1.0,Caupicho 100,4825.0,5,20.0,sin extras
+2024-09-10,259900,RE/MAX Asesoría Inmobiliaria,2.0,Av Republica y Eloy Alfaro,84.0,2,1.0,sin extras
+2024-09-10,64999,RE/MAX Impacta,1.0,E8 y Jaime Roldos Aguilera,70.0,3,40.0,sin extras
+2024-09-10,64000,RE/MAX Asesoría Inmobiliaria,1.0,Juan José Villalengua,645.0,4,30.0,sin extras
+2024-09-10,77000,RE/MAX Asesoría Inmobiliaria,2.0,La Sagalita,91.0,4,45.0,sin extras
+2024-09-10,96000,RE/MAX Asesoría Inmobiliaria,2.0,Mariscal Sucre E6 la Rábida,8664.0,4,102.0,sin extras
+2024-09-10,1732397,RE/MAX Capital,2.0,Pasaje Dolmita y los Naranjos,12253.0,7,40.0,sin extras
+2024-09-10,1260963,RE/MAX Capital,1.0,Pasaje Dolmitas y los Naranjos,8949.0,6,40.0,sin extras
+2024-09-10,194900,RE/MAX Asesoría Inmobiliaria,2.0,De Las Alondras,164.0,4,170.0,sin extras
+2024-09-10,45000,RE/MAX Asesoría Inmobiliaria,1.0,Avenida Manuel Córdova Galarza y García Moreno,621.0,4,20.0,sin extras
+2024-09-10,115000,RE/MAX Futuro,2.0,Avenida Río Amazonas,87.0,3,70.0,sin extras
+2024-09-10,43000,RE/MAX Capital,1.0,Huiragchuros 500,30.0,5,1.0,sin extras
+2024-09-10,75000,RE/MAX Traditions,2.0,Hernan Gmoiner,9518.0,7,40.0,sin extras
+2024-09-10,158000,RE/MAX Asesoría Inmobiliaria,2.0,Calle N,110.0,5,120.0,sin extras
+2024-09-10,50000,RE/MAX Asesoría Inmobiliaria,1.0,Doctor José Fernández Salvador,75.0,6,35.0,sin extras
+2024-09-10,279000,RE/MAX Asesoría Inmobiliaria,3.0,S7d,182.0,8,200.0,sin extras
+2024-09-10,75000,RE/MAX Asesoría Inmobiliaria,1.0,Noruega y Moscú,4208.0,3,75.0,sin extras
+2024-09-10,70000,RE/MAX Empire,2.0,De los Eucaliptos 0,77.0,4,31.0,sin extras
+2024-09-10,50000,RE/MAX Empire,2.0,De los Eucaliptos 0,77.0,4,31.0,sin extras
+2024-09-10,195000,RE/MAX Asesoría Inmobiliaria,3.0,Avenida Edmundo Carvajal 800,150.0,2,190.0,sin extras
+2024-09-10,87000,RE/MAX Asesoría Inmobiliaria,1.0,República del Salvador y Moscú 0,54.0,2,80.0,sin extras
+2024-09-10,76000,RE/MAX Capital,2.0,De Las Cucardas,12266.0,8,1.0,sin extras
+2024-09-10,64500,RE/MAX Advance,1.0,Pedro Alvarado 0,78.0,4,50.0,sin extras
+2024-09-10,55000,RE/MAX Capital,1.0,Mañosca Oe760,50.0,3,40.0,sin extras
+2024-09-10,70000,RE/MAX Asesoría Inmobiliaria,2.0,Calle B y Manuel Valdiviezo 100,86.0,4,60.0,sin extras
+2024-09-10,43000,RE/MAX Capital,1.0,Huiragchuros 500,30.0,5,1.0,sin extras
+2024-09-10,75000,RE/MAX Traditions,2.0,Hernan Gmoiner,9518.0,7,40.0,sin extras
+2024-09-10,158000,RE/MAX Asesoría Inmobiliaria,2.0,Calle N,110.0,5,120.0,sin extras
+2024-09-10,50000,RE/MAX Asesoría Inmobiliaria,1.0,Doctor José Fernández Salvador,75.0,6,35.0,sin extras
+2024-09-10,279000,RE/MAX Asesoría Inmobiliaria,3.0,S7d,182.0,8,200.0,sin extras
+2024-09-10,75000,RE/MAX Asesoría Inmobiliaria,1.0,Noruega y Moscú,4208.0,3,75.0,sin extras
+2024-09-10,70000,RE/MAX Empire,2.0,De los Eucaliptos 0,77.0,4,31.0,sin extras
+2024-09-10,50000,RE/MAX Empire,2.0,De los Eucaliptos 0,77.0,4,31.0,sin extras
+2024-09-10,195000,RE/MAX Asesoría Inmobiliaria,3.0,Avenida Edmundo Carvajal 800,150.0,2,190.0,sin extras
+2024-09-10,87000,RE/MAX Asesoría Inmobiliaria,1.0,República del Salvador y Moscú 0,54.0,2,80.0,sin extras
+2024-09-10,76000,RE/MAX Capital,2.0,De Las Cucardas,12266.0,8,1.0,sin extras
+2024-09-10,64500,RE/MAX Advance,1.0,Pedro Alvarado 0,78.0,4,50.0,sin extras
+2024-09-10,55000,RE/MAX Capital,1.0,Mañosca Oe760,50.0,3,40.0,sin extras
+2024-09-10,70000,RE/MAX Asesoría Inmobiliaria,2.0,Calle B y Manuel Valdiviezo 100,86.0,4,60.0,sin extras
+2024-09-10,82000,RE/MAX Asesoría Inmobiliaria,1.0,Bosmediano,65.0,4,90.0,sin extras
+2024-09-10,158494,RE/MAX Advance,2.0,Mariano Egas,104.0,6,87.0,sin extras
+2024-09-10,208800,RE/MAX Advance,3.0,Mariano Egas,1305.0,6,35.0,sin extras
+2024-09-10,100000,RE/MAX Capital,2.0,Korea E Iñaquito,103.0,5,78.0,sin extras
+2024-09-10,149000,RE/MAX Capital,1.0,Av. República y Av. Eloy Alfaro,61.0,3,80.0,sin extras
+2024-09-10,146349,RE/MAX Capital,1.0,Pasaje Dolomitas y los Naranjos,12191.0,5,40.0,sin extras
+2024-09-10,110000,RE/MAX Capital,2.0,Versalles,204.0,6,60.0,sin extras
+2024-09-10,73000,RE/MAX Capital,1.0,El Bosque Segunda Transversal,58.0,3,78.0,sin extras
+2024-09-10,69000,RE/MAX Asesoría Inmobiliaria,2.0,E16b,9278.0,5,51.0,sin extras
+2024-09-10,85000,RE/MAX Asesoría Inmobiliaria,2.0,Gonzalo Zaldumbide,1478.0,8,49.0,sin extras
+2024-09-10,85000,RE/MAX Asesoría Inmobiliaria,2.0,De los Lirios y Julio Arellano 0,10434.0,8,49.0,sin extras
+2024-09-10,85000,RE/MAX Asesoría Inmobiliaria,2.0,De los Lirios 0,10811.0,8,50.0,sin extras
+2024-09-10,85000,RE/MAX Asesoría Inmobiliaria,2.0,De los Lirios y Julio Arellano 0,10811.0,8,50.0,sin extras
+2024-09-10,85000,RE/MAX Asesoría Inmobiliaria,2.0,De los Lirios y Julio Arellano 0,10545.0,8,49.0,sin extras
+2024-09-10,57500,RE/MAX Capital,1.0,Francisco Caldas y Av. Pichincha,72.0,6,15.0,sin extras
+2024-09-10,179900,RE/MAX Asesoría Inmobiliaria,3.0,Francisco Granizo Rivadeneira,18626.0,8,100.0,sin extras
+2024-09-10,210000,RE/MAX Asesoría Inmobiliaria,2.0,González Suárez,9647.0,4,213.0,sin extras
+2024-09-10,128000,RE/MAX Asesoría Inmobiliaria,2.0,"Real Audiencia Oe3 Edificio Malaga Piso 6, Dep. 607",13389.0,8,110.0,sin extras
+2024-09-10,78000,RE/MAX Asesoría Inmobiliaria,2.0,Calle 10 y Francisco Dalmau,109.0,5,60.0,sin extras
+2024-09-10,46000,RE/MAX Asesoría Inmobiliaria,2.0,Avenida la Gasca 0,67.0,3,20.0,sin extras
+2024-09-10,86000,RE/MAX Asesoría Inmobiliaria,1.0,Edif Cosmopolitan Suites Luxemburgo y Portugal,60.0,3,120.0,sin extras
+2024-09-10,80000,RE/MAX Capital,1.0,Pedro Sarmiento Gamboa,52.0,2,80.0,sin extras
+2024-09-10,48000,RE/MAX Impacta,1.0,Quitumbe ñan,75.0,6,30.0,sin extras
+2024-09-10,148900,RE/MAX Asesoría Inmobiliaria,2.0,Rumipamba,86.0,8,66.0,sin extras
+2024-09-10,78000,RE/MAX Capital,1.0,6 Diciembre,3524.0,2,70.0,sin extras
+2024-09-10,92000,RE/MAX Capital,1.0,6 Diciembre,4006.0,2,70.0,sin extras
+2024-09-10,66000,RE/MAX Capital,1.0,6 Diciembre,3151.0,2,70.0,sin extras
+2024-09-10,95000,RE/MAX Capital,2.0,Av la Prensa y Esequiel Márquez,92.0,3,39.0,sin extras
+2024-09-10,110000,RE/MAX Capital,2.0,9 Julio,127.0,5,80.0,sin extras
+2024-09-10,137000,RE/MAX Capital,2.0,Vía a Nayón,100.0,4,82.0,sin extras
+2024-09-10,85000,RE/MAX Capital,2.0,Quintillano Sanchez,111.0,4,30.0,sin extras
+2024-09-10,54000,RE/MAX Impacta,1.0,Gral. José María Guerrero,665.0,5,38.0,sin extras
+2024-09-10,160056,RE/MAX Capital,1.0,Pasaje Dolomitas y los Naranjos,12191.0,5,40.0,sin extras
+2024-09-10,39800,RE/MAX Impacta,2.0,Miguel Riofrio,7201.0,3,1.0,sin extras
+2024-09-10,135000,RE/MAX Futuro,1.0,Rusia,60.0,4,115.0,sin extras
+2024-09-10,185000,RE/MAX Asesoría Inmobiliaria,2.0,Urb. el Condado,128.0,8,180.0,sin extras
+2024-09-10,69990,RE/MAX Futuro,1.0,Av. Naciones Unidas,57.0,4,97.0,sin extras
+2024-09-10,132500,RE/MAX Asesoría Inmobiliaria,2.0,Azcunaga,113.0,4,90.0,sin extras
+2024-09-10,84900,RE/MAX Asesoría Inmobiliaria,2.0,Luis Cordero,145.0,6,124.0,sin extras
+2024-09-10,98000,RE/MAX Asesoría Inmobiliaria,2.0,Jorge Juan 600,11635.0,8,15.0,sin extras
+2024-09-10,45000,RE/MAX Asesoría Inmobiliaria,1.0,Mariscal Antonio Jose Sucre,80.0,4,5.0,sin extras
+2024-09-10,60000,RE/MAX Capital,1.0,S.jose Guamani 0,155.0,5,114.0,sin extras
+2024-09-10,74000,RE/MAX Asesoría Inmobiliaria,2.0,Mariano Pozo,128.0,5,45.0,sin extras
+2024-09-10,146000,RE/MAX Asesoría Inmobiliaria,2.0,Granda Centeno,122.0,8,170.0,sin extras
+2024-09-10,84000,RE/MAX Capital,2.0,Juan Díaz,11085.0,5,80.0,sin extras
+2024-09-10,89900,RE/MAX Asesoría Inmobiliaria,2.0,Galo Plaza Lasso 500,130.0,4,25.0,sin extras
+2024-09-10,42000,RE/MAX Asesoría Inmobiliaria,1.0,23 Junio,73.0,6,20.0,sin extras
+2024-09-10,75000,RE/MAX Asesoría Inmobiliaria,1.0,Leonidas Plaza,6023.0,3,75.0,sin extras
+2024-09-10,135000,RE/MAX Impacta,2.0,Edificio Louvre Quito,91.0,5,45.0,sin extras
+2024-09-10,118000,RE/MAX Asesoría Inmobiliaria,2.0,Mirasierra,105.0,3,20.0,sin extras
+2024-09-10,127000,RE/MAX Asesoría Inmobiliaria,2.0,San Francisco la Pita,94.0,4,88.0,sin extras
+2024-09-10,206000,RE/MAX Asesoría Inmobiliaria,2.0,La Carolina,11639.0,4,147.0,sin extras
+2024-09-10,270000,RE/MAX Asesoría Inmobiliaria,2.0,Pasaje Salazar Km 9 la Ruta Viva,18266.0,6,276.0,sin extras
+2024-09-10,119000,RE/MAX Futuro,2.0,Francisco Hernández Girón 0,11332.0,6,89.0,sin extras
+2024-09-10,71825,RE/MAX Futuro,2.0,F,86.0,6,74.0,sin extras
+2024-09-10,190000,RE/MAX Futuro,3.0,Manuel Guzmán,240.0,7,194.0,sin extras
+2024-09-10,280000,RE/MAX Asesoría Inmobiliaria,3.0,Gonzales Suarez,305.0,8,1.0,sin extras
+2024-09-10,75000,RE/MAX Futuro,1.0,Av. 6 Diciembre,53.0,3,64.0,sin extras
+2024-09-10,145000,RE/MAX Capital,2.0,Francisco Granizo 0,11786.0,5,85.0,sin extras
+2024-09-10,123000,RE/MAX Capital,2.0,Avenida Diego Vásquez Cepeda,8344.0,5,85.0,sin extras
+2024-09-10,105000,RE/MAX Capital,2.0,Francisco Granizo,869.0,5,85.0,sin extras
+2024-09-10,130000,RE/MAX Capital,2.0,Francisco Granizo,10794.0,6,85.0,sin extras
+2024-09-10,450000,RE/MAX Asesoría Inmobiliaria,3.0,El Bosque,280.0,5,333.0,sin extras
+2024-09-10,47000,RE/MAX Asesoría Inmobiliaria,2.0,San Miguel Anagaes,7145.0,4,30.0,sin extras
+2024-09-10,50000,RE/MAX Impacta,2.0,Quitumbe Rucullacta 0,7228.0,5,20.0,sin extras
+2024-09-10,79000,RE/MAX Asesoría Inmobiliaria,2.0,N53l,10363.0,3,20.0,sin extras
+2024-09-10,216000,RE/MAX Advance,2.0,Austria E Irlanda,15726.0,7,171.0,sin extras
+2024-09-10,79900,RE/MAX Asesoría Inmobiliaria,1.0,Avenida República el Salvador,80.0,4,80.0,sin extras
+2024-09-10,152407,RE/MAX Asesoría Inmobiliaria,2.0,"Cumbaya, Yanazarapata 0",9524.0,8,1.0,sin extras
+2024-09-10,184200,RE/MAX Asesoría Inmobiliaria,3.0,"Cumbaya, Yanazarapata 0",12058.0,8,1.0,sin extras
+2024-09-10,144900,RE/MAX Asesoría Inmobiliaria,2.0,"Cumbaya, Yanazarapata 0",9303.0,8,1.0,sin extras
+2024-09-10,72000,RE/MAX Asesoría Inmobiliaria,2.0,Veintimilla y 6 Diciembre,10163.0,4,55.0,sin extras
+2024-09-10,75000,RE/MAX Impacta,1.0,La Prensa N63 - 141,11204.0,5,30.0,sin extras
+2024-09-10,100000,RE/MAX Capital,1.0,Av 6 Diciembre,51.0,2,65.0,sin extras
+2024-09-10,63000,RE/MAX Asesoría Inmobiliaria,2.0,6 Diciembre N56-61 y Fresnos 0,8529.0,1,30.0,sin extras
+2024-09-10,115000,RE/MAX Capital,3.0,Francisco Andrade Marin,124.0,7,179.0,sin extras
+2024-09-10,74000,RE/MAX Capital,2.0,De los Cipreses,84.0,5,74.0,sin extras
+2024-09-10,98000,RE/MAX Futuro,1.0,M. Borrero,1028.0,4,120.0,sin extras
+2024-09-10,110000,RE/MAX Impacta,3.0,Oe 2b Mariano Pozo 100,1835.0,6,20.0,sin extras
+2024-09-10,180000,RE/MAX Asesoría Inmobiliaria,2.0,Jiménez la Espada,200.0,5,170.0,sin extras
+2024-09-10,65000,RE/MAX Supremo,2.0,Los Mastodontes,93.0,4,45.0,sin extras
+2024-09-10,50000,RE/MAX Capital,1.0,Calle Hualcopo a Una Cuadra del Colegio Paulo Sexto,109.0,6,5.0,sin extras
+2024-09-10,42000,RE/MAX Advance,1.0,Solanda Carlos Arboleda y Av. Teniente Hugo Ortiz,611.0,5,5.0,sin extras
+2024-09-10,140000,RE/MAX Supremo,2.0,Vicente Ramón Roca,140.0,3,49.0,sin extras
+2024-09-10,84000,RE/MAX Impacta,2.0,Manuel Lizarzaburo y Joaquin Sumaita,120.0,6,15.0,sin extras
+2024-09-10,85000,RE/MAX Asesoría Inmobiliaria,2.0,De Las Azucenas y Granados,12965.0,6,30.0,sin extras
+2024-09-10,89000,RE/MAX Asesoría Inmobiliaria,1.0,Republica del Salvador y Portugal,54.0,2,80.0,sin extras
+2024-09-10,35000,RE/MAX Empire,1.0,Alfareros,46.0,3,43.0,sin extras
+2024-09-10,110000,RE/MAX Capital,3.0,Santa María,12264.0,8,79.0,sin extras
+2024-09-10,145000,RE/MAX Capital,2.0,Av. de los Granados,153.0,4,140.0,sin extras

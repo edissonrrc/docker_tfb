@@ -34,7 +34,7 @@ def procesar_archivo_txt_a_csv(archivo_txt, carpeta_txt, carpeta_csv):
     # Escribir en el archivo CSV
     with open(archivo_csv, 'w', newline='', encoding='utf-8') as csvfile:
         campos = ['Precio', 'Expensas', 'Dirección', 'Superficie Total (m²)', 'Superficie Cubierta (m²)', 
-                  'Ambientes', 'Baños', 'Descripción', 'Agente', 'URL Propiedad']
+                  'Ambientes', 'Baños', 'Descripción', 'Agencia', 'URL Propiedad']
         escritor_csv = csv.DictWriter(csvfile, fieldnames=campos, delimiter='|')
         
         escritor_csv.writeheader()
@@ -65,8 +65,8 @@ def procesar_archivo_txt_a_csv(archivo_txt, carpeta_txt, carpeta_csv):
             # Extraer descripción
             descripcion = limpiar_texto(propiedad.select_one('.card__description').text) if propiedad.select_one('.card__description') else 'N/A'
 
-            # Extraer nombre del agente
-            agente = limpiar_texto(propiedad.select_one('.contact-person__info--name').text) if propiedad.select_one('.contact-person__info--name') else 'N/A'
+            # Extraer nombre de la agencia
+            agencia = limpiar_texto(propiedad.select_one('.contact-person__info--office').text) if propiedad.select_one('.contact-person__info--office') else 'N/A'
             
             # Extraer URL de la propiedad
             url_propiedad = "https://www.remax.com.ec" + propiedad.select_one('a')['href'] if propiedad.select_one('a') else 'N/A'
@@ -81,7 +81,7 @@ def procesar_archivo_txt_a_csv(archivo_txt, carpeta_txt, carpeta_csv):
                 'Ambientes': ambientes,
                 'Baños': banos,
                 'Descripción': descripcion,
-                'Agente': agente,
+                'Agencia': agencia,
                 'URL Propiedad': url_propiedad
             })
 

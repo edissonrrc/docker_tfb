@@ -54,5 +54,5 @@ def extraer_html_propiedades(ciudad, paginas):
 # Uso de ejemplo
 if __name__ == "__main__":
     ciudad = "quito"
-    num_paginas = 2
+    num_paginas = 10
     extraer_html_propiedades(ciudad, num_paginas)

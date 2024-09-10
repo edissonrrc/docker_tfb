@@ -1,87 +1,71 @@
 services:
   postgres:
-    image: postgres:13  # Versión 13 de PostgreSQL, robusta para entornos de producción.
+    image: postgres:13
     environment:
-      POSTGRES_DB: ${POSTGRES_DB}  # Nombre de la base de datos.
-      POSTGRES_USER: ${POSTGRES_USER}  # Usuario de la base de datos.
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}  # Contraseña del usuario de la base de datos.
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
     ports:
-      - "5432:5432"  # Exposición del puerto 5432 para acceso desde el host.
+      - "5432:5432"
     volumes:
-      - pgdata:/var/lib/postgresql/data  # Volumen persistente para almacenar los datos.
+      - pgdata:/var/lib/postgresql/data
     networks:
-      - airflow-network  # Conexión interna para que los servicios puedan comunicarse.
+      - airflow-network
 
   airflow-webserver:
-    build: .  # Construcción de la imagen desde el Dockerfile en el directorio actual.
+    build: .
     environment:
-      - AIRFLOW__CORE__EXECUTOR=LocalExecutor  # Ejecutor local de Airflow para tareas.
-      - AIRFLOW__CORE__SQL_ALCHEMY_CONN=${AIRFLOW__CORE__SQL_ALCHEMY_CONN}  # Conexión a la base de datos PostgreSQL.
-      - AIRFLOW__CORE__LOAD_EXAMPLES=False  # Desactiva la carga de ejemplos en Airflow.
-      - AIRFLOW_ADMIN_USER=${AIRFLOW_ADMIN_USER}  # Usuario administrador de Airflow.
-      - AIRFLOW_ADMIN_PASSWORD=${AIRFLOW_ADMIN_PASSWORD}  # Contraseña del administrador.
-      - AIRFLOW_ADMIN_EMAIL=${AIRFLOW_ADMIN_EMAIL}  # Correo del administrador.
-    volumes:
-      - ./dags:/opt/airflow/dags  # Montaje de DAGs desde el host.
-      - ./logs:/opt/airflow/logs  # Montaje de logs.
-      - ./data:/opt/airflow/data  # Montaje de datos.
-      - ./plugins:/opt/airflow/plugins  # Montaje de plugins.
-      - ./scripts:/opt/airflow/scripts  # Scripts personalizados.
-      - ./images:/opt/airflow/images  # Archivos de imágenes utilizados por los DAGs.
-      - ./documents:/opt/airflow/documents  # Archivos adicionales necesarios para los DAGs.
-    depends_on:
-      - postgres  # Garantiza que PostgreSQL esté disponible antes de iniciar Airflow.
+      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+      - AIRFLOW__CORE__SQL_ALCHEMY_CONN=${AIRFLOW__CORE__SQL_ALCHEMY_CONN}
+      - AIRFLOW_ADMIN_USER=${AIRFLOW_ADMIN_USER}
+      - AIRFLOW_ADMIN_PASSWORD=${AIRFLOW_ADMIN_PASSWORD}
     ports:
-      - "8085:8080"  # Expone el servidor web de Airflow en el puerto 8085.
+      - "8080:8080"
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./logs:/opt/airflow/logs
+      - ./plugins:/opt/airflow/plugins
+      - ./data:/opt/airflow/data
     networks:
       - airflow-network
     command: >
       bash -c "
       if [ ! -f /opt/airflow/initialized ]; then
-        airflow db init &&  # Inicializa la base de datos de Airflow solo la primera vez.
+        airflow db init &&
         airflow users create --username ${AIRFLOW_ADMIN_USER} --password ${AIRFLOW_ADMIN_PASSWORD} --firstname Admin --lastname User --role Admin --email ${AIRFLOW_ADMIN_EMAIL} &&
-        touch /opt/airflow/initialized;  # Evita la re-inicialización en futuros inicios.
+        touch /opt/airflow/initialized;
+      else
+        airflow db migrate;
       fi;
-      airflow webserver  # Arranca el servidor web de Airflow.
+      airflow webserver
       "
 
   airflow-scheduler:
-    build: .  # Imagen de Airflow idéntica al servidor web.
+    build: .
     environment:
       - AIRFLOW__CORE__EXECUTOR=LocalExecutor
       - AIRFLOW__CORE__SQL_ALCHEMY_CONN=${AIRFLOW__CORE__SQL_ALCHEMY_CONN}
     volumes:
       - ./dags:/opt/airflow/dags
       - ./logs:/opt/airflow/logs
-      - ./data:/opt/airflow/data
       - ./plugins:/opt/airflow/plugins
-      - ./scripts:/opt/airflow/scripts
-      - ./images:/opt/airflow/images
-      - ./documents:/opt/airflow/documents
-    depends_on:
-      - postgres  # El scheduler también depende de que PostgreSQL esté disponible.
-    command: airflow scheduler  # Inicia el programador de tareas de Airflow.
+      - ./data:/opt/airflow/data
+    networks:
+      - airflow-network
+    command: airflow scheduler
+
+  metabase:
+    image: metabase/metabase:v0.46.6
+    ports:
+      - "3000:3000"
     networks:
       - airflow-network
 
-  metabase:
-    image: metabase/metabase:v0.46.6  # Herramienta de análisis y visualización de datos.
-    ports:
-      - "3000:3000"  # Expone Metabase en el puerto 3000.
-    networks:
-      - airflow-network  # Conectado a la red compartida para acceso a la base de datos.
-
 volumes:
   pgdata:
-    driver: local  # Volumen persistente para almacenar los datos de PostgreSQL.
-  airflow_logs:
-    driver: local  # Volumen para mantener los logs de Airflow.
-  airflow_dags:
-    driver: local  # Volumen para los DAGs de Airflow.
-  airflow_data:
-    driver: local  # Volumen para almacenar otros datos generados por Airflow.
+    driver: local
 
 networks:
   airflow-network:
-    driver: bridge  # Red interna para comunicación entre servicios sin exponer puertos innecesarios.
+    driver: bridge
 

@@ -1,11 +1,15 @@
 import os
 import csv
 import re
+import spacy
 from bs4 import BeautifulSoup
 
-# Función para limpiar los valores
+# Cargar el modelo en español de SpaCy
+nlp = spacy.load("es_core_news_sm")
+
+# Función para limpiar valores numéricos
 def limpiar_numeros(texto):
-    """Deja solo los números en el texto."""
+    """Extrae números de un texto."""
     numeros = re.findall(r'\d+', texto)
     if len(numeros) == 1:
         return numeros[0]
@@ -14,63 +18,61 @@ def limpiar_numeros(texto):
     else:
         return "N/A"
 
-# Función para limpiar el precio
-def limpiar_precio(precio):
-    return re.sub(r'[^\d]', '', precio)
+# Función para procesar las descripciones con SpaCy y extraer habitaciones, baños, área
+def extraer_informacion_spacy(descripcion):
+    doc = nlp(descripcion)
 
-# Función para verificar si una fila tiene más valores faltantes
-def demasiados_valores_faltantes(fila, limite_faltantes=6):
-    # Contar cuántos valores "N/A" hay en la fila
-    valores_faltantes = fila.count("N/A")
-    return valores_faltantes > limite_faltantes
+    # Inicializar los valores como N/A
+    habitaciones = "N/A"
+    banos = "N/A"
+    area = "N/A"
+    
+    # Buscar entidades relevantes
+    for token in doc:
+        if token.like_num:
+            # Buscar el token previo y posterior para contexto
+            prev_token = token.nbor(-1) if token.i > 0 else None
+            next_token = token.nbor(1) if token.i < len(doc) - 1 else None
+
+            # Si el número es seguido o precedido por "habitaciones", lo usamos como número de habitaciones
+            if prev_token and prev_token.text.lower() in ["habitaciones", "habitación", "dormitorio", "dormitorios"]:
+                habitaciones = token.text
+            elif next_token and next_token.text.lower() in ["habitaciones", "habitación", "dormitorio", "dormitorios"]:
+                habitaciones = token.text
+
+            # Si el número es seguido o precedido por "baño" o "baños"
+            if prev_token and prev_token.text.lower() in ["baños", "baño"]:
+                banos = token.text
+            elif next_token and next_token.text.lower() in ["baños", "baño"]:
+                banos = token.text
+
+            # Si el número es seguido o precedido por "m²"
+            if next_token and next_token.text == "m²":
+                area = token.text
+
+    return habitaciones, banos, area
 
 # Función para procesar archivos HTML
 def procesar_archivos():
-    # Definir las carpetas de origen y salida
     carpeta_origen = 'data/html'
     carpeta_salida = 'data/csv'
-
-    # Crear la carpeta de salida si no existe
     os.makedirs(carpeta_salida, exist_ok=True)
 
-    # Obtener todos los archivos HTML que empiecen con "Plusvalia" en la carpeta de origen
     archivos_html = [archivo for archivo in os.listdir(carpeta_origen) if archivo.startswith("Plusvalia") and archivo.endswith(".html")]
 
     for archivo_html in archivos_html:
         ruta_archivo = os.path.join(carpeta_origen, archivo_html)
-
         with open(ruta_archivo, 'r', encoding='utf-8') as file:
             html_content = file.read()
 
-        # Usar BeautifulSoup para analizar el contenido del HTML
         soup = BeautifulSoup(html_content, 'html.parser')
 
-        # Extracción de datos
-        precios = [limpiar_precio(elem.get_text(strip=True)) for elem in soup.find_all('div', class_='Price-sc-12dh9kl-3')]
+        precios = [limpiar_numeros(elem.get_text(strip=True)) for elem in soup.find_all('div', class_='Price-sc-12dh9kl-3')]
         ubicaciones = [elem.get_text(strip=True) for elem in soup.find_all('div', class_='LocationAddress-sc-ge2uzh-0')]
         ciudades = [elem.get_text(strip=True) for elem in soup.find_all('h2', class_='LocationLocation-sc-ge2uzh-2')]
-        expensas = [limpiar_numeros(elem.get_text(strip=True)) for elem in soup.find_all('div', class_='Expenses-sc-12dh9kl-1')]
-        habitaciones = [limpiar_numeros(elem.get_text(strip=True)) for elem in soup.find_all('span', string=lambda text: "hab." in text if text else False)]
-        banos = [limpiar_numeros(elem.get_text(strip=True)) for elem in soup.find_all('span', string=lambda text: "baño" in text.lower() if text else False)]
-        areas = [limpiar_numeros(elem.get_text(strip=True)) for elem in soup.find_all('span', string=lambda text: "m²" in text if text else False)]
-        estacionamientos = [limpiar_numeros(elem.get_text(strip=True)) for elem in soup.find_all('span', string=lambda text: "estac" in text if text else False)]
         descripciones = [elem.get_text(" ", strip=True) for elem in soup.find_all('h3', class_='PostingDescription-sc-i1odl-11')]
-        destacados = [elem.get_text(strip=True) for elem in soup.find_all('div', class_='HighLight-sc-i1odl-10')]
 
-        # Extraer características principales
-        caracteristicas_principales = [
-            elem.get_text(" ", strip=True) 
-            for elem in soup.find_all('h3', class_='PostingMainFeaturesBlock-sc-1uhtbxc-0')
-        ]
-
-        # Extraer enlace a la página completa
-        enlaces = [
-            elem['href'] for elem in soup.find_all('a', href=True) 
-            if 'propiedades' in elem['href']
-        ]
-
-        # Normalizar la longitud de las listas
-        max_length = max(len(precios), len(ubicaciones), len(ciudades), len(expensas), len(habitaciones), len(banos), len(areas), len(estacionamientos), len(descripciones), len(destacados), len(caracteristicas_principales), len(enlaces))
+        max_length = max(len(precios), len(ubicaciones), len(ciudades), len(descripciones))
 
         def completar_lista(lista, longitud, valor="N/A"):
             while len(lista) < longitud:
@@ -80,47 +82,32 @@ def procesar_archivos():
         precios = completar_lista(precios, max_length)
         ubicaciones = completar_lista(ubicaciones, max_length)
         ciudades = completar_lista(ciudades, max_length)
-        expensas = completar_lista(expensas, max_length)
-        habitaciones = completar_lista(habitaciones, max_length)
-        banos = completar_lista(banos, max_length)
-        areas = completar_lista(areas, max_length)
-        estacionamientos = completar_lista(estacionamientos, max_length)
         descripciones = completar_lista(descripciones, max_length)
-        destacados = completar_lista(destacados, max_length)
-        caracteristicas_principales = completar_lista(caracteristicas_principales, max_length)
-        enlaces = completar_lista(enlaces, max_length)
 
-        # Extraer la fecha y hora del nombre del archivo HTML
         nombre_salida = archivo_html.replace("raw_", "").replace(".html", ".csv")
         ruta_salida = os.path.join(carpeta_salida, nombre_salida)
 
-        # Guardar los datos en un archivo CSV con separadores tipo "|"
         with open(ruta_salida, mode='w', newline='', encoding='utf-8') as file:
             writer = csv.writer(file, delimiter='|', quoting=csv.QUOTE_MINIMAL)
-            writer.writerow(['Precio', 'Ubicación', 'Ciudad', 'Expensas', 'Habitaciones', 'Baños', 'Área', 'Estacionamientos', 'Descripción', 'Destacado', 'Características Principales', 'Enlace'])
+            writer.writerow(['Precio', 'Ubicación', 'Ciudad', 'Habitaciones', 'Baños', 'Área', 'Descripción'])
 
             for i in range(max_length):
+                # Extraer información de habitaciones, baños y área usando SpaCy
+                habitaciones, banos, area = extraer_informacion_spacy(descripciones[i])
+
                 fila = [
                     precios[i],
                     ubicaciones[i],
                     ciudades[i],
-                    expensas[i],
-                    habitaciones[i],
-                    banos[i],
-                    areas[i],
-                    estacionamientos[i],
-                    descripciones[i].replace("\n", " "),
-                    destacados[i],
-                    caracteristicas_principales[i],
-                    enlaces[i]
+                    habitaciones,
+                    banos,
+                    area,
+                    descripciones[i].replace("\n", " ")
                 ]
-                
-                # Solo escribir la fila si no tiene más de x valores faltantes
-                if not demasiados_valores_faltantes(fila, limite_faltantes=6):
-                    writer.writerow(fila)
+
+                writer.writerow(fila)
 
         print(f"Extracción completada y guardada en '{ruta_salida}'.")
 
-# Ejecutar la función
 if __name__ == "__main__":
     procesar_archivos()

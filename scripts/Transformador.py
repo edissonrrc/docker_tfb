@@ -6,14 +6,15 @@ import pandas as pd
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
-from sklearn.preprocessing import FunctionTransformer  # <--- Este es el import que faltaba
-from sklearn.metrics import r2_score, mean_squared_error, make_scorer
+from sklearn.preprocessing import FunctionTransformer
+from sklearn.metrics import r2_score, mean_squared_error
 from xgboost import XGBRegressor
 from sklearn.model_selection import train_test_split
 
+########################### FASE 1: CARGAR Y PROCESAR DATOS ###########################
 
 # Función para cargar los datos de una inmobiliaria específica y extraer la fecha de captura
-def cargar_datos_inmobiliaria(inmobiliaria, carpeta='data/csv'):
+def cargar_datos_inmobiliaria(inmobiliaria, carpeta='/opt/airflow/data/csv'):
     archivos_csv = [os.path.join(carpeta, archivo) for archivo in os.listdir(carpeta) if archivo.startswith(inmobiliaria) and archivo.endswith('.csv')]
     
     if len(archivos_csv) == 0:
@@ -94,8 +95,8 @@ def procesar_inmobiliaria(df, inmobiliaria):
     return df_final
 
 # Procesar todas las inmobiliarias y unificarlas en un solo DataFrame
-def procesar_todas_inmobiliarias(carpeta='data/csv'):
-    inmobiliarias = ['Fazwaz', 'Mitula', 'Properati', 'Remax']
+def procesar_todas_inmobiliarias(carpeta='/opt/airflow/data/csv'):
+    inmobiliarias = ['Fazwaz', 'Mitula', 'Properati', 'Remax'] # De momento se elimia Plusvalia
     datos_totales = pd.DataFrame()
 
     for inmobiliaria in inmobiliarias:
@@ -108,6 +109,11 @@ def procesar_todas_inmobiliarias(carpeta='data/csv'):
 # Procesar todos los datos
 df_final = procesar_todas_inmobiliarias()
 
+print("FASE 1 DONE: CARGAR Y PROCESAR DATOS")
+
+
+########################### FASE 2: ESTANDARIZACIÓN Y LIMPIEZA ###########################
+
 # Función para convertir precios, habitaciones y gastos a enteros
 def convertir_a_entero(valor):
     try:
@@ -115,14 +121,14 @@ def convertir_a_entero(valor):
     except ValueError:
         return None
 
-# Función para convertir área, aseos (Baños) a flotante
+# Función para convertir área, aseos (Baños) a decimal
 def convertir_a_float(valor):
     try:
         return float(valor) if valor != '' else None
     except ValueError:
         return None
 
-# Función para convertir fechas al formato YYYY-MM-DD
+# Función para convertir fechas al formato YYYY-MM-DD aunque es para comprobar solamente
 def convertir_fecha(fecha):
     try:
         return pd.to_datetime(fecha).strftime('%Y-%m-%d')
@@ -140,7 +146,12 @@ df_final['captura'] = df_final['captura'].apply(convertir_fecha)
 df_final.to_csv('data/csv/Transform1_std.csv', index=False)
 
 # Análisis de valores nulos
-missing_values = df_final.isnull().sum()
+#missing_values = df_final.isnull().sum()
+
+print("FASE 2 DONE: ESTANDARIZACIÓN Y LIMPIEZA")
+
+
+########################### FASE 3: NLP PARA COMPLETAR GAPS ###########################
 
 # Inicializar spaCy con un modelo avanzado de español
 nlp = spacy.load('es_core_news_md')
@@ -161,8 +172,7 @@ def extraer_informacion_basica(texto):
         "superficie": None,
         "gastos": None
     }
-
-    match_habitaciones = re.search(r'(\d+)\s*(?:a\s*(\d+)\s*)?(habitación|dormitorio|recámara|cuarto|hab)', texto, re.IGNORECASE)
+    match_habitaciones = re.search(r'(\d+)\s*(?:a\s*(\d+)\s*)?(habitación|dormitorio|recámara|cuarto|hab|ambiente)', texto, re.IGNORECASE)
     match_banos = re.search(r'(\d+)\s*(?:a\s*(\d+)\s*)?(baño|aseo)', texto, re.IGNORECASE)
     match_superficie = re.search(r'(\d+)\s*(?:a\s*(\d+)\s*)?(m2|metros cuadrados|mt2|m²)', texto, re.IGNORECASE)
     match_gastos = re.search(r'alicuota\s*\$?(\d+)', texto, re.IGNORECASE)
@@ -175,7 +185,6 @@ def extraer_informacion_basica(texto):
         info["superficie"] = float(match_superficie.group(2) or match_superficie.group(1))
     if match_gastos:
         info["gastos"] = float(match_gastos.group(1))
-
     return info
 
 # Función para procesar "extras" y completar los valores faltantes
@@ -206,7 +215,12 @@ def procesar_extras_y_completar(row):
 df_final = df_final.apply(procesar_extras_y_completar, axis=1)
 
 # Guardar el DataFrame en un nuevo CSV
-df_final.to_csv('data/csv/Transform1_enriquecido.csv', index=False)
+#df_final.to_csv('data/csv/Transform1_enriquecido.csv', index=False)
+
+print("FASE 3 DONE: NLP PARA COMPLETAR GAPS")
+
+
+########################### FASE 4: LIMPIEZA COLUMNA EXTRAS ###########################
 
 # Lista de extras valiosos
 extras_valiosos = [
@@ -214,12 +228,14 @@ extras_valiosos = [
     'jacuzzi', 'spa', 'sauna', 'parqueadero', 'garaje', 
     'bodega', 'balcón', 'ascensor', 'zona de juegos', 
     'pista de correr', 'áreas verdes', 'circuito cerrado de cámaras',
-    'chimenea', 'conserje', 'garita de guardianía', 
+    'chimenea', 'conserje', 'garita de guardianía', 'nuovo', 'pontebello',
     'acceso para personas con discapacidad', 'patio', 
     'vista panorámica', 'seguridad', 'cuarto de servicio', 
-    'internet', 'alarma', 'calefacción', 'cancha de tenis', 
-    'completamente amoblado', 'zona bbq', 'sin amoblar', 
-    'jardín', 'piscina privada', 'gimnasio privado', 'estacionamiento'
+    'internet', 'alarma', 'calefacción', 'cancha de tenis', 'centrally'
+    'completamente amoblado', 'zona bbq', 'sin amoblar', 'parking',
+    'jardín', 'piscina privada', 'gimnasio privado', 'estacionamiento',
+    'quiet', 'brand-new', 'views', 'center', 'privileged', 'condo', 
+    'amenities', 'mountains', 'condos', 'appreciation', 'luxury', 'condado'
 ]
 
 # Filtrar los extras que aportan valor
@@ -228,21 +244,22 @@ def filtrar_extras_valiosos(texto_extras, extras_valiosos):
     extras_filtrados = [extra for extra in extras_valiosos if extra in texto_extras]
     return ', '.join(extras_filtrados) if extras_filtrados else None
 
+# Procesar y asignar "Sin Extras" en caso de que no haya extras valiosos
 def procesar_extras_y_filtrar(row):
     texto_extras = str(row['extras']).lower()
     extras_valiosos_filtrados = filtrar_extras_valiosos(texto_extras, extras_valiosos)
-    row['extras'] = extras_valiosos_filtrados
+    # Si no hay extras valiosos, asignar "Sin Extras"
+    row['extras'] = extras_valiosos_filtrados if extras_valiosos_filtrados else "sin extras"
     return row
 
 # Aplicar el procesamiento de extras para filtrar los que aportan valor
 df_final = df_final.apply(procesar_extras_y_filtrar, axis=1)
 
-# Guardar el DataFrame actualizado con los extras filtrados
-df_final.to_csv('data/csv/Transform1_extras_filtrados.csv', index=False)
 
-print("Proceso completado. Archivo 'Transform1_extras_filtrados' generado.")
+print("FASE 4 DONE: LIMPIEZA COLUMNA EXTRAS")
 
-#######################  PREDICCIÓN DE GASTOS   #############################
+
+########################### FASE 5: PREDICCIÓN DE COLUMNA GASTOS ###########################
 
 # Definir las características predictoras y la variable objetivo
 X_con_gastos = df_final[['superficie', 'habitaciones', 'aseos']].values
@@ -265,14 +282,6 @@ xgb_model.fit(X_train_split, y_train_split)
 # Realizar predicciones en el conjunto de prueba
 y_pred_split = xgb_model.predict(X_test_split)
 
-# Calcular el coeficiente de determinación (R^2) y RMSE en el conjunto de prueba
-r2 = r2_score(y_test_split, y_pred_split)
-rmse = mean_squared_error(y_test_split, y_pred_split, squared=False)
-
-# Mostrar los resultados del modelo entrenado
-print(f"R^2 XGBoost en prueba: {r2}")
-print(f"RMSE XGBoost en prueba: {rmse}")
-
 # Predecir los valores faltantes de gastos (donde gastos es NaN)
 mask_prediccion = np.isnan(y_con_gastos)
 X_prediccion = X_con_gastos[mask_prediccion]
@@ -284,124 +293,60 @@ y_pred_gastos_faltantes = np.round(y_pred_gastos_faltantes).astype(int)
 # Asignar los valores predichos a la columna 'gastos'
 df_final.loc[mask_prediccion, 'gastos'] = y_pred_gastos_faltantes
 
-# Guardar el DataFrame actualizado con los valores de gastos completados
-df_final.to_csv('data/csv/Transform1_gastos_completados.csv', index=False)
+print("FASE 5 DONE: PREDICCIÓN DE COLUMNA EXTRAS")
 
-print("Proceso completado. Archivo 'Transform1_gastos_completados' generado.")
 
-############### Identificar outliers en precio, aseos, superficie, habitaciones y gastos ###############
 
-def identificar_outliers(df, columna):
-    Q1 = df[columna].quantile(0.25)
-    Q3 = df[columna].quantile(0.75)
-    IQR = Q3 - Q1
-    limite_inferior = Q1 - 1.5 * IQR
-    limite_superior = Q3 + 1.5 * IQR
-    outliers = df_final[(df[columna] < limite_inferior) | (df[columna] > limite_superior)]
-    return outliers
+#################### FASE 6: DETECCIÓN Y ELIMINACIÓN DE OUTLIERS CON XGBOOST EN VARIAS COLUMNAS ####################
 
-outliers_precio = identificar_outliers(df_final, 'precio')
-outliers_aseos = identificar_outliers(df_final, 'aseos')
-outliers_superficie = identificar_outliers(df_final, 'superficie')
-outliers_habitaciones = identificar_outliers(df_final, 'habitaciones')
-outliers_gastos = identificar_outliers(df_final, 'gastos')
+# Preparar los datos (todas las características excepto las que vamos a predecir)
+X = df_final[['aseos']].values  # Vamos a usar solo 'aseos' como variable predictora para simplificar
 
-print("Outliers en precio:", outliers_precio)
-print("Outliers en aseos:", outliers_aseos)
-print("Outliers en superficie:", outliers_superficie)
-print("Outliers en habitaciones:", outliers_habitaciones)
-print("Outliers en gastos:", outliers_gastos)
+# Inicializar un DataFrame que almacene las máscaras de outliers para cada columna
+mask_outliers_combined = pd.Series([False] * len(df_final), index=df_final.index)
 
-####################  DETECCIÓN Y ELIMINACIÓN DE OUTLIERS   ####################
+# Definir una función para detectar y marcar outliers para una columna específica
+def detectar_y_marcar_outliers(df_final, columna_objetivo):
+    y = df_final[columna_objetivo].values
 
-# Cargar el CSV con los datos completados
-df = pd.read_csv('data/csv/Transform1_gastos_completados.csv')
+    # Dividir los datos en conjunto de entrenamiento y prueba
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-# Variables que deseas analizar
-variables = ['precio', 'superficie', 'habitaciones', 'aseos', 'gastos']
+    # Entrenar el modelo XGBoost para predecir la columna objetivo
+    xgb_model = XGBRegressor(n_estimators=100, learning_rate=0.1, max_depth=4, random_state=42)
+    xgb_model.fit(X_train, y_train)
 
-# Función para detectar outliers
-def detectar_outliers(df, columna):
-    Q1 = df[columna].quantile(0.25)
-    Q3 = df[columna].quantile(0.75)
-    IQR = Q3 - Q1
-    limite_inferior = Q1 - 1.5 * IQR
-    limite_superior = Q3 + 1.5 * IQR
-    return limite_inferior, limite_superior
+    # Realizar predicciones en todo el conjunto de datos
+    y_pred_total = xgb_model.predict(X)
 
-# Aplicar transformación logarítmica para 'precio' y 'superficie'
-transformer = FunctionTransformer(np.log1p, validate=True, feature_names_out='one-to-one')
-df[['precio', 'superficie']] = transformer.fit_transform(df[['precio', 'superficie']])
+    # Calcular el error absoluto entre los valores reales y las predicciones
+    error_absoluto_total = np.abs(y - y_pred_total)
 
-# Detectar outliers después de la transformación logarítmica
-for variable in ['precio', 'superficie']:
-    limite_inferior, limite_superior = detectar_outliers(df, variable)
-    print(f'Outliers en {variable} después de log transform: Menores a {limite_inferior} o mayores a {limite_superior}')
+    # Definir un umbral para identificar outliers (basado en 2 desviaciones estándar del error)
+    umbral = np.mean(error_absoluto_total) + 2 * np.std(error_absoluto_total)
 
-# Detectar outliers en otras variables sin transformación logarítmica
-for variable in ['habitaciones', 'aseos', 'gastos']:
-    limite_inferior, limite_superior = detectar_outliers(df, variable)
-    print(f'Outliers en {variable}: Menores a {limite_inferior} o mayores a {limite_superior}')
+    # Identificar las filas que contienen outliers (filas con error mayor al umbral)
+    mask_outliers = error_absoluto_total > umbral
 
-# Definir rangos lógicos para eliminar outliers
-rangos_logicos = {
-    'precio': {'min': np.log1p(50000), 'max': np.log1p(500000)},
-    'superficie': {'min': np.log1p(20), 'max': np.log1p(1000)},
-    'habitaciones': {'min': 1, 'max': 10},
-    'gastos': {'min': 0, 'max': 500}
-}
+    return mask_outliers
 
-# Aplicar rangos lógicos
-df_filtrado = df[(df['precio'] >= rangos_logicos['precio']['min']) & (df['precio'] <= rangos_logicos['precio']['max'])]
-df_filtrado = df_filtrado[(df_filtrado['superficie'] >= rangos_logicos['superficie']['min']) & (df_filtrado['superficie'] <= rangos_logicos['superficie']['max'])]
-df_filtrado = df_filtrado[(df_filtrado['habitaciones'] >= rangos_logicos['habitaciones']['min']) & (df_filtrado['habitaciones'] <= rangos_logicos['habitaciones']['max'])]
-df_filtrado = df_filtrado[(df_filtrado['gastos'] >= rangos_logicos['gastos']['min']) & (df_filtrado['gastos'] <= rangos_logicos['gastos']['max'])]
+# Detectar y marcar outliers para cada columna
+mask_outliers_precio = detectar_y_marcar_outliers(df_final, 'precio')
+mask_outliers_superficie = detectar_y_marcar_outliers(df_final, 'superficie')
+mask_outliers_habitaciones = detectar_y_marcar_outliers(df_final, 'habitaciones')
 
-# Revertir la transformación logarítmica
-df_filtrado[['precio', 'superficie']] = transformer.inverse_transform(df_filtrado[['precio', 'superficie']])
+# Combinar las máscaras de outliers (si es outlier en alguna columna, será marcado como outlier)
+mask_outliers_combined = mask_outliers_precio | mask_outliers_superficie | mask_outliers_habitaciones
 
-# Guardar el DataFrame filtrado en un nuevo CSV
-df_filtrado.to_csv('data/csv/Transform1_filtrado.csv', index=False)
-print("Proceso completado. Archivo 'Transform1_filtrado.csv' generado.")
+# Eliminar las filas que contienen outliers en cualquier columna
+df_sin_outliers = df_final[~mask_outliers_combined]
 
-# Visualización de distribuciones después de la eliminación de outliers
-import seaborn as sns
-import matplotlib.pyplot as plt
+# Eliminar las filas que contienen valores vacíos (NaN)
+df_sin_outliers = df_sin_outliers.dropna()
 
-for variable in variables:
-    plt.figure(figsize=(10, 4))
+# Guardar el DataFrame sin outliers y sin valores vacíos en un archivo CSV
+df_sin_outliers.to_csv('/opt/airflow/data/csv/datos_limpios.csv', index=False)
 
-    # Histograma
-    plt.subplot(1, 2, 1)
-    sns.histplot(df_filtrado[variable], kde=True)
-    plt.title(f'Distribución de {variable} después del filtrado')
-
-    # Boxplot
-    plt.subplot(1, 2, 2)
-    sns.boxplot(x=df_filtrado[variable])
-    plt.title(f'Boxplot de {variable} después del filtrado')
-
-    # Guardar los gráficos en la carpeta 'images'
-    plt.tight_layout()
-    plt.savefig(f'images/{variable}_despues_filtrado.png')
-    plt.close()
-
-# Continuar con el entrenamiento del modelo XGBoost después de eliminar los outliers
-X = df_filtrado[['superficie', 'habitaciones', 'aseos']].values
-y = df_filtrado['gastos'].values
-
-# División de los datos
-X_train_split, X_test_split, y_train_split, y_test_split = train_test_split(X, y, test_size=0.2, random_state=42)
-
-# Entrenamiento del modelo XGBoost
-xgb_model = XGBRegressor(n_estimators=100, learning_rate=0.1, max_depth=4, random_state=42)
-xgb_model.fit(X_train_split, y_train_split)
-
-# Evaluación del modelo después de eliminar los outliers
-y_pred_split = xgb_model.predict(X_test_split)
-r2_post_filtrado = r2_score(y_test_split, y_pred_split)
-rmse_post_filtrado = mean_squared_error(y_test_split, y_pred_split, squared=False)
-
-# Mostrar los resultados después de eliminar los outliers
-print(f"R^2 después de eliminar outliers: {r2_post_filtrado}")
-print(f"RMSE después de eliminar outliers: {rmse_post_filtrado}")
+# Imprimir el resultado final
+print(f"FASE 6 DONE: DETECCIÓN Y ELIMINACIÓN DE {np.sum(mask_outliers_combined)} OUTLIERS y NANS")
+print("Proceso completado... Generado 'datos_limpios.csv'")
