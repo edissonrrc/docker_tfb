@@ -1,0 +1,1532 @@
+Datos de la página 2 de quito obtenidos el 110924_2157:
+================================================================================
+Propiedad 1:
+<div class="listing-card__information">
+ <div class="listing-card__information-main">
+  <div class="listing-card__title" content="Departamento en Venta en Ponceano">
+   Departamento en Venta en Ponceano
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 124.000
+   </div>
+  </div>
+  <div class="listing-card__location">
+   Ponceano, Norte De Quito, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="3">
+     3 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="3">
+     3 baños
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     144 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    GS CONSTRUCCIONES Y BIENES RAÍCES
+   </div>
+   <div class="listing-card__published-date">
+    Publicado 13/06/2024
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 2:
+<div class="listing-card__information">
+ <div class="listing-card__information-main highlight">
+  <div class="listing-card__title" content="Departamento en Venta en Gonzalez Suarez">
+   Departamento en Venta en Gonzalez Suarez
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 270.000
+   </div>
+  </div>
+  <div class="listing-card__location">
+   Gonzalez Suarez, Iñaquito, Centro Norte, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="2">
+     2 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="3">
+     3 baños
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     164 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    Inmoejecutivos
+   </div>
+   <div class="listing-card__published-date">
+    Publicado 22/07/2024
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 3:
+<div class="listing-card__information">
+ <div class="listing-card__information-main highlight">
+  <div class="listing-card__title" content="Departamento en Venta en Cumbaya">
+   Departamento en Venta en Cumbaya
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 156.000
+   </div>
+  </div>
+  <div class="listing-card__location">
+   Cumbaya, Valle Tumbaco, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="2">
+     2 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="3">
+     3 baños
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     110 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    Emma Barragán
+   </div>
+   <div class="listing-card__published-date">
+    Publicado hace 2 semanas, 1 día
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 4:
+<div class="listing-card__information">
+ <div class="listing-card__information-main highlight">
+  <div class="listing-card__title" content="Departamento en Venta en Bellavista">
+   Departamento en Venta en Bellavista
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 90.000
+   </div>
+  </div>
+  <div class="listing-card__location">
+   Bellavista, Iñaquito, Centro Norte, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="2">
+     2 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="2">
+     2 baños
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     70 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    Emma Barragán
+   </div>
+   <div class="listing-card__published-date">
+    Publicado hace 2 semanas, 1 día
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 5:
+<div class="listing-card__information">
+ <div class="listing-card__information-main highlight">
+  <div class="listing-card__title" content="Departamento en Venta en Cumbaya">
+   Departamento en Venta en Cumbaya
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 220.000
+   </div>
+  </div>
+  <div class="listing-card__location">
+   Cumbaya, Valle Tumbaco, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="3">
+     3 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="2">
+     2 baños
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     155 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    Inmoejecutivos
+   </div>
+   <div class="listing-card__published-date">
+    Publicado 28/06/2024
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 6:
+<div class="listing-card__information">
+ <div class="listing-card__information-main">
+  <div class="listing-card__title" content="Departamento en Venta en Cumbaya">
+   Departamento en Venta en Cumbaya
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 683.000
+   </div>
+  </div>
+  <div class="listing-card__location">
+   Cumbaya, Valle Tumbaco, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="4">
+     4 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="5">
+     5 baños
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     527 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    Proyectos con Futuro
+   </div>
+   <div class="listing-card__published-date">
+    Publicado 13/03/2024
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 7:
+<div class="listing-card__information">
+ <div class="listing-card__information-main">
+  <div class="listing-card__title" content="Departamento en Venta en El Batan">
+   Departamento en Venta en El Batan
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 118.000
+   </div>
+  </div>
+  <div class="listing-card__location">
+   El Batan, Iñaquito, Centro Norte, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="3">
+     3 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="2">
+     2 baños
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     120 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    Inmoejecutivos
+   </div>
+   <div class="listing-card__published-date">
+    Publicado 19/06/2023
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 8:
+<div class="listing-card__information">
+ <div class="listing-card__information-main">
+  <div class="listing-card__title" content="Departamento en Venta en Cumbaya">
+   Departamento en Venta en Cumbaya
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 229.000
+   </div>
+  </div>
+  <div class="listing-card__location">
+   Cumbaya, Valle Tumbaco, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="2">
+     2 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="2">
+     2 baños
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     186 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    Inmoejecutivos
+   </div>
+   <div class="listing-card__published-date">
+    Publicado 09/07/2024
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 9:
+<div class="listing-card__information">
+ <div class="listing-card__information-main">
+  <div class="listing-card__title" content="Departamento en Venta en Bellavista">
+   Departamento en Venta en Bellavista
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 134.000
+   </div>
+  </div>
+  <div class="listing-card__location">
+   Bellavista, Iñaquito, Centro Norte, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="3">
+     3 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="3">
+     3 baños
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     136 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    Emma Barragán
+   </div>
+   <div class="listing-card__published-date">
+    Publicado hace 2 semanas, 1 día
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 10:
+<div class="listing-card__information">
+ <div class="listing-card__information-main">
+  <div class="listing-card__title" content="Departamento en Venta en El Bosque">
+   Departamento en Venta en El Bosque
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 220.000
+   </div>
+  </div>
+  <div class="listing-card__location">
+   El Bosque, Cochapamba, Centro Norte, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="4">
+     4 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="5">
+     5 baños
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     327 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    Emma Barragán
+   </div>
+   <div class="listing-card__published-date">
+    Publicado 19/08/2024
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 11:
+<div class="listing-card__information">
+ <div class="listing-card__information-main">
+  <div class="listing-card__title" content="Departamento en Venta en Bellavista">
+   Departamento en Venta en Bellavista
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 245.000
+   </div>
+  </div>
+  <div class="listing-card__location">
+   Bellavista, Iñaquito, Centro Norte, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="4">
+     4 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="5">
+     5 baños
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     300 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    Emma Barragán
+   </div>
+   <div class="listing-card__published-date">
+    Publicado hace 2 semanas, 1 día
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 12:
+<div class="listing-card__information">
+ <div class="listing-card__information-main">
+  <div class="listing-card__title" content="Departamento en Venta en El Condado">
+   Departamento en Venta en El Condado
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 94.000
+   </div>
+  </div>
+  <div class="listing-card__location">
+   El Condado, Norte De Quito, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="2">
+     2 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="3">
+     3 baños
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     116 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    Emma Barragán
+   </div>
+   <div class="listing-card__published-date">
+    Publicado hace 2 semanas, 1 día
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 13:
+<div class="listing-card__information">
+ <div class="listing-card__information-main highlight">
+  <div class="listing-card__title" content="Departamento en Venta en Centro Norte">
+   Departamento en Venta en Centro Norte
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 149.600
+   </div>
+  </div>
+  <div class="listing-card__location">
+   Centro Norte, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="2">
+     2 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="3">
+     3 baños
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     86 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    Intramuros Constructora
+   </div>
+   <div class="listing-card__published-date">
+    Publicado 16/07/2024
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 14:
+<div class="listing-card__information">
+ <div class="listing-card__information-main highlight">
+  <div class="listing-card__title" content="Departamento en Venta en Cumbaya">
+   Departamento en Venta en Cumbaya
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 106.515
+   </div>
+  </div>
+  <div class="listing-card__location">
+   Cumbaya, Valle Tumbaco, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="1">
+     1 habitación
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="1">
+     1 baño
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     55 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    Intramuros Constructora
+   </div>
+   <div class="listing-card__published-date">
+    Publicado 11/07/2024
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 15:
+<div class="listing-card__information">
+ <div class="listing-card__information-main highlight">
+  <div class="listing-card__title" content="Departamento en Venta en Cumbaya">
+   Departamento en Venta en Cumbaya
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 305.652
+   </div>
+  </div>
+  <div class="listing-card__location">
+   Cumbaya, Valle Tumbaco, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="3">
+     3 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="4">
+     4 baños
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     159 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    Intramuros Constructora
+   </div>
+   <div class="listing-card__published-date">
+    Publicado 11/07/2024
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 16:
+<div class="listing-card__information">
+ <div class="listing-card__information-main highlight">
+  <div class="listing-card__title" content="Departamento en Venta en Bellavista">
+   Departamento en Venta en Bellavista
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 97.488
+   </div>
+  </div>
+  <div class="listing-card__location">
+   Bellavista, Iñaquito, Centro Norte, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="1">
+     1 habitación
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="2">
+     2 baños
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     63 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    SU CASA SOBRE LA ROCA
+   </div>
+   <div class="listing-card__published-date">
+    Publicado 09/02/2024
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 17:
+<div class="listing-card__information">
+ <div class="listing-card__information-main highlight">
+  <div class="listing-card__title" content="Departamento en Venta en Cumbaya">
+   Departamento en Venta en Cumbaya
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 189.516
+   </div>
+  </div>
+  <div class="listing-card__location">
+   Cumbaya, Valle Tumbaco, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="2">
+     2 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="3">
+     3 baños
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     137 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    SU CASA SOBRE LA ROCA
+   </div>
+   <div class="listing-card__published-date">
+    Publicado 25/02/2024
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 18:
+<div class="listing-card__information">
+ <div class="listing-card__information-main highlight">
+  <div class="listing-card__title" content="Departamento en Venta en La Magdalena">
+   Departamento en Venta en La Magdalena
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 68.000
+   </div>
+  </div>
+  <div class="listing-card__location">
+   La Magdalena, Sur De Quito, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="2">
+     2 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="1">
+     1 baño
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     64 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    SU CASA SOBRE LA ROCA
+   </div>
+   <div class="listing-card__published-date">
+    Publicado 11/08/2022
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 19:
+<div class="listing-card__information">
+ <div class="listing-card__information-main highlight">
+  <div class="listing-card__title" content="Departamento en Venta en Jipijapa">
+   Departamento en Venta en Jipijapa
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 168.255
+   </div>
+  </div>
+  <div class="listing-card__location">
+   Jipijapa, Centro Norte, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="2">
+     2 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="2">
+     2 baños
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     95 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    SU CASA SOBRE LA ROCA
+   </div>
+   <div class="listing-card__published-date">
+    Publicado 04/01/2024
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 20:
+<div class="listing-card__information">
+ <div class="listing-card__information-main highlight">
+  <div class="listing-card__title" content="Departamento en Venta en La Magdalena">
+   Departamento en Venta en La Magdalena
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 92.087
+   </div>
+  </div>
+  <div class="listing-card__location">
+   La Magdalena, Sur De Quito, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="3">
+     3 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="2">
+     2 baños
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     104 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    SU CASA SOBRE LA ROCA
+   </div>
+   <div class="listing-card__published-date">
+    Publicado 05/12/2023
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 21:
+<div class="listing-card__information">
+ <div class="listing-card__information-main">
+  <div class="listing-card__title" content="Departamento en Venta en La Magdalena">
+   Departamento en Venta en La Magdalena
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 93.945
+   </div>
+  </div>
+  <div class="listing-card__location">
+   La Magdalena, Sur De Quito, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="3">
+     3 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="2">
+     2 baños
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     104 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    Sonia Herrera
+   </div>
+   <div class="listing-card__published-date">
+    Publicado 07/02/2024
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 22:
+<div class="listing-card__information">
+ <div class="listing-card__information-main highlight">
+  <div class="listing-card__title" content="Departamento en Venta en La Carolina">
+   Departamento en Venta en La Carolina
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 97.876
+   </div>
+  </div>
+  <div class="listing-card__location">
+   La Carolina, Iñaquito, Centro Norte, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="1">
+     1 habitación
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="1">
+     1 baño
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     35 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    SU CASA SOBRE LA ROCA
+   </div>
+   <div class="listing-card__published-date">
+    Publicado 23/03/2023
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 23:
+<div class="listing-card__information">
+ <div class="listing-card__information-main highlight">
+  <div class="listing-card__title" content="Departamento en Venta en La Carolina">
+   Departamento en Venta en La Carolina
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 80.524
+   </div>
+  </div>
+  <div class="listing-card__location">
+   La Carolina, Iñaquito, Centro Norte, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="1">
+     1 habitación
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="1">
+     1 baño
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     28 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    SU CASA SOBRE LA ROCA
+   </div>
+   <div class="listing-card__published-date">
+    Publicado 06/12/2023
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 24:
+<div class="listing-card__information">
+ <div class="listing-card__information-main highlight">
+  <div class="listing-card__title" content="Departamento en Venta en El Batan">
+   Departamento en Venta en El Batan
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 211.980
+   </div>
+  </div>
+  <div class="listing-card__location">
+   El Batan, Iñaquito, Centro Norte, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="3">
+     3 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="3">
+     3 baños
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     112 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    SU CASA SOBRE LA ROCA
+   </div>
+   <div class="listing-card__published-date">
+    Publicado 09/08/2023
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 25:
+<div class="listing-card__information">
+ <div class="listing-card__information-main">
+  <div class="listing-card__title" content="Departamento en Venta en La Magdalena">
+   Departamento en Venta en La Magdalena
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 63.987
+   </div>
+  </div>
+  <div class="listing-card__location">
+   La Magdalena, Sur De Quito, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="2">
+     2 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="2">
+     2 baños
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     61 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    Sonia Herrera
+   </div>
+   <div class="listing-card__published-date">
+    Publicado 27/09/2023
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 26:
+<div class="listing-card__information">
+ <div class="listing-card__information-main highlight">
+  <div class="listing-card__title" content="Departamento en Venta en Centro Norte">
+   Departamento en Venta en Centro Norte
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 145.000
+   </div>
+  </div>
+  <div class="listing-card__location">
+   Centro Norte, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="2">
+     2 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="2">
+     2 baños
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     90 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    Sandra Rodríguez
+   </div>
+   <div class="listing-card__published-date">
+    Publicado 07/08/2024
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 27:
+<div class="listing-card__information">
+ <div class="listing-card__information-main">
+  <div class="listing-card__title" content="Departamento en Venta en Centro Norte">
+   Departamento en Venta en Centro Norte
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 110.000
+   </div>
+  </div>
+  <div class="listing-card__location">
+   Centro Norte, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="1">
+     1 habitación
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="2">
+     2 baños
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     79 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    Intramuros Constructora
+   </div>
+   <div class="listing-card__published-date">
+    Publicado 16/07/2024
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 28:
+<div class="listing-card__information">
+ <div class="listing-card__information-main">
+  <div class="listing-card__title" content="Departamento en Venta en Centro Norte">
+   Departamento en Venta en Centro Norte
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 300.551
+   </div>
+  </div>
+  <div class="listing-card__location">
+   Centro Norte, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="3">
+     3 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="3">
+     3 baños
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     157 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    Intramuros Constructora
+   </div>
+   <div class="listing-card__published-date">
+    Publicado 16/07/2024
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 29:
+<div class="listing-card__information">
+ <div class="listing-card__information-main">
+  <div class="listing-card__title" content="Departamento en Venta en Cumbaya">
+   Departamento en Venta en Cumbaya
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 428.502
+   </div>
+  </div>
+  <div class="listing-card__location">
+   Cumbaya, Valle Tumbaco, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="3">
+     3 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="4">
+     4 baños
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     249 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    Intramuros Constructora
+   </div>
+   <div class="listing-card__published-date">
+    Publicado 16/07/2024
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------
+Propiedad 30:
+<div class="listing-card__information">
+ <div class="listing-card__information-main">
+  <div class="listing-card__title" content="Departamento en Venta en Cumbaya">
+   Departamento en Venta en Cumbaya
+  </div>
+  <div class="listing-card__price-wrapper">
+   <div class="price">
+    USD 627.486
+   </div>
+  </div>
+  <div class="listing-card__location">
+   Cumbaya, Valle Tumbaco, Quito, Pichincha
+  </div>
+ </div>
+ <div class="listing-card__information-bottom">
+  <div class="listing-card__properties">
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bedrooms">
+    </div>
+    <span content="3">
+     3 habitaciones
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__bathrooms">
+    </div>
+    <span content="4">
+     4 baños
+    </span>
+   </div>
+   <div class="listing-card__property">
+    <div class="card-icon card-icon__area">
+    </div>
+    <span>
+     464 m²
+    </span>
+   </div>
+  </div>
+  <div class="listing-card__publication-info">
+   <div class="listing-card__agency-name">
+    Intramuros Constructora
+   </div>
+   <div class="listing-card__published-date">
+    Publicado 16/07/2024
+   </div>
+  </div>
+ </div>
+</div>
+
+--------------------------------------------------------------------------------

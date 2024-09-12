@@ -259,7 +259,17 @@ df_final = df_final.apply(procesar_extras_y_filtrar, axis=1)
 print("FASE 4 DONE: LIMPIEZA COLUMNA EXTRAS")
 
 
-########################### FASE 5: PREDICCIÓN DE COLUMNA GASTOS ###########################
+########################### FASE 5: CÁLCULO DE PRECIO POR M² ###########################
+
+# Insertar la columna 'precio_m2' después de la columna 'precio'
+df_final.insert(df_final.columns.get_loc('precio') + 1, 'precio_m²', df_final['precio'] / df_final['superficie'])
+
+
+print("FASE 5 DONE: CÁLCULO DE PRECIO POR M²")
+
+
+
+########################### FASE 6: PREDICCIÓN DE COLUMNA GASTOS ###########################
 
 # Definir las características predictoras y la variable objetivo
 X_con_gastos = df_final[['superficie', 'habitaciones', 'aseos']].values
@@ -293,11 +303,11 @@ y_pred_gastos_faltantes = np.round(y_pred_gastos_faltantes).astype(int)
 # Asignar los valores predichos a la columna 'gastos'
 df_final.loc[mask_prediccion, 'gastos'] = y_pred_gastos_faltantes
 
-print("FASE 5 DONE: PREDICCIÓN DE COLUMNA EXTRAS")
+print("FASE 6 DONE: PREDICCIÓN DE COLUMNA EXTRAS")
 
 
 
-#################### FASE 6: DETECCIÓN Y ELIMINACIÓN DE OUTLIERS CON XGBOOST EN VARIAS COLUMNAS ####################
+#################### FASE 7: DETECCIÓN Y ELIMINACIÓN DE OUTLIERS CON XGBOOST EN VARIAS COLUMNAS ####################
 
 # Preparar los datos (todas las características excepto las que vamos a predecir)
 X = df_final[['aseos']].values  # Vamos a usar solo 'aseos' como variable predictora para simplificar
@@ -348,5 +358,5 @@ df_sin_outliers = df_sin_outliers.dropna()
 df_sin_outliers.to_csv('/opt/airflow/data/csv/datos_limpios.csv', index=False)
 
 # Imprimir el resultado final
-print(f"FASE 6 DONE: DETECCIÓN Y ELIMINACIÓN DE {np.sum(mask_outliers_combined)} OUTLIERS y NANS")
+print(f"FASE 7 DONE: DETECCIÓN Y ELIMINACIÓN DE {np.sum(mask_outliers_combined)} OUTLIERS y NANS")
 print("Proceso completado... Generado 'datos_limpios.csv'")
