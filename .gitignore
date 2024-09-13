@@ -3,7 +3,6 @@
 
 # Ignorar directorios de Airflow
 logs/
-dags/
 config/
 plugins/
 
